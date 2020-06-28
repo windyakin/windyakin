@@ -29,9 +29,39 @@
         text-align: center;
       }
       .profile-image {
-        max-width: 200px;
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin: auto;
         border-radius: 50%;
+        overflow: hidden;
       }
+      .profile-image > img {
+        width: 200px;
+        height: 200px;
+      }
+      .profile-image::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        margin: auto;
+        background: url('./profile_real.jpg') no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        transition: .2s ease-in-out;
+        transition-property: height, width;
+      }
+      .profile-image:hover::after {
+        width: 200px;
+        height: 200px;
+      }
+
       section {
         margin-bottom: 2rem;
       }
@@ -49,6 +79,9 @@
         list-style: none;
         padding: 0;
       }
+      ul li {
+        margin-bottom: .2rem;
+      }
       footer {
         margin: 1rem auto;
       }
@@ -57,7 +90,9 @@
   <body>
     <header>
       <h1>windyakin</h1>
-      <img src="./profile.jpg" alt="windyakin" class="profile-image" />
+      <div class="profile-image">
+        <img src="./profile.jpg" alt="windyakin" />
+      </div>
     </header>
 
     <main>
@@ -109,6 +144,10 @@
           <div>
             <dt>Blog</dt>
             <dd><a href="https://windyakin.hateblo.jp/">windyakinってなんて読む</a></dd>
+          </div>
+          <div>
+            <dt>Essay</dt>
+            <dd><a href="https://note.com/windyakin">note.com/windyakin</a></dd>
           </div>
         </dl>
       </section>
