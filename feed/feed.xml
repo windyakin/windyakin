@@ -5,12 +5,33 @@
 	
 	<link href="https://windyakin.net/feed/feed.xml" rel="self"/>
 	<link href="https://windyakin.net/"/>
-	<updated>2023-01-04T07:30:44Z</updated>
+	<updated>2023-01-04T08:04:02Z</updated>
 	<id>https://windyakin.net/</id>
 	<author>
 		<name>windyakin</name>
 		<email>windyakin@napple.team</email>
 	</author>
+	
+	<entry>
+		<title>ウェブサイトを作り直した</title>
+		<link href="https://windyakin.net/articles/2023/01/04/renewed-my-website.html"/>
+		<updated>2023-01-04T00:00:00Z</updated>
+		<id>https://windyakin.net/articles/2023/01/04/renewed-my-website.html</id>
+		<content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/buGeA_cODG-1280.webp 1280w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;このサイトのトップページをスクリーンショットした画像&quot; src=&quot;https://windyakin.net/img/optimized/buGeA_cODG-1280.jpeg&quot; width=&quot;1280&quot; height=&quot;800&quot; /&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;前々から自分のウェブサイトを作り直したいと思っていたのだが（n回目）、正月休みに特段やることがなかったのでようやく手を付けることにした。&lt;/p&gt;
+&lt;h3 id=&quot;%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%99%E3%81%8E%E3%82%84%E3%81%97%E3%81%AA%E3%81%84%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/01/04/renewed-my-website.html#%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%99%E3%81%8E%E3%82%84%E3%81%97%E3%81%AA%E3%81%84%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; シンプルすぎやしないか&lt;/h3&gt;
+&lt;p&gt;これまで、人よりかは様々なウェブサイトを作った経験があると自負しているが、それによって得られた知見としては、ぬるぬると動くサイトは格好がいいのだが、その後の維持管理にかかるコストがでかすぎて手に負えなくなるということである。そこで、そういったコストをかけたくない自分のサイトにおいては、「とにかくシンプル」に「伝えたいことを伝えられるだけのサイト」となるようにした。&lt;/p&gt;
+&lt;p&gt;具体的に目指したのは「CSS が欠損しても最悪どうにかなる DOM 構造にする」で、結果として CSS 装飾ほぼなし・ JavaScript は一切なしという、&lt;a href=&quot;http://abehiroshi.la.coocan.jp/&quot;&gt;阿部寛のホームページ&lt;/a&gt;もびっくりな過激サイトが完成してしまったのである。&lt;/p&gt;
+&lt;p&gt;ブログについても、これまで はてなブログ を使っていたのだが、自身のコンテンツを第三者が左右できる状態にあるという状態がどうも落ち着かないので、これを機にサイトと統合することにした。直近公開していたいくつかの記事については、新しいサイトにもアーカイブとしてコピーしてきたが、既にはてなブログ側で公開している記事については、各所からハイパーリンクで参照されている可能性もあるので、デッドリンクとしないために残しておくことにする（今後ははてなブログを更新をしないつもりでいる）。&lt;/p&gt;
+&lt;h3 id=&quot;eleventy-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/01/04/renewed-my-website.html#eleventy-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Eleventy を使った&lt;/h3&gt;
+&lt;p&gt;ちなみに今回のリニューアルに際して、使用することとしたサイトジェネレータは、昨今話題の &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; である。冒頭に書いたこのサイトのコンセプトがあるため、テンプレートをイチから自身で書くことになったが、初めて触った割にはすんなり動かすことができて概ね満足である。&lt;/p&gt;
+&lt;p&gt;リポジトリについては以下の通り。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/windyakin/windyakin&quot;&gt;windyakin/windyakin: windyakin&#39;s profile and portfolio&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;%E4%BB%8A%E5%BE%8C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/01/04/renewed-my-website.html#%E4%BB%8A%E5%BE%8C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 今後について&lt;/h3&gt;
+&lt;p&gt;ウェブサイトの構成はまだ詰めきれていないのだが、&lt;q&gt;完璧を目指すよりまず終わらせろ&lt;/q&gt;ということで、公開してから調整することにする。&lt;/p&gt;
+&lt;p&gt;あとコンテンツについてももう少し拡充するつもりである。以前から温めている職務経歴書が公開できるとよいのだが。&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>右クリックしたリンクのURLをAPIに送信するためのブラウザ拡張機能「かんかんみかん」を作りました</title>
