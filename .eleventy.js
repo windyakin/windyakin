@@ -38,7 +38,7 @@ module.exports = function (eleventyConfig) {
     level: [1, 2, 3, 4],
   }).use(markdownItEleventyImg, {
     imgOptions: {
-      outputDir: "img/optimized/",
+      outputDir: "_site/img/optimized/",
       urlPath: "/img/optimized/"
     },
     resolvePath: (filepath, env) => path.join(path.dirname(env.page.inputPath), filepath),
