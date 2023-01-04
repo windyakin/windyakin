@@ -1,0 +1,78 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header {
+  text-align: center;
+  margin: 5rem auto;
+}
+
+header > h1 > a {
+  text-decoration: none;
+  color: black;
+}
+
+.profile {
+  text-align: center;
+  font-size: 14px;
+}
+
+.profile-image {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image > img {
+  width: 160px;
+  height: 160px;
+}
+
+.profile section {
+  margin-bottom: 2rem;
+}
+
+.profile dl > div {
+  margin-bottom: .8rem;
+}
+
+.profile dl dt {
+  margin-bottom: .2rem;
+  font-size: 0.95rem;
+}
+
+.profile dl dd {
+  margin: 0
+}
+
+.profile ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile ul > li {
+  margin-bottom: .2rem;
+}
+
+.profile ul.inline-list > li {
+  display: inline-block;
+}
+
+.profile ul.inline-list > li:not(:last-child)::after {
+  content: '/';
+  margin: auto 0.2rem;
+}
+
+footer {
+  margin: 2rem auto;
+  text-align: center;
+}

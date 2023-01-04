@@ -1,0 +1,18 @@
+{
+  "title": "windyakin.net",
+  "url": "https://windyakin.net/",
+  "language": "ja",
+  "description": "windyakin's profile and portfolio site.",
+  "feed": {
+    "subtitle": "windyakin's profile and portfolio site.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://windyakin.net/"
+  },
+  "author": {
+    "name": "windyakin",
+    "email": "windyakin@napple.team",
+    "url": "https://windyakin.net/",
+    "twitter": "@MITLicense"
+  }
+}
