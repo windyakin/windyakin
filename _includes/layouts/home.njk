@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+<div class="container">
+  <div class="row justify-content-lg-center">
+    <main class="col-12 col-lg-4 col-xl-3">
+      {% include '../profile.njk' %}
+    </main>
+    <aside class="col-12 col-lg-8 col-xl-6 mt-5 mt-lg-0">
+      {{ content | safe }}
+    </aside>
+  </div>
+</div>

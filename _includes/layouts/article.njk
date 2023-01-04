@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+---
+<div class="container">
+  <div class="row justify-content-lg-center">
+    <main class="col-12 col-lg-8 col-xl-6 order-lg-last">
+      <article>
+        <div class="article-header">
+          <time datetime="{{ page.date | dateString }}">{{ page.date | dateString }}</time>
+          <ul class="tags" aria-hidden="true">
+            {% for tag in tags | tags %}
+            <li>
+              {% set tagUrl %}/tags/{{ tag }}.html{% endset %}
+              <a href="{{ tagUrl | url }}" class="tags-item">{{ tag }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <h2 class="article-title">{{ title }}</h2>
+        {{ content | safe }}
+      </article>
+    </main>
+    <aside class="col-12 col-lg-4 col-xl-3 order-lg-first mt-5 mt-lg-0">
+      {% include '../profile.njk' %}
+    </aside>
+  </div>
+</div>

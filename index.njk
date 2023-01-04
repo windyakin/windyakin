@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+---
+
+<h2 class="mt-0">
+  最新の記事一覧
+  <a class="atom" href="{{ '/feed/feed.xml' | url }}" aria-hidden="true">Atom</a>
+</h2>
+
+{% set articles = collections.articles %}
+{% include 'articles.njk' %}
+
