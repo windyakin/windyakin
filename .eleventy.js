@@ -8,6 +8,8 @@ const markdownItEleventyImg = require("markdown-it-eleventy-img");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
+const CleanCSS = require("clean-css");
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('img');
   eleventyConfig.addPassthroughCopy('css');
@@ -23,6 +25,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("tags", (tags) => {
     return (tags || []).filter(tag => ["all", "articles"].indexOf(tag) === -1);
+  });
+
+  eleventyConfig.addFilter("cssmin", (css) => {
+    return new CleanCSS({}).minify(css).styles;
   });
 
   // Customize Markdown library and settings:
