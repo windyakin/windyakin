@@ -10,12 +10,17 @@ body {
 
 header {
   text-align: center;
-  margin: 5rem auto;
+  margin: 0;
+  padding: 5rem 0;
 }
 
 header > h1 > a {
   text-decoration: none;
   color: black;
+}
+
+.content {
+  padding: 0.5rem 0;
 }
 
 .profile {
@@ -56,11 +61,8 @@ header > h1 > a {
 
 .profile ul {
   list-style: none;
+  margin: 0;
   padding: 0;
-}
-
-.profile ul > li {
-  margin-bottom: .2rem;
 }
 
 .profile ul.inline-list > li {
@@ -73,6 +75,7 @@ header > h1 > a {
 }
 
 footer {
-  margin: 2rem auto;
+  margin: 0;
+  padding: 2rem 0;
   text-align: center;
 }
