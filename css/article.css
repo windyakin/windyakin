@@ -10,12 +10,11 @@
 
 .articles .articles-item {
   margin-top: 1.5rem;
+  margin-bottom: 0.5;
 }
 
 .article-header {
   display: inline-flex;
-  margin-top: 0.5rem;
-  margin-bottom: 0rem;
 }
 
 .article-header > time {
@@ -45,20 +44,24 @@ ul.tags > li {
   content: '#';
 }
 
-.articles .articles-item > h3 {
-  margin-top: 0.5rem;
+.article-title {
+  margin-top: 0.3em;
 }
 
-article p {
-  line-height: 1.4rem;
+article {
+  line-height: 1.5;
+}
+
+article h1, article h2, article h3, article h4, article h5 {
+  line-height: 1.2;
 }
 
 article ul {
-  padding-left: 1.3em;
+  padding-left: 1.2em;
 }
 
 article ul li {
-  margin-top: 0.3rem;
+  margin-top: 0.25em;
 }
 
 a.anchor-link {
