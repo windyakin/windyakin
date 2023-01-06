@@ -1,0 +1,37 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.articles
+  size: 20
+  alias: articles
+  reverse: true
+permalink: "articles/{{ pagination.pageNumber + 1 }}.html"
+eleventyComputed:
+  title: 記事一覧 ({{ pagination.pageNumber + 1 }}ページ目)
+---
+
+<div class="container">
+  <div class="row justify-content-center">
+    <main class="col-12 col-lg-12 col-xl-9">
+      <h2 class="mt-0">
+        記事一覧 <small>({{ pagination.pageNumber + 1 }}ページ目)</small>
+      </h2>
+
+      {% include 'articles.njk' %}
+
+      <nav class="pagination" aria-label="Pagination Navigation">
+        <ol class="d-flex flex-row justify-content-center flex-wrap pagination-list">
+          {%- for pageEntry in pagination.pages %}
+          <li class="pagination-list-item">
+            {% if page.url == pagination.hrefs[ loop.index0 ] -%}
+            <a href="{{ pagination.hrefs[ loop.index0 ] }}" aria-label="Current page, page {{ loop.index }}" aria-current="page"><strong>{{ loop.index }}</strong></a>
+            {%- else -%}
+            <a href="{{ pagination.hrefs[ loop.index0 ] }}" aria-label="Goto page {{ loop.index }}">{{ loop.index }}</a>
+            {%- endif %}
+          </li>
+          {%- endfor %}
+        </ol>
+      </nav>
+    </main>
+  </div>
+</div>

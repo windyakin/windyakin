@@ -1,13 +1,12 @@
 ---
+layout: layouts/base.njk
 pagination:
   data: collections
   size: 1
   alias: tag
   filter:
-    - all
     - articles
   addAllPagesToCollections: true
-layout: layouts/base.njk
 eleventyComputed:
   title: #{{ tag }} 関連の記事一覧
 permalink: /tags/{{ tag }}.html
@@ -17,7 +16,7 @@ permalink: /tags/{{ tag }}.html
   <div class="row justify-content-center">
     <main class="col-12 col-lg-12 col-xl-9">
       <h2>#{{ tag }} 関連の記事一覧</h2>
-      {% set articles = collections[ tag ] %}
+      {% set articles = collections[ tag ] | reverse %}
       {% include 'articles.njk' %}
     </main>
   </div>

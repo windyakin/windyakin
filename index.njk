@@ -7,6 +7,11 @@ layout: layouts/home.njk
   <a class="atom" href="{{ '/feed/feed.xml' | url }}" aria-hidden="true">Atom</a>
 </h2>
 
-{% set articles = collections.articles %}
+{% set articles = collections.articles | reverse | batch(10) | first %}
 {% include 'articles.njk' %}
 
+{% if articles.length >= 10 %}
+<nav class="more">
+  <a href="{{ '/articles/1.html' | url }}">すべての記事一覧</a> <span aria-hidden="true">»</span>
+</nav>
+{% endif %}

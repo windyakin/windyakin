@@ -45,7 +45,26 @@ ul.tags > li {
 }
 
 .article-title {
-  margin-top: 0.3em;
+  margin-top: 0.5rem;
+}
+
+.more {
+  margin: 2rem auto 1rem auto;
+  text-align: right;
+}
+
+.pagination {
+  margin: 2rem auto 1rem auto;
+}
+
+.pagination-list {
+  display: block;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination-list-item {
+  padding: 0.5rem;
 }
 
 article {
