@@ -4,7 +4,6 @@ layout: layouts/home.njk
 
 <h2 class="mt-0">
   最新の記事一覧
-  <a class="atom" href="{{ '/feed/feed.xml' | url }}" aria-hidden="true">Atom</a>
 </h2>
 
 {% set articles = collections.articles | reverse | batch(10) | first %}
@@ -12,6 +11,9 @@ layout: layouts/home.njk
 
 {% if articles.length >= 10 %}
 <nav class="more">
-  <a href="{{ '/articles/1.html' | url }}">すべての記事一覧</a> <span aria-hidden="true">»</span>
+  <ul class="d-flex flex-row justify-content-between">
+    <li><a href="{{ '/articles/1.html' | url }}">すべての記事一覧</a></li>
+    <li><a href="{{ '/feed/feed.xml' | url }}" aria-hidden="true">Atom Feed</a></li>
+  </ul>
 </nav>
 {% endif %}
