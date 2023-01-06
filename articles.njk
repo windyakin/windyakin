@@ -8,6 +8,10 @@ pagination:
 permalink: "articles/{{ pagination.pageNumber + 1 }}.html"
 eleventyComputed:
   title: 記事一覧 ({{ pagination.pageNumber + 1 }}ページ目)
+meta:
+  robots:
+    - noindex
+    - follow
 ---
 
 <div class="container">
