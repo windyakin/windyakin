@@ -1,5 +1,5 @@
 <ol class="articles">
-  {% for article in articles | reverse %}
+  {% for article in articles %}
   <li class="articles-item">
     <div class="article-header">
       <time datetime="{{ article.date | dateString }}">{{ article.date | dateString }}</time>

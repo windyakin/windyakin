@@ -7,6 +7,9 @@
     <title>{{ title or metadata.title }}</title>
 
     <meta name="description" content="{{ description or metadata.description }}" />
+    {%- if meta.robots | length %}
+    <meta name="robots" content="{{ meta.robots | join(',') }}" />
+    {%- endif %}
 
     <meta property="og:title" content="{{ title or metadata.title }}" />
     <meta property="og:type" content="website" />
