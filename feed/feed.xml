@@ -5,12 +5,49 @@
 	
 	<link href="https://windyakin.net/feed/feed.xml" rel="self"/>
 	<link href="https://windyakin.net/"/>
-	<updated>2023-01-06T14:32:09Z</updated>
+	<updated>2023-01-13T13:47:53Z</updated>
 	<id>https://windyakin.net/</id>
 	<author>
 		<name>windyakin</name>
 		<email>windyakin@napple.team</email>
 	</author>
+	
+	<entry>
+		<title>External Secrets で Doppler を使っている</title>
+		<link href="https://windyakin.net/articles/2023/01/13/external-secrets-doppler.html"/>
+		<updated>2023-01-13T00:00:00Z</updated>
+		<id>https://windyakin.net/articles/2023/01/13/external-secrets-doppler.html</id>
+		<content type="html">&lt;h3 id=&quot;sealed-secrets-%E3%81%AE%E9%81%8B%E7%94%A8%E3%81%AE%E5%95%8F%E9%A1%8C&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/01/13/external-secrets-doppler.html#sealed-secrets-%E3%81%AE%E9%81%8B%E7%94%A8%E3%81%AE%E5%95%8F%E9%A1%8C&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Sealed Secrets の運用の問題&lt;/h3&gt;
+&lt;p&gt;Kubernetes で Secrets の管理というのは簡単そうで面倒なものの1つである。特に GitOps をしようとすると、 Secrets リソースをそのまま置いたりすることもできないので、何かしらの対応を考える必要があるのだが、自分の場合はこれまで Sealed Secrets を使って対応してきた。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://sealed-secrets.netlify.app/&quot;&gt;Sealed Secrets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/bitnami-labs/sealed-secrets&quot;&gt;bitnami-labs/sealed-secrets - GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;導入当初はこれで問題なく運用していたのだが、しばらくすると問題が浮き出てきた。&lt;/p&gt;
+&lt;p&gt;まず Secrets の内容を変更・追加したい場合のオペレーションが煩雑で（&lt;a href=&quot;https://github.com/bitnami-labs/sealed-secrets#update-existing-secrets&quot;&gt;できなくはないのだが&lt;/a&gt;）、何度かオペレーションミスを起こすことがあった。&lt;/p&gt;
+&lt;p&gt;また、自分の場合、運用している Kubernetes クラスタ複数あることも問題だった。 Sealed Secrets が暗号化・復号のために利用する秘密鍵は、基本的にクラスタごとに異なった鍵を用いるので、クラスタごとに異なる Sealed Secrets を保持する必要が出てきてしまう。&lt;/p&gt;
+&lt;h3 id=&quot;doppler-%E3%81%A8%E3%81%AE%E5%87%BA%E4%BC%9A%E3%81%84&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/01/13/external-secrets-doppler.html#doppler-%E3%81%A8%E3%81%AE%E5%87%BA%E4%BC%9A%E3%81%84&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Doppler との出会い&lt;/h3&gt;
+&lt;p&gt;このような問題を解決できるのが External Secrets というもので、ざっくり言うと Secrets を外部サービスに保存して、クラスタに登録するのは外部サービスとの連携キーだけにしようという仕組みである。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://external-secrets.io/&quot;&gt;External Secrets Operator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/external-secrets/external-secrets/&quot;&gt;external-secrets/external-secrets - GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1年ほど前に存在を知ってから、何度か移行しようと検討してきたのだが、「Secrets を保存する外部サービス」というのが問題で、 AWS や GCP が提供しているものは無料枠が限られており、特に保存したい Secrets の数で課金されるというのが、個人的に微妙なポイントだった。&lt;/p&gt;
+&lt;p&gt;そんなこんなで半年ぐらい手を出せずに居たのだが、最近 External Secrets のドキュメントにある「連携できるサービス」の一覧に Doppler というサービスが加わったことに気づいた。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.doppler.com/&quot;&gt;Doppler | The #1 SecretOps Platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://external-secrets.io/v0.7.1/provider/doppler/&quot;&gt;Doppler - External Secrets Operator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;聞き馴染みのないサービスだったのだが、調べてみると共同編集5ユーザまでなら基本機能が無料で、SLO等は保証されないものの、当然自分はホビーユースなのでそんなに気になる点でもないため、試しにフリーライドさせてもらうことにした。&lt;/p&gt;
+&lt;h3 id=&quot;external-secrets-%E3%81%AE%E9%81%8B%E7%94%A8&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/01/13/external-secrets-doppler.html#external-secrets-%E3%81%AE%E9%81%8B%E7%94%A8&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; External Secrets の運用&lt;/h3&gt;
+&lt;p&gt;Doppler の使い方そのものについては、既に色んな場所で紹介されていると思われるので割愛するが、環境(integration / staging / production)ごとに Secrets の値を別けて持てることから、まあそれなりに便利に使っている。&lt;/p&gt;
+&lt;p&gt;しかし、これにも1つだけ問題があって、「External Secrets のために Secrets が必要」という点で、先程述べた通り External Secrets が外部サービスの API に接続するために使う認証キーを Kubernetes クラスタ上に Secrets リソースで保持する必要があるのだ。&lt;/p&gt;
+&lt;p&gt;つまり、当初の目的である複数クラスタでの GitOps を実現したい場合だと、当初の問題と同じような問題に直面してしまうのである。&lt;/p&gt;
+&lt;p&gt;自分の場合は、 External Secrets 用の Secrets を Sealed Secrets にするという運用にしている。 Secrets の内容の更新の頻度より、クラスタの置き換えなどが発生する頻度のほうが明らかに少ないし、最悪でも External Secrets 用のキーを再発行・暗号化すればよいので、いくらかマシであるという判断だ。&lt;/p&gt;
+&lt;p&gt;釈然としないと思うが、そんな感じで今の所満足して運用している。&lt;/p&gt;
+&lt;p&gt;また時間が経てば別の問題を感じるようになるかもしれないので、その時はまた解決法を考えて記事を書こう。&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>ウェブサイトを作り直した</title>
