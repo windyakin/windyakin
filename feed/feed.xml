@@ -5,12 +5,44 @@
 	
 	<link href="https://windyakin.net/feed/feed.xml" rel="self"/>
 	<link href="https://windyakin.net/"/>
-	<updated>2023-02-13T22:17:46Z</updated>
+	<updated>2023-02-15T13:54:40Z</updated>
 	<id>https://windyakin.net/</id>
 	<author>
 		<name>windyakin</name>
 		<email>windyakin@napple.team</email>
 	</author>
+	
+	<entry>
+		<title>Ruby Gem が依存している Gem の参照先をプライベートリポジトリなどに変更したい場合</title>
+		<link href="https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html"/>
+		<updated>2023-02-16T00:00:00Z</updated>
+		<id>https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html</id>
+		<content type="html">&lt;h3 id=&quot;ruby-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E4%BE%9D%E5%AD%98%E5%85%88%E3%81%AE%E5%8F%82%E7%85%A7%E6%8C%87%E5%AE%9A&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html#ruby-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E4%BE%9D%E5%AD%98%E5%85%88%E3%81%AE%E5%8F%82%E7%85%A7%E6%8C%87%E5%AE%9A&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Ruby アプリケーションの依存先の参照指定&lt;/h3&gt;
+&lt;p&gt;Ruby のアプリケーションだと、依存するライブラリ(Gem) を Gemfile に書くことが多いが、その際に &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems.org&lt;/a&gt; ではなく、 GitHub の特定のブランチなどを指定してインストールする構文がある。&lt;/p&gt;
+&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# application/Gemfile&lt;/span&gt;&lt;br /&gt;gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;awesome_fluent_logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token symbol&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;windyakin/awesome_fluent_logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token symbol&quot;&gt;branch&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;specific_branch&#39;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;こうすることで、プライベートリポジトリを参照させたり、 Fork して独自の対応をしたコードなどを読み込ませて、アプリケーションを稼働させることが可能になる。&lt;/p&gt;
+&lt;h3 id=&quot;%E3%81%A7%E3%81%AF-gem-%E8%87%AA%E8%BA%AB%E3%81%AE%E4%BE%9D%E5%AD%98%E3%81%AF%E3%81%A9%E3%81%86%E8%A1%A8%E7%8F%BE%E3%81%95%E3%82%8C%E3%82%8B%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html#%E3%81%A7%E3%81%AF-gem-%E8%87%AA%E8%BA%AB%E3%81%AE%E4%BE%9D%E5%AD%98%E3%81%AF%E3%81%A9%E3%81%86%E8%A1%A8%E7%8F%BE%E3%81%95%E3%82%8C%E3%82%8B%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; では Gem 自身の依存はどう表現されるか&lt;/h3&gt;
+&lt;p&gt;一方で、参照される Gem 側にも依存する Gem が存在する。そういった情報は gemspec というファイルに書くことになっている。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Gem::Specification#add_dependencies&lt;/code&gt; は依存する Gem のバージョンを細かく指定できるが、 Gemfile のように「GitHub のリポジトリなどを指定する」といった情報は書くことができない。&lt;/p&gt;
+&lt;p&gt;ではこのとき、どうするかというと、 Gem 側にも Gemfile が存在するので、そこにアプリケーションと同じ構文で指定することによって、読み込み先を変更することができる。&lt;/p&gt;
+&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# example/example.gemspec&lt;/span&gt;&lt;br /&gt;spec&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add_dependency &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;fluent-logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;~&gt; 0.9&#39;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# example/Gemfile&lt;/span&gt;&lt;br /&gt;source &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://rubygems.org&quot;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;gemspec&lt;br /&gt;&lt;br /&gt;gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;fluent-logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token symbol&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;windyakin/fluent-logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token symbol&quot;&gt;branch&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;specific_branch&#39;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;この状態で、 Gem の開発環境上で &lt;code&gt;bundle install&lt;/code&gt; などを実行すれば、 Git リポジトリから落としてきたコードを利用することができるようになる。&lt;/p&gt;
+&lt;h3 id=&quot;%E5%8F%82%E7%85%A7%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E4%B8%8A%E3%81%A7%E3%81%AF%E3%81%A9%E3%81%86%E3%81%AA%E3%82%8B%E3%81%AE%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html#%E5%8F%82%E7%85%A7%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E4%B8%8A%E3%81%A7%E3%81%AF%E3%81%A9%E3%81%86%E3%81%AA%E3%82%8B%E3%81%AE%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 参照しているアプリケーション上ではどうなるのか&lt;/h3&gt;
+&lt;p&gt;一方、この指定は Gem として読び出しているアプリケーション側に継承されることはなく、 &lt;code&gt;bundle install&lt;/code&gt; をしても &lt;a href=&quot;http://rubygems.org/&quot;&gt;RubyGems.org&lt;/a&gt; から該当する名前の Gem とバージョンを参照してくるようになっている。&lt;/p&gt;
+&lt;p&gt;わかりにくいので、下記のような関係の場合において考えてほしい。&lt;/p&gt;
+&lt;pre class=&quot;language-plain&quot;&gt;&lt;code class=&quot;language-plain&quot;&gt;Application (A) -&gt; Example Gem (B) -&gt; Dependency Gem (C)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;例えば Example Gem (B) が依存する Dependency Gem (C) の参照先を GitHub に向けたいとする。&lt;/p&gt;
+&lt;p&gt;このとき、 Example Gem (B) の Gemfile に Dependency Gem (C) の参照先として GitHub を記述しても、 Application (A) はその情報を読み取ることはなく、 &lt;a href=&quot;http://rubygems.org/&quot;&gt;RubyGems.org&lt;/a&gt; にある Dependency Gem (C) を参照するようになっている。&lt;/p&gt;
+&lt;p&gt;もし、 Dependency Gem (C) の参照先を GitHub に変更したい場合は、 Application (A) 側の Gemfile 上で Dependency Gem (C) の参照先を記述するとよい。アプリケーション側で直接利用していなくても、こうすることで解決することができる。&lt;/p&gt;
+&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# application/Gemfile&lt;/span&gt;&lt;br /&gt;gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;awesome_fluent_logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;fluent-logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token symbol&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;windyakin/fluent-logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token symbol&quot;&gt;branch&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;specific_branch&#39;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;%E5%8F%82%E8%80%83%E3%81%AB%E3%81%97%E3%81%9F%E6%83%85%E5%A0%B1&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html#%E5%8F%82%E8%80%83%E3%81%AB%E3%81%97%E3%81%9F%E6%83%85%E5%A0%B1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 参考にした情報&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.ruby-lang.org/ja/latest/method/Gem=3a=3aSpecification/i/add_dependency.html&quot;&gt;Gem::Specification#add_dependency (Ruby 3.2 リファレンスマニュアル)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.takeyuweb.co.jp/entry/2014/10/16/163113&quot;&gt;gemspecの依存先にGitHubのプライベートリポジトリを指定する - タケユー・ウェブ日報&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>External Secrets で Doppler を使っている</title>
