@@ -1,5 +1,5 @@
 ---
-title: アプリケーションが依存している Ruby Gem の依存先に GitHub が指定されていても参照されない
+title: Ruby Gem が依存している Gem の参照先をプライベートリポジトリなどに変更したい場合
 date: 2023-02-16
 tags:
   - Tips
