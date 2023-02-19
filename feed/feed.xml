@@ -5,12 +5,41 @@
 	
 	<link href="https://windyakin.net/feed/feed.xml" rel="self"/>
 	<link href="https://windyakin.net/"/>
-	<updated>2023-02-15T13:54:40Z</updated>
+	<updated>2023-02-19T02:28:46Z</updated>
 	<id>https://windyakin.net/</id>
 	<author>
 		<name>windyakin</name>
 		<email>windyakin@napple.team</email>
 	</author>
+	
+	<entry>
+		<title>eplus の Stremaing+ を快適にするためのブラウザ拡張機能 &quot;Streaming+ sequencer&quot; をつくった</title>
+		<link href="https://windyakin.net/articles/2023/02/19/streaming-plus-sequencer.html"/>
+		<updated>2023-02-19T00:00:00Z</updated>
+		<id>https://windyakin.net/articles/2023/02/19/streaming-plus-sequencer.html</id>
+		<content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/gGL8sZoM_8-1280.webp 1280w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;&quot; src=&quot;https://windyakin.net/img/optimized/gGL8sZoM_8-1280.jpeg&quot; width=&quot;1280&quot; height=&quot;800&quot; /&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h3 id=&quot;streaming%2B-%E3%81%AE%E6%93%8D%E4%BD%9C%E3%81%8C%E3%81%97%E3%81%A5%E3%82%89%E3%81%84%E3%81%A8%E3%81%84%E3%81%86%E5%95%8F%E9%A1%8C&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/19/streaming-plus-sequencer.html#streaming%2B-%E3%81%AE%E6%93%8D%E4%BD%9C%E3%81%8C%E3%81%97%E3%81%A5%E3%82%89%E3%81%84%E3%81%A8%E3%81%84%E3%81%86%E5%95%8F%E9%A1%8C&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Streaming+ の操作がしづらいという問題&lt;/h3&gt;
+&lt;p&gt;eplus のライブ動画配信サービス Streaming+ というものがある。アーティストのライブを有料でオンライン配信する際に利用されるプラットフォームなのだが、一定期間アーカイブ視聴できる機能があって、自分もよく利用している。&lt;/p&gt;
+&lt;p&gt;ただこのサービス、配信の動画品質や転送速度には不満は無いのだが、画面上での動画の操作が非常にしづらいという欠点がある。例えば、「あ、今のシーンよかったな。もう一度みたいな」と思う場面があったときに、時間を操作するための UI がシーケンスバーしかなく、その上動画の長さが3時間とかあるため、細かい操作ができずにイライラさせられることが多かった。&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/25ACRSsvrt-402.webp 402w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;シーケンスバーの上にマウスをフォーカスさせているスクリーンショット。現在位置は1:20:50だが、少し横にフォーカスすると1:22:59になる。&quot; src=&quot;https://windyakin.net/img/optimized/25ACRSsvrt-402.jpeg&quot; width=&quot;402&quot; height=&quot;232&quot; /&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h3 id=&quot;%E3%81%93%E3%81%AE%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/19/streaming-plus-sequencer.html#%E3%81%93%E3%81%AE%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; この問題を解決するためのブラウザ拡張機能を作った&lt;/h3&gt;
+&lt;p&gt;毎回ライブ動画を視聴する度に、このことを不満を感じていたのと、 &lt;a href=&quot;https://twitter.com/yamakawasui/status/1624665559383306241&quot;&gt;Twitter でも同じような悩みを持つ人を観測した&lt;/a&gt;ので、問題を解決するため、 &amp;quot;Streaming+ sequencer&amp;quot; というブラウザ拡張機能を作った。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/-/kfcdfgmgegbdhbhlaplbkalkelalkjcl?hl=ja&quot;&gt;Streaming+ sequencer - Chrome ウェブストア&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/ja/firefox/addon/streaming-sequencer/&quot;&gt;Streaming+ sequencer – 🦊 Firefox (ja) 向け拡張機能を入手&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この拡張機能は、 Steraming+ で再生中の動画に表示されるコントローラの部分に、動画の再生位置を10秒スキップ・10秒巻き戻すためのボタンを追加してくれるものである。&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/CbfdOnklvw-652.webp 652w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;作った拡張機能によって追加されたボタンのスクリーンショット&quot; src=&quot;https://windyakin.net/img/optimized/CbfdOnklvw-652.jpeg&quot; width=&quot;652&quot; height=&quot;305&quot; /&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;押すと実際に10秒行ったり戻ったりの操作が行われるのだが、実際に自分で使っていても当初の目的を達成できて、非常に便利なので満足している。というか eplus が利用している Video.js のプラグインを入れて機能として提供してくれれば、こんなまどろっこしいことをしなくて済んだのだけども。&lt;/p&gt;
+&lt;h3 id=&quot;%E6%A9%9F%E8%83%BD%E5%AE%9F%E8%A3%85%E3%81%AE%E6%96%B9%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/19/streaming-plus-sequencer.html#%E6%A9%9F%E8%83%BD%E5%AE%9F%E8%A3%85%E3%81%AE%E6%96%B9%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 機能実装の方法について&lt;/h3&gt;
+&lt;p&gt;ちなみに、実現方法としてはごくシンプルに &lt;a href=&quot;https://developer.mozilla.org/ja/docs/Web/API/HTMLVideoElement&quot;&gt;HTMLVideoElement&lt;/a&gt; の API を使っているだけである。拡張機能側は &lt;code&gt;live.eplus.jp&lt;/code&gt; というドメインにアクセスすると、必要な JavaScript と CSS を流し込むだけで、特に環境を汚したりとか、 eplus 側に負荷をかけて迷惑がかかるということもないだろう。&lt;/p&gt;
+&lt;p&gt;実装コードは GitHub にも公開しているので、どういった実装になっているか気になる人は見てもらうこともできる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/windyakin/streaming-plus-sequencer&quot;&gt;windyakin/streaming-plus-sequencer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただ今後の課題としては、配信画面の実装が変わったときにデバッグするのが困難なことであろうか。まさに「ペイウォール」に阻まれているので、動かなくなった報告を受けても自分で確認するのはなかなか難しいものがあるなと感じている。&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Ruby Gem が依存している Gem の参照先をプライベートリポジトリなどに変更したい場合</title>
