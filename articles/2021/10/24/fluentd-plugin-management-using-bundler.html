@@ -54,7 +54,8 @@
         <h2 class="article-title">Fluentd で使いたい Gem の依存関係の解決は Bundler に任せられる</h2>
         <p>Fluentd は Gem によるライブラリの追加ができて、例えばログを直接 BigQuery に転送したいのであれば <a href="https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery">fluent-plugin-bigquery</a> のような Gem をインストールしておくことによってそれを実現することができる。</p>
 <p>こういったプラグインを追加するコマンドとして提供されているのが <code>fluent-gem</code> というコマンドで、例えば先程挙げた Gem をインストールしたいのであれば</p>
-<pre class="language-shell"><code class="language-shell">fluent-gem <span class="token function">install</span> fluent-plugin-bigquery<br></code></pre>
+<pre class="language-shell"><code class="language-shell">fluent-gem <span class="token function">install</span> fluent-plugin-bigquery
+</code></pre>
 <p>のようにコマンドを叩けば Gem をインストールしてくれる。こういった Fluentd 向けのプラグインは <a href="http://rubygems.org">rubygems.org</a> にて様々提供されているので、使っているうちにあれもこれもと追加したくなるのだが、徐々にパッケージの依存関係がややこしくなっていき、最終的に人間による依存関係の解決はできなくなってしまう。</p>
 <h3 id="fluentd-%E3%81%A7%E3%82%82-bundler-%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B" tabindex="-1"><a class="anchor-link" href="#fluentd-%E3%81%A7%E3%82%82-bundler-%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B" aria-hidden="true">#</a> Fluentd でも Bundler が使える</h3>
 <p>Fluentd で使う Gem をインストールするためには <code>fluent-gem</code> という特別なコマンドを使うので、コマンドの裏ではさぞ特殊なことをやっているのだろうと思ったのだが、ソースコードを見るとそんなことはなく、ただ単純に Gem をインストールしているだけのようだった。</p>
@@ -64,11 +65,35 @@
 <p>つまり Fluentd においても Gem の依存関係の解決は Bundler に一任することができるようになっている。</p>
 <h3 id="dockerfile-%E3%81%AB%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B" tabindex="-1"><a class="anchor-link" href="#dockerfile-%E3%81%AB%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B" aria-hidden="true">#</a> Dockerfile にしてみる</h3>
 <p>例えば <a href="https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery">fluent-plugin-bigquery</a> と <a href="https://github.com/GoogleCloudPlatform/fluent-plugin-google-cloud">fluent-plugin-google-cloud</a> を同時に使いたい場合、このような Gemfile を書くことになる。</p>
-<pre class="language-ruby"><code class="language-ruby">source <span class="token string-literal"><span class="token string">"https://rubygems.org"</span></span><br><br>gem <span class="token string-literal"><span class="token string">'fluentd'</span></span><span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'~> 1.13.x'</span></span><br>gem <span class="token string-literal"><span class="token string">'fluent-plugin-bigquery'</span></span><span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'~> 2.2.x'</span></span><br>gem <span class="token string-literal"><span class="token string">'fluent-plugin-google-cloud'</span></span><span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'~> 0.12.x'</span></span></code></pre>
+<pre class="language-ruby"><code class="language-ruby">source <span class="token string-literal"><span class="token string">"https://rubygems.org"</span></span>
+
+gem <span class="token string-literal"><span class="token string">'fluentd'</span></span><span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'~> 1.13.x'</span></span>
+gem <span class="token string-literal"><span class="token string">'fluent-plugin-bigquery'</span></span><span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'~> 2.2.x'</span></span>
+gem <span class="token string-literal"><span class="token string">'fluent-plugin-google-cloud'</span></span><span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'~> 0.12.x'</span></span></code></pre>
 <p>Dockerfile ではビルド時に <code>bundle install</code> しておくことをおすすめする。 Fluentd の起動時にも <code>bundle install</code> は実行されるが、 Gem のインストール時に必要なネイティブライブラリなどは予め用意しておく必要があるからである。また Fluentd の公式イメージである <a href="https://hub.docker.com/r/fluent/fluentd/">fluent/fluentd</a> をベースイメージとする際は、実行ユーザーが <code>fluent</code> になっているため、 <code>apt-get install</code> などを実行するのであれば予め <code>root</code> を指定する必要がある。ただし <code>bundle install</code> の実行ユーザーは <code>fluent</code> になっているほうがファイルの権限管理などに面倒がない。</p>
-<pre class="language-dockerfile"><code class="language-dockerfile"><span class="token instruction"><span class="token keyword">FROM</span> fluent/fluentd:v1.13-debian</span><br><br><span class="token instruction"><span class="token keyword">COPY</span> Gemfile Gemfile.lock /fluentd/etc/</span><br><br><span class="token instruction"><span class="token keyword">USER</span> root</span><br><br><span class="token instruction"><span class="token keyword">RUN</span> apt-get update <span class="token operator">\</span><br>  &amp;&amp; apt-get install -y --no-install-recommends <span class="token operator">\</span><br>    build-essential <span class="token operator">\</span><br>  &amp;&amp; apt-get clean <span class="token operator">\</span><br>  &amp;&amp; rm -rf /var/lib/apt/lists/*</span><br><br><span class="token instruction"><span class="token keyword">USER</span> fluent</span><br><br><span class="token instruction"><span class="token keyword">RUN</span> cd /fluentd/etc <span class="token operator">\</span><br>  &amp;&amp; bundle install -j8 --path vendor/bundle</span><br><br><span class="token instruction"><span class="token keyword">CMD</span> [ <span class="token string">"fluentd"</span>, <span class="token string">"--gemfile"</span>, <span class="token string">"/fluentd/etc/Gemfile"</span> ]</span></code></pre>
+<pre class="language-dockerfile"><code class="language-dockerfile"><span class="token instruction"><span class="token keyword">FROM</span> fluent/fluentd:v1.13-debian</span>
+
+<span class="token instruction"><span class="token keyword">COPY</span> Gemfile Gemfile.lock /fluentd/etc/</span>
+
+<span class="token instruction"><span class="token keyword">USER</span> root</span>
+
+<span class="token instruction"><span class="token keyword">RUN</span> apt-get update <span class="token operator">\</span>
+  &amp;&amp; apt-get install -y --no-install-recommends <span class="token operator">\</span>
+    build-essential <span class="token operator">\</span>
+  &amp;&amp; apt-get clean <span class="token operator">\</span>
+  &amp;&amp; rm -rf /var/lib/apt/lists/*</span>
+
+<span class="token instruction"><span class="token keyword">USER</span> fluent</span>
+
+<span class="token instruction"><span class="token keyword">RUN</span> cd /fluentd/etc <span class="token operator">\</span>
+  &amp;&amp; bundle install -j8 --path vendor/bundle</span>
+
+<span class="token instruction"><span class="token keyword">CMD</span> [ <span class="token string">"fluentd"</span>, <span class="token string">"--gemfile"</span>, <span class="token string">"/fluentd/etc/Gemfile"</span> ]</span></code></pre>
 <p>また、このとき Gemfile.lock をどう用意するかも考える必要があるが、一度 Gemfile.lock なしでビルドしたイメージから <code>docker cp</code> などを使って <code>/fluentd/etc/</code> 以下にある Gemfile.lock を取り出すと一応用意することができる。</p>
-<pre class="language-shell"><code class="language-shell">% <span class="token function">docker</span> build <span class="token parameter variable">-t</span> fluentd <span class="token builtin class-name">.</span><br>% <span class="token function">docker</span> run <span class="token parameter variable">--rm</span> <span class="token parameter variable">-d</span> <span class="token parameter variable">--name</span> fluentd fluentd <span class="token function">tail</span> <span class="token parameter variable">-f</span> /dev/null<br>% <span class="token function">docker</span> <span class="token function">cp</span> fluentd:/fluentd/etc/Gemfile.lock <span class="token builtin class-name">.</span><br>% <span class="token function">docker</span> <span class="token function">kill</span> fluentd</code></pre>
+<pre class="language-shell"><code class="language-shell">% <span class="token function">docker</span> build <span class="token parameter variable">-t</span> fluentd <span class="token builtin class-name">.</span>
+% <span class="token function">docker</span> run <span class="token parameter variable">--rm</span> <span class="token parameter variable">-d</span> <span class="token parameter variable">--name</span> fluentd fluentd <span class="token function">tail</span> <span class="token parameter variable">-f</span> /dev/null
+% <span class="token function">docker</span> <span class="token function">cp</span> fluentd:/fluentd/etc/Gemfile.lock <span class="token builtin class-name">.</span>
+% <span class="token function">docker</span> <span class="token function">kill</span> fluentd</code></pre>
 <p>ここまでの流れをサンプルリポジトリにまとめたので参考までに。</p>
 <p><a href="https://github.com/windyakin/fluentd-plugin-gemfile-sample">windyakin/fluentd-plugin-gemfile-sample</a></p>
 

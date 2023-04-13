@@ -66,13 +66,20 @@
 <pre class="language-bash"><code class="language-bash">kubeseal <span class="token parameter variable">--scope</span> namespace-wide <span class="token parameter variable">-o</span> yaml <span class="token operator">&lt;</span> secret.yaml <span class="token operator">></span> sealedsecret.yaml</code></pre>
 <h3 id="argocd" tabindex="-1"><a class="anchor-link" href="#argocd" aria-hidden="true">#</a> ArgoCD</h3>
 <p>GitOps のために ArgoCD を入れる。 core-install.yaml はコア機能のみで Web UI などはインストールされない。</p>
-<pre class="language-bash"><code class="language-bash">kubectl create namespace argocd<br>kubectl apply <span class="token parameter variable">-n</span> argocd <span class="token parameter variable">-f</span> https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/core-install.yaml</code></pre>
+<pre class="language-bash"><code class="language-bash">kubectl create namespace argocd
+kubectl apply <span class="token parameter variable">-n</span> argocd <span class="token parameter variable">-f</span> https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/core-install.yaml</code></pre>
 <p>初めて触れるなら Web UI はあったほうがよさそうに思う。リソースの管理がどういうものかとか、更新のタイミングなども見ることができるので面白い。</p>
 <p>ArgoCD の使い方は公式のドキュメントが一番くわしい。</p>
 <p><a href="https://argo-cd.readthedocs.io/en/stable/getting_started/">Getting Started - Argo CD - Declarative GitOps CD for Kubernetes</a></p>
 <p>CLI で操作する場合は <code>argocd</code> コマンドなどを導入すると GitOps につかうリポジトリの登録や、実際のアプリケーションの設定などがコマンドからできて便利。</p>
 <pre class="language-bash"><code class="language-bash">argocd repo <span class="token function">add</span> git@github.com:windyakin/k8s-manifests.git --ssh-private-key-path <span class="token variable">${SSH_PRIVATE_KEY_PATH}</span></code></pre>
-<pre class="language-bash"><code class="language-bash">argocd app create argocd-applications <span class="token punctuation">\</span><br>  <span class="token parameter variable">--repo</span> git@github.com:windyakin/k8s-manifests.git <span class="token punctuation">\</span><br>  <span class="token parameter variable">--path</span> argocd-application <span class="token punctuation">\</span><br>  --auto-prune <span class="token punctuation">\</span><br>  --dest-namespace default <span class="token punctuation">\</span><br>  --dest-server https://kubernetes.default.svc <span class="token punctuation">\</span><br>  <span class="token parameter variable">--revision</span> HEAD</code></pre>
+<pre class="language-bash"><code class="language-bash">argocd app create argocd-applications <span class="token punctuation">\</span>
+  <span class="token parameter variable">--repo</span> git@github.com:windyakin/k8s-manifests.git <span class="token punctuation">\</span>
+  <span class="token parameter variable">--path</span> argocd-application <span class="token punctuation">\</span>
+  --auto-prune <span class="token punctuation">\</span>
+  --dest-namespace default <span class="token punctuation">\</span>
+  --dest-server https://kubernetes.default.svc <span class="token punctuation">\</span>
+  <span class="token parameter variable">--revision</span> HEAD</code></pre>
 <h3 id="k3s-%E9%81%8B%E7%94%A8%E3%81%97%E3%81%A6%E3%81%BF%E3%81%A6%E3%81%A9%E3%81%86%E3%81%8B" tabindex="-1"><a class="anchor-link" href="#k3s-%E9%81%8B%E7%94%A8%E3%81%97%E3%81%A6%E3%81%BF%E3%81%A6%E3%81%A9%E3%81%86%E3%81%8B" aria-hidden="true">#</a> k3s 運用してみてどうか</h3>
 <p>もともとは microk8s を導入していたのだが、どういうわけか liveness probe を入れたあたりから Kubernetes  の API が重くなってしまい、 kubectl すらまともに使えなくなってしまったため、 k3s に乗り換えたという経緯があった。 コンテナを立てて運用する程度であれば k3s の機能でも十分であり、 microk8s に比べるとオーバーヘッドも少なく助かっているところではある。</p>
 <p>またもともとやりたかった GitOps による運用ができたのも楽でよい。基本的にほったらかしで、監視等も入れていないのだが、不自然な挙動などはなく正常にうごいている。ただ貧弱なサーバーのシングルノードなので可用性の向上や、スケーリングといった恩恵は受けることは出来ない。 Kubernetes の美味しいところを知っていてそれにあやかりたい場合は、趣味の割り切りとして使ってよいのではないだろうか。</p>

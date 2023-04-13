@@ -54,7 +54,8 @@
         <h2 class="article-title">curlコマンドでHTTPステータスコードだけを取得する場合は--write-outオプションを使うと良い</h2>
         <p>シェルスクリプトを書いているとcurlコマンドなんかで指定したURLのHTTPステータスコードだけがほしいという場合がある。</p>
 <p>結論から言うと <code>--write-out</code> / <code>-w</code> というオプションを使うと実現できる</p>
-<pre class="language-shell"><code class="language-shell">% <span class="token function">curl</span> <span class="token parameter variable">-s</span> <span class="token parameter variable">-o</span> /dev/null --write-out <span class="token string">"%{http_code}"</span> https://www.example.com/<br><span class="token number">200</span></code></pre>
+<pre class="language-shell"><code class="language-shell">% <span class="token function">curl</span> <span class="token parameter variable">-s</span> <span class="token parameter variable">-o</span> /dev/null --write-out <span class="token string">"%{http_code}"</span> https://www.example.com/
+<span class="token number">200</span></code></pre>
 <p><code>-o /dev/null</code> にしているのは取得内容を標準出力に表示しないようにするもので、こうすることで文字列として出力されるのはHTTPステータスコードだけになりパイプやシェルスクリプトで処理がしやすいなどのメリットがある。</p>
 <h2 id="--write-out-%E3%81%A7%E5%87%BA%E5%8A%9B%E3%81%A7%E3%81%8D%E3%82%8B%E5%86%85%E5%AE%B9%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D" tabindex="-1"><a class="anchor-link" href="#--write-out-%E3%81%A7%E5%87%BA%E5%8A%9B%E3%81%A7%E3%81%8D%E3%82%8B%E5%86%85%E5%AE%B9%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D" aria-hidden="true">#</a> <code>--write-out</code> で出力できる内容いろいろ</h2>
 <p>ところで <code>--write-out</code> とはなにか。こういうとき、脳死でGoogle検索すると上位にQiitaというウェブサイトがでてきてしまうのだが、原典をみるのが一番確実である。</p>
