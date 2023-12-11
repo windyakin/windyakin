@@ -66,22 +66,6 @@ ul.tags > li {
   padding: 0.5rem;
 }
 
-article {
-  line-height: 1.5;
-}
-
-article h1, article h2, article h3, article h4, article h5 {
-  line-height: 1.2;
-}
-
-article ul {
-  padding-left: 1.2em;
-}
-
-article ul li {
-  margin-top: 0.25em;
-}
-
 a.anchor-link {
   color: #888;
   text-decoration: none;
