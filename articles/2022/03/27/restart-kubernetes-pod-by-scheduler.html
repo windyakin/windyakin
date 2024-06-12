@@ -1,64 +1,5 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-    <title>Kubernetes の Pod を定期的に再起動させる</title>
-
-    <meta name="description" content="windyakin&#39;s profile and portfolio site." />
-
-    <meta property="og:title" content="Kubernetes の Pod を定期的に再起動させる" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://windyakin.net/articles/2022/03/27/restart-kubernetes-pod-by-scheduler.html" />
-    <meta property="og:image" content="https://windyakin.net/img/ogp.png" />
-    <meta property="og:description" content="windyakin&#39;s profile and portfolio site." />
-
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@MITLicense" />
-    <meta name="twitter:creator" content="@MITLicense" />
-    <meta name="twitter:title" content="Kubernetes の Pod を定期的に再起動させる" />
-    <meta name="twitter:image" content="https://windyakin.net/img/ogp.png" />
-    <meta name="twitter:description" content="windyakin&#39;s profile and portfolio site." />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-grid.min.css" integrity="sha512-JQksK36WdRekVrvdxNyV3B0Q1huqbTkIQNbz1dlcFVgNynEMRl0F8OSqOGdVppLUDIvsOejhr/W5L3G/b3J+8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-ghcolors.min.css" integrity="sha512-8IZwRS36BrHutOtXP+S9ZLe/5MubhjJ26t1Kf9RYRt2kQi7brb8mLAKuJDX3qPJZ2U4Wg1cLPigCQVAxscTjtA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <style>
-      *,::after,::before{box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";line-height:1.5}article h1,article h2,article h3,article h4,article h5{line-height:1.2}ul{padding-left:1.2em;margin-top:.3em;padding-bottom:.3em}ul li{margin-top:.15em;margin-bottom:.15em}header{text-align:center;margin:0;padding:5rem 0}header>h1>a{text-decoration:none;color:#000}.content{padding:.5rem 0}.profile{text-align:center;font-size:14px;line-height:1.2}.profile-image{position:relative;width:160px;height:160px;margin:auto;border-radius:50%;overflow:hidden}.profile-image>img{width:160px;height:160px}.profile section{margin-bottom:2rem}.profile dl>div{margin-bottom:.8rem}.profile dl dt{margin-bottom:.2rem;font-size:.95rem}.profile dl dd{margin:0}.profile ul{list-style:none;margin:0;padding:0}.profile ul.inline-list>li{display:inline-block}.profile ul.inline-list>li:not(:last-child)::after{content:'/';margin:auto .2rem}footer{margin:0;padding:2rem 0;text-align:center}
-      .articles{list-style:none;padding:0}.articles .articles-item{margin-top:1.5rem;margin-bottom:.5}.article-header{display:inline-flex}.article-header>time{margin-right:.8rem}ul.tags{display:inline-flex;margin:0;padding:0;list-style:none}ul.tags>li{display:inline-block;margin:0}.tags .tags-item{display:inline-block;margin:0;padding:0 .5rem 0 0;font-size:.85em}.tags a.tags-item::before{content:'#'}.article-title{margin-top:.5rem;line-height:1.2}.more{margin:2rem auto 1rem auto}.more ul{list-style:none;padding:0}.pagination{margin:2rem auto 1rem auto}.pagination-list{list-style:none;padding:0}.pagination-list-item{padding:.5rem}a.anchor-link{color:#888;text-decoration:none}article code{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace!important;font-size:85%!important}article code:not([class*=language-]){padding:.2em .4em;margin:0;white-space:break-spaces;background-color:rgba(175,184,193,.2);border-radius:6px}.responsive-img{max-width:100%;height:auto}
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1><a href="/">windyakin.net</a></h1>
-    </header>
-
-    <div class="content">
-      <div class="container">
-  <div class="row justify-content-lg-center">
-    <main class="col-12 col-lg-8 col-xl-6 order-lg-last">
-      <article class="article-body">
-        <div class="article-header">
-          <time datetime="2022-03-27">2022-03-27</time>
-          <ul class="tags" aria-hidden="true">
-            
-            <li>
-              
-              <a href="/tags/Kubernetes.html" class="tags-item">Kubernetes</a>
-            </li>
-            
-          </ul>
-        </div>
-        <h2 class="article-title">Kubernetes の Pod を定期的に再起動させる</h2>
-        <h3 id="%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86%E9%9D%A2%E5%80%92%E3%81%8F%E3%81%95%E3%81%84%E5%95%8F%E9%A1%8C%E3%82%92%E5%AE%9A%E6%9C%9F%E7%9A%84%E3%81%AA%E5%86%8D%E8%B5%B7%E5%8B%95%E3%81%A7%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B" tabindex="-1"><a class="anchor-link" href="#%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86%E9%9D%A2%E5%80%92%E3%81%8F%E3%81%95%E3%81%84%E5%95%8F%E9%A1%8C%E3%82%92%E5%AE%9A%E6%9C%9F%E7%9A%84%E3%81%AA%E5%86%8D%E8%B5%B7%E5%8B%95%E3%81%A7%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B" aria-hidden="true">#</a> イメージのバージョン管理面倒くさい問題を定期的な再起動で解決する</h3>
-<p>前回のエントリで <a href="https://windyakin.hateblo.jp/entry/2022/03/17/212009">k3s を運用している話</a>を書いたが、 GitOps 運用の中で私はコンテナの Docker イメージのバージョン管理をサボっている。現状各アプリケーションのイメージはすべて <code>latest</code> のタグが振られているのみで、イメージを更新しても GitOps に使っている manifests のリポジトリを更新される仕組みも用意していない。</p>
-<p>だけどもこれだと Pod が生きている限りイメージが更新されても Pod が使うイメージが変わらないままになっていまうので、 CronJob を使って Deployment で起動している Pod を定期的に再起動している。これに併せて <code>imagePullPolicy: Always</code> を指定しておけば、 Pod の再起動の度に最新のイメージを取ってくることができるという目論見である。</p>
-<h3 id="serviceaccount-%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B" tabindex="-1"><a class="anchor-link" href="#serviceaccount-%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B" aria-hidden="true">#</a> ServiceAccount を用意する</h3>
-<p>ServiceAccount と (Cluster)Role と (Cluster)RoleBinding を用意する。自分は最初この3者の関係がよくわかっていなかったのだが、色々調べていくうちにでいうと Role と ServiceAccount の多対多の関係を表現する中間テーブルが RoleBinding であると理解した。要は Google の IAM 管理で行う「権限」のグループを作ってその権限をユーザに割り当てる行為と同じである。また Role / RoleBinding の頭に Cluster がついて ClusterRole や ClusterRoleBinding になると、その権限は namespace を超えて実行することができる。</p>
-<p>まずは Role について。最終的に ServiceAccount が使えるようになる Kubernetes API を一覧にする。 kubectl コマンドで <code>kubectl [verbs] [resources]</code> が使えるようになるという理解が近い。ここに <code>apiGroups</code> という概念も登場する。 Pod は <code>apiVersion: v1</code> と表現されるが、この場合はコア機能であるので <code>&quot;&quot;</code> (空文字) が指定される。一方 Deployment は <code>apiVersion: apps/v1</code> と指定するため <code>apps</code> を指定することになる。</p>
-<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">kind</span><span class="token punctuation">:</span> ClusterRole
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kubernetes の Pod を定期的に再起動させる</title><meta name="description" content="windyakin&#39;s profile and portfolio site."><meta property="og:title" content="Kubernetes の Pod を定期的に再起動させる"><meta property="og:type" content="website"><meta property="og:url" content="https://windyakin.net/articles/2022/03/27/restart-kubernetes-pod-by-scheduler.html"><meta property="og:image" content="https://windyakin.net/img/ogp.png"><meta property="og:description" content="windyakin&#39;s profile and portfolio site."><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@MITLicense"><meta name="twitter:creator" content="@MITLicense"><meta name="twitter:title" content="Kubernetes の Pod を定期的に再起動させる"><meta name="twitter:image" content="https://windyakin.net/img/ogp.png"><meta name="twitter:description" content="windyakin&#39;s profile and portfolio site."><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-grid.min.css" integrity="sha512-JQksK36WdRekVrvdxNyV3B0Q1huqbTkIQNbz1dlcFVgNynEMRl0F8OSqOGdVppLUDIvsOejhr/W5L3G/b3J+8w==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-ghcolors.min.css" integrity="sha512-8IZwRS36BrHutOtXP+S9ZLe/5MubhjJ26t1Kf9RYRt2kQi7brb8mLAKuJDX3qPJZ2U4Wg1cLPigCQVAxscTjtA==" crossorigin="anonymous" referrerpolicy="no-referrer"><style>*,::after,::before{box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";line-height:1.5}article h1,article h2,article h3,article h4,article h5{line-height:1.2}ul{padding-left:1.2em;margin-top:.3em;padding-bottom:.3em}ul li{margin-top:.15em;margin-bottom:.15em}header{text-align:center;margin:0;padding:5rem 0}header>h1>a{text-decoration:none;color:#000}.content{padding:.5rem 0}.profile{text-align:center;font-size:14px;line-height:1.2}.profile-image{position:relative;width:160px;height:160px;margin:auto;border-radius:50%;overflow:hidden}.profile-image>img{width:160px;height:160px}.profile section{margin-bottom:2rem}.profile dl>div{margin-bottom:.8rem}.profile dl dt{margin-bottom:.2rem;font-size:.95rem}.profile dl dd{margin:0}.profile ul{list-style:none;margin:0;padding:0}.profile ul.inline-list>li{display:inline-block}.profile ul.inline-list>li:not(:last-child)::after{content:'/';margin:auto .2rem}footer{margin:0;padding:2rem 0;text-align:center}
+      .articles{list-style:none;padding:0}.articles .articles-item{margin-top:1.5rem;margin-bottom:.5}.article-header{display:inline-flex}.article-header>time{margin-right:.8rem}ul.tags{display:inline-flex;margin:0;padding:0;list-style:none}ul.tags>li{display:inline-block;margin:0}.tags .tags-item{display:inline-block;margin:0;padding:0 .5rem 0 0;font-size:.85em}.tags a.tags-item::before{content:'#'}.article-title{margin-top:.5rem;line-height:1.2}.more{margin:2rem auto 1rem auto}.more ul{list-style:none;padding:0}.pagination{margin:2rem auto 1rem auto}.pagination-list{list-style:none;padding:0}.pagination-list-item{padding:.5rem}a.anchor-link{color:#888;text-decoration:none}article code{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace!important;font-size:85%!important}article code:not([class*=language-]){padding:.2em .4em;margin:0;white-space:break-spaces;background-color:rgba(175,184,193,.2);border-radius:6px}.responsive-img{max-width:100%;height:auto}</style></head><body><header><h1><a href="/">windyakin.net</a></h1></header><div class="content"><div class="container"><div class="row justify-content-lg-center"><main class="col-12 col-lg-8 col-xl-6 order-lg-last"><article class="article-body"><div class="article-header"><time datetime="2022-03-27">2022-03-27</time><ul class="tags" aria-hidden="true"><li><a href="/tags/Kubernetes.html" class="tags-item">Kubernetes</a></li></ul></div><h2 class="article-title">Kubernetes の Pod を定期的に再起動させる</h2><h3 id="%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86%E9%9D%A2%E5%80%92%E3%81%8F%E3%81%95%E3%81%84%E5%95%8F%E9%A1%8C%E3%82%92%E5%AE%9A%E6%9C%9F%E7%9A%84%E3%81%AA%E5%86%8D%E8%B5%B7%E5%8B%95%E3%81%A7%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B" tabindex="-1"><a class="anchor-link" href="#%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86%E9%9D%A2%E5%80%92%E3%81%8F%E3%81%95%E3%81%84%E5%95%8F%E9%A1%8C%E3%82%92%E5%AE%9A%E6%9C%9F%E7%9A%84%E3%81%AA%E5%86%8D%E8%B5%B7%E5%8B%95%E3%81%A7%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B" aria-hidden="true">#</a> イメージのバージョン管理面倒くさい問題を定期的な再起動で解決する</h3><p>前回のエントリで <a href="https://windyakin.hateblo.jp/entry/2022/03/17/212009">k3s を運用している話</a>を書いたが、 GitOps 運用の中で私はコンテナの Docker イメージのバージョン管理をサボっている。現状各アプリケーションのイメージはすべて <code>latest</code> のタグが振られているのみで、イメージを更新しても GitOps に使っている manifests のリポジトリを更新される仕組みも用意していない。</p><p>だけどもこれだと Pod が生きている限りイメージが更新されても Pod が使うイメージが変わらないままになっていまうので、 CronJob を使って Deployment で起動している Pod を定期的に再起動している。これに併せて <code>imagePullPolicy: Always</code> を指定しておけば、 Pod の再起動の度に最新のイメージを取ってくることができるという目論見である。</p><h3 id="serviceaccount-%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B" tabindex="-1"><a class="anchor-link" href="#serviceaccount-%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B" aria-hidden="true">#</a> ServiceAccount を用意する</h3><p>ServiceAccount と (Cluster)Role と (Cluster)RoleBinding を用意する。自分は最初この3者の関係がよくわかっていなかったのだが、色々調べていくうちにでいうと Role と ServiceAccount の多対多の関係を表現する中間テーブルが RoleBinding であると理解した。要は Google の IAM 管理で行う「権限」のグループを作ってその権限をユーザに割り当てる行為と同じである。また Role / RoleBinding の頭に Cluster がついて ClusterRole や ClusterRoleBinding になると、その権限は namespace を超えて実行することができる。</p><p>まずは Role について。最終的に ServiceAccount が使えるようになる Kubernetes API を一覧にする。 kubectl コマンドで <code>kubectl [verbs] [resources]</code> が使えるようになるという理解が近い。ここに <code>apiGroups</code> という概念も登場する。 Pod は <code>apiVersion: v1</code> と表現されるが、この場合はコア機能であるので <code>&quot;&quot;</code> (空文字) が指定される。一方 Deployment は <code>apiVersion: apps/v1</code> と指定するため <code>apps</code> を指定することになる。</p><pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">kind</span><span class="token punctuation">:</span> ClusterRole
 <span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> rbac.authorization.k8s.io/v1
 <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
   <span class="token key atrule">name</span><span class="token punctuation">:</span> pod<span class="token punctuation">-</span>restarter
@@ -77,14 +18,10 @@
       <span class="token punctuation">-</span> deployments
     <span class="token key atrule">verbs</span><span class="token punctuation">:</span>
       <span class="token punctuation">-</span> get
-      <span class="token punctuation">-</span> list</code></pre>
-<p>次に ServiceAccount。特に凝ったことはしないのでそのまま名前をつけるだけ。</p>
-<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+      <span class="token punctuation">-</span> list</code></pre><p>次に ServiceAccount。特に凝ったことはしないのでそのまま名前をつけるだけ。</p><pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
 <span class="token key atrule">kind</span><span class="token punctuation">:</span> ServiceAccount
 <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
-  <span class="token key atrule">name</span><span class="token punctuation">:</span> pod<span class="token punctuation">-</span>restarter</code></pre>
-<p>最後に Role と ServiceAccount を紐付ける RoleBinding を記述する。</p>
-<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">kind</span><span class="token punctuation">:</span> ClusterRoleBinding
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> pod<span class="token punctuation">-</span>restarter</code></pre><p>最後に Role と ServiceAccount を紐付ける RoleBinding を記述する。</p><pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">kind</span><span class="token punctuation">:</span> ClusterRoleBinding
 <span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> rbac.authorization.k8s.io/v1
 <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
   <span class="token key atrule">name</span><span class="token punctuation">:</span> pod<span class="token punctuation">-</span>restarter
@@ -95,11 +32,7 @@
 <span class="token key atrule">roleRef</span><span class="token punctuation">:</span>
   <span class="token key atrule">kind</span><span class="token punctuation">:</span> ClusterRole
   <span class="token key atrule">name</span><span class="token punctuation">:</span> pod<span class="token punctuation">-</span>restarter
-  <span class="token key atrule">apiGroup</span><span class="token punctuation">:</span> rbac.authorization.k8s.io</code></pre>
-<h3 id="cronjob-%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B" tabindex="-1"><a class="anchor-link" href="#cronjob-%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B" aria-hidden="true">#</a> CronJob を用意する</h3>
-<p>Pod を再起動させる方法は色々なあるが、 <code>delete pods</code> を定期的に実行されるようにした。これだとダウンタイムが出るが、自分が使うサービスなのでこのままにする。おそらく通常は Deployments の annotate に日付を入れると manifests の更新とともに Pod が再作成されるという方法をとることになるが、自分の環境は ArgoCD で即刻上書きされるので向いていないためこうした。</p>
-<p><a href="https://hub.docker.com/r/bitnami/kubectl">bitnami/kubectl</a> のイメージ上から kubetl の <code>jsonpath</code> で Deployment の名前の一覧のみを出力し、その結果を xargs にパイプして <code>delete pods</code> を実行させるようにしている。</p>
-<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> batch/v1
+  <span class="token key atrule">apiGroup</span><span class="token punctuation">:</span> rbac.authorization.k8s.io</code></pre><h3 id="cronjob-%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B" tabindex="-1"><a class="anchor-link" href="#cronjob-%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B" aria-hidden="true">#</a> CronJob を用意する</h3><p>Pod を再起動させる方法は色々なあるが、 <code>delete pods</code> を定期的に実行されるようにした。これだとダウンタイムが出るが、自分が使うサービスなのでこのままにする。おそらく通常は Deployments の annotate に日付を入れると manifests の更新とともに Pod が再作成されるという方法をとることになるが、自分の環境は ArgoCD で即刻上書きされるので向いていないためこうした。</p><p><a href="https://hub.docker.com/r/bitnami/kubectl">bitnami/kubectl</a> のイメージ上から kubetl の <code>jsonpath</code> で Deployment の名前の一覧のみを出力し、その結果を xargs にパイプして <code>delete pods</code> を実行させるようにしている。</p><pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> batch/v1
 <span class="token key atrule">kind</span><span class="token punctuation">:</span> CronJob
 <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
   <span class="token key atrule">name</span><span class="token punctuation">:</span> pod<span class="token punctuation">-</span>restarter
@@ -118,102 +51,4 @@
               <span class="token key atrule">command</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">"/bin/sh"</span><span class="token punctuation">,</span> <span class="token string">"-c"</span><span class="token punctuation">]</span>
               <span class="token key atrule">args</span><span class="token punctuation">:</span>
                 <span class="token punctuation">-</span> <span class="token punctuation">|</span><span class="token scalar string">
-                  kubectl get deployments -o=jsonpath='{range .items[*]}{.spec.template.metadata.labels.app}{"\n"}{end}' | xargs -I "{}" kubectl delete pods -l app={}</span></code></pre>
-<h3 id="%E5%8A%B9%E6%9E%9C" tabindex="-1"><a class="anchor-link" href="#%E5%8A%B9%E6%9E%9C" aria-hidden="true">#</a> 効果</h3>
-<p>いまのところ毎日深夜2時に再起動がかかる運用になっており、最長1日待てば最新のイメージが落とされるようになっている。普段は依存パッケージのセキュリティ更新しかしないためこの運用で問題なく感じている。</p>
-<p>ただここまで紹介したのは結構な面倒くさがりの所業で、一般公開しているサービスなどでこれをするのは非常におすすめしない。一旦はこれで運用ができているのはあくまで個人の管理しているサービスだからである。</p>
-
-      </article>
-    </main>
-    <aside class="col-12 col-lg-4 col-xl-3 order-lg-first mt-5 mt-lg-0">
-      <div class="profile">
-  <div class="profile-image">
-    <img src="/img/profile.jpg" alt="windyakin" />
-  </div>
-
-  <section>
-    <h2>Profile</h2>
-    <dl>
-      <div>
-        <dt>Name</dt>
-        <dd>
-          <ul class="inline-list">
-            <li lang="en">KANZAKI Takuto</li><li lang="ja">神﨑 拓人</li>
-          </ul>
-        </dd>
-      </div>
-      <div>
-        <dt>Screen name</dt>
-        <dd>
-          <ul class="inline-list">
-            <li>windyakin</li><li>じゅりあん</li>
-          </ul>
-        </dd>
-      </div>
-    </dl>
-
-    <div>
-      <a href="/carrier/">職務経歴書</a>
-    </div>
-  </section>
-
-  <section>
-    <h2>Organization</h2>
-    <dl>
-      <div>
-        <dt><a href="https://pepabo.com">GMO Pepabo, Inc.</a></dt>
-        <dd>Senior Engineer</dd>
-      </div>
-      <div>
-        <dt><a href="https://umineco.org/">沼津移住者コミュニティ<br/>うみねこ</a></dt>
-        <dd>Organizer</dd>
-      </div>
-      <div>
-        <dt><a href="https://napple.team/">Napple Team</a></dt>
-        <dd>Organizer</dd>
-      </div>
-    </dl>
-  </section>
-
-  <section>
-    <h2>Contact / Link</h2>
-    <dl>
-      <div>
-        <dt>E-mail</dt>
-        <dd><a href="mailto:windyakin@napple.team">windyakin@napple.team</a></dd>
-      </div>
-      <div>
-        <dt>Twitter</dt>
-        <dd><a href="https://twitter.com/MITLicense">twitter.com/MITLicense</a></dd>
-      </div>
-      <div>
-        <dt>Bluesky</dt>
-        <dd><a href="https://bsky.app/profile/windyakin.net">bsky.app/profile/@windyakin.net</a></dd>
-      </div>
-      <div>
-        <dt>GitHub</dt>
-        <dd><a href="https://github.com/windyakin">github.com/windyakin</a></dd>
-      </div>
-      <div>
-        <dt>Facebook</dt>
-        <dd><a href="https://www.facebook.com/windyakin">facebook.com/windyakin</a></dd>
-      </div>
-      <div>
-        <dt>Vimeo</dt>
-        <dd><a href="https://vimeo.com/windyakin">vimeo.com/windyakin</a></dd>
-      </div>
-    </dl>
-  </section>
-</div>
-
-    </aside>
-  </div>
-</div>
-
-    </div>
-
-    <footer>
-      © 2020 windyakin
-    </footer>
-  </body>
-</html>
+                  kubectl get deployments -o=jsonpath='{range .items[*]}{.spec.template.metadata.labels.app}{"\n"}{end}' | xargs -I "{}" kubectl delete pods -l app={}</span></code></pre><h3 id="%E5%8A%B9%E6%9E%9C" tabindex="-1"><a class="anchor-link" href="#%E5%8A%B9%E6%9E%9C" aria-hidden="true">#</a> 効果</h3><p>いまのところ毎日深夜2時に再起動がかかる運用になっており、最長1日待てば最新のイメージが落とされるようになっている。普段は依存パッケージのセキュリティ更新しかしないためこの運用で問題なく感じている。</p><p>ただここまで紹介したのは結構な面倒くさがりの所業で、一般公開しているサービスなどでこれをするのは非常におすすめしない。一旦はこれで運用ができているのはあくまで個人の管理しているサービスだからである。</p></article></main><aside class="col-12 col-lg-4 col-xl-3 order-lg-first mt-5 mt-lg-0"><div class="profile"><div class="profile-image"><img src="/img/profile.jpg" alt="windyakin"></div><section><h2>Profile</h2><dl><div><dt>Name</dt><dd><ul class="inline-list"><li lang="en">KANZAKI Takuto</li><li lang="ja">神﨑 拓人</li></ul></dd></div><div><dt>Screen name</dt><dd><ul class="inline-list"><li>windyakin</li><li>じゅりあん</li></ul></dd></div></dl><div><a href="/carrier/">職務経歴書</a></div></section><section><h2>Organization</h2><dl><div><dt><a href="https://pepabo.com">GMO Pepabo, Inc.</a></dt><dd>Senior Engineer</dd></div><div><dt><a href="https://umineco.org/">沼津移住者コミュニティ<br>うみねこ</a></dt><dd>Organizer</dd></div><div><dt><a href="https://napple.team/">Napple Team</a></dt><dd>Organizer</dd></div></dl></section><section><h2>Contact / Link</h2><dl><div><dt>E-mail</dt><dd><a href="mailto:windyakin@napple.team">windyakin@napple.team</a></dd></div><div><dt>Twitter</dt><dd><a href="https://twitter.com/MITLicense">twitter.com/MITLicense</a></dd></div><div><dt>Bluesky</dt><dd><a href="https://bsky.app/profile/windyakin.net">bsky.app/profile/@windyakin.net</a></dd></div><div><dt>GitHub</dt><dd><a href="https://github.com/windyakin">github.com/windyakin</a></dd></div><div><dt>Facebook</dt><dd><a href="https://www.facebook.com/windyakin">facebook.com/windyakin</a></dd></div><div><dt>Vimeo</dt><dd><a href="https://vimeo.com/windyakin">vimeo.com/windyakin</a></dd></div></dl></section></div></aside></div></div></div><footer>© 2020 windyakin</footer></body></html>
