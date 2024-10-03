@@ -19,7 +19,11 @@ eleventyExcludeFromCollections: true
 	{% set absoluteArticleUrl %}{{ article.url | url | absoluteUrl(metadata.url) }}{% endset %}
 	<entry>
 		<title>{{ article.data.title }}</title>
+		{%- if article.data.externalUrl%}
+		<link href="{{ article.data.externalUrl }}"/>
+		{%- else%}
 		<link href="{{ absoluteArticleUrl }}"/>
+		{%- endif%}
 		<updated>{{ article.date | rssDate }}</updated>
 		<id>{{ absoluteArticleUrl }}</id>
 		<content type="html">{{ article.templateContent | htmlToAbsoluteUrls(absoluteArticleUrl) }}</content>

@@ -35,7 +35,7 @@ ul.tags > li {
   font-size: 0.85em;
 }
 
-.tags .tags-item::before {
+.tags a.tags-item::before {
   content: '#';
 }
 
@@ -64,22 +64,6 @@ ul.tags > li {
 
 .pagination-list-item {
   padding: 0.5rem;
-}
-
-article {
-  line-height: 1.5;
-}
-
-article h1, article h2, article h3, article h4, article h5 {
-  line-height: 1.2;
-}
-
-article ul {
-  padding-left: 1.2em;
-}
-
-article ul li {
-  margin-top: 0.25em;
 }
 
 a.anchor-link {

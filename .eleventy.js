@@ -9,13 +9,14 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 const CleanCSS = require("clean-css");
+const HtmlMinifier = require('html-minifier');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('img');
   eleventyConfig.addPassthroughCopy('css');
   eleventyConfig.addPassthroughCopy('CNAME');
 
-  // Add plugins
+  // Add plugin
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
@@ -30,6 +31,19 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("cssmin", (css) => {
     return new CleanCSS({}).minify(css).styles;
   });
+
+  eleventyConfig.addTransform('htmlmin', function (content) {
+    if ((this.page.outputPath || "").endsWith(".html")) {
+      let minified = HtmlMinifier.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+      });
+
+      return minified;
+    }
+    return content;
+  })
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
