@@ -5,7 +5,7 @@
 	
 	<link href="https://windyakin.net/feed/feed.xml" rel="self"/>
 	<link href="https://windyakin.net/"/>
-	<updated>2024-10-03T12:10:09Z</updated>
+	<updated>2024-10-03T12:53:01Z</updated>
 	<id>https://windyakin.net/</id>
 	<author>
 		<name>windyakin</name>
@@ -497,7 +497,7 @@ gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;toke
               &lt;span class=&quot;token key atrule&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/bin/sh&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-c&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
               &lt;span class=&quot;token key atrule&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
                 &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
-                  kubectl get deployments -o=jsonpath=&#39;{range .items[*]}{.spec.template.metadata.labels.app}{&quot;\n&quot;}{end}&#39; | xargs -I &quot;{}&quot; kubectl delete pods -l app={}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+                  kubectl get deployments -o=jsonpath=&#39;{range .items[*]}{.spec.template.metadata.labels.app}{&quot;&#92;n&quot;}{end}&#39; | xargs -I &quot;{}&quot; kubectl delete pods -l app={}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;%E5%8A%B9%E6%9E%9C&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/27/restart-kubernetes-pod-by-scheduler.html#%E5%8A%B9%E6%9E%9C&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 効果&lt;/h3&gt;
 &lt;p&gt;いまのところ毎日深夜2時に再起動がかかる運用になっており、最長1日待てば最新のイメージが落とされるようになっている。普段は依存パッケージのセキュリティ更新しかしないためこの運用で問題なく感じている。&lt;/p&gt;
 &lt;p&gt;ただここまで紹介したのは結構な面倒くさがりの所業で、一般公開しているサービスなどでこれをするのは非常におすすめしない。一旦はこれで運用ができているのはあくまで個人の管理しているサービスだからである。&lt;/p&gt;
@@ -530,12 +530,12 @@ kubectl apply &lt;span class=&quot;token parameter variable&quot;&gt;-n&lt;/span
 &lt;p&gt;&lt;a href=&quot;https://argo-cd.readthedocs.io/en/stable/getting_started/&quot;&gt;Getting Started - Argo CD - Declarative GitOps CD for Kubernetes&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;CLI で操作する場合は &lt;code&gt;argocd&lt;/code&gt; コマンドなどを導入すると GitOps につかうリポジトリの登録や、実際のアプリケーションの設定などがコマンドからできて便利。&lt;/p&gt;
 &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;argocd repo &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; git@github.com:windyakin/k8s-manifests.git --ssh-private-key-path &lt;span class=&quot;token variable&quot;&gt;${SSH_PRIVATE_KEY_PATH}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;argocd app create argocd-applications &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
-  &lt;span class=&quot;token parameter variable&quot;&gt;--repo&lt;/span&gt; git@github.com:windyakin/k8s-manifests.git &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
-  &lt;span class=&quot;token parameter variable&quot;&gt;--path&lt;/span&gt; argocd-application &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
-  --auto-prune &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
-  --dest-namespace default &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
-  --dest-server https://kubernetes.default.svc &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;argocd app create argocd-applications &lt;span class=&quot;token punctuation&quot;&gt;&#92;&lt;/span&gt;
+  &lt;span class=&quot;token parameter variable&quot;&gt;--repo&lt;/span&gt; git@github.com:windyakin/k8s-manifests.git &lt;span class=&quot;token punctuation&quot;&gt;&#92;&lt;/span&gt;
+  &lt;span class=&quot;token parameter variable&quot;&gt;--path&lt;/span&gt; argocd-application &lt;span class=&quot;token punctuation&quot;&gt;&#92;&lt;/span&gt;
+  --auto-prune &lt;span class=&quot;token punctuation&quot;&gt;&#92;&lt;/span&gt;
+  --dest-namespace default &lt;span class=&quot;token punctuation&quot;&gt;&#92;&lt;/span&gt;
+  --dest-server https://kubernetes.default.svc &lt;span class=&quot;token punctuation&quot;&gt;&#92;&lt;/span&gt;
   &lt;span class=&quot;token parameter variable&quot;&gt;--revision&lt;/span&gt; HEAD&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&quot;k3s-%E9%81%8B%E7%94%A8%E3%81%97%E3%81%A6%E3%81%BF%E3%81%A6%E3%81%A9%E3%81%86%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/17/operating-k3s.html#k3s-%E9%81%8B%E7%94%A8%E3%81%97%E3%81%A6%E3%81%BF%E3%81%A6%E3%81%A9%E3%81%86%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; k3s 運用してみてどうか&lt;/h3&gt;
 &lt;p&gt;もともとは microk8s を導入していたのだが、どういうわけか liveness probe を入れたあたりから Kubernetes  の API が重くなってしまい、 kubectl すらまともに使えなくなってしまったため、 k3s に乗り換えたという経緯があった。 コンテナを立てて運用する程度であれば k3s の機能でも十分であり、 microk8s に比べるとオーバーヘッドも少なく助かっているところではある。&lt;/p&gt;
@@ -595,15 +595,15 @@ gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;toke
 
 &lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;USER&lt;/span&gt; root&lt;/span&gt;
 
-&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;RUN&lt;/span&gt; apt-get update &lt;span class=&quot;token operator&quot;&gt;\&lt;/span&gt;
-  &amp;amp;&amp;amp; apt-get install -y --no-install-recommends &lt;span class=&quot;token operator&quot;&gt;\&lt;/span&gt;
-    build-essential &lt;span class=&quot;token operator&quot;&gt;\&lt;/span&gt;
-  &amp;amp;&amp;amp; apt-get clean &lt;span class=&quot;token operator&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;RUN&lt;/span&gt; apt-get update &lt;span class=&quot;token operator&quot;&gt;&#92;&lt;/span&gt;
+  &amp;amp;&amp;amp; apt-get install -y --no-install-recommends &lt;span class=&quot;token operator&quot;&gt;&#92;&lt;/span&gt;
+    build-essential &lt;span class=&quot;token operator&quot;&gt;&#92;&lt;/span&gt;
+  &amp;amp;&amp;amp; apt-get clean &lt;span class=&quot;token operator&quot;&gt;&#92;&lt;/span&gt;
   &amp;amp;&amp;amp; rm -rf /var/lib/apt/lists/*&lt;/span&gt;
 
 &lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;USER&lt;/span&gt; fluent&lt;/span&gt;
 
-&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;RUN&lt;/span&gt; cd /fluentd/etc &lt;span class=&quot;token operator&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;RUN&lt;/span&gt; cd /fluentd/etc &lt;span class=&quot;token operator&quot;&gt;&#92;&lt;/span&gt;
   &amp;amp;&amp;amp; bundle install -j8 --path vendor/bundle&lt;/span&gt;
 
 &lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;CMD&lt;/span&gt; [ &lt;span class=&quot;token string&quot;&gt;&quot;fluentd&quot;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&quot;--gemfile&quot;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&quot;/fluentd/etc/Gemfile&quot;&lt;/span&gt; ]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
