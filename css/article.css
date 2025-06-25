@@ -89,8 +89,20 @@ article blockquote {
   padding-left: 1.5rem;
   border-left: 4px solid #ccc;
 }
+
 article blockquote p {
   margin: 0;
+}
+
+article blockquote footer {
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+  text-align: right;
+}
+
+article blockquote footer cite {
+  font-size: 0.85em;
+  color: #666;
 }
 
 .responsive-img {
