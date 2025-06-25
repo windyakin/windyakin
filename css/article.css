@@ -97,3 +97,13 @@ article blockquote p {
   max-width: 100%;
   height: auto;
 }
+
+article figure {
+  margin: 0;
+}
+
+article figure figcaption {
+  font-size: 0.85em;
+  color: #666;
+  text-align: center;
+}
