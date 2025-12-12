@@ -5,12 +5,42 @@
 	
 	<link href="https://windyakin.net/feed/feed.xml" rel="self"/>
 	<link href="https://windyakin.net/"/>
-	<updated>2025-12-07T12:58:50Z</updated>
+	<updated>2025-12-12T02:55:52Z</updated>
 	<id>https://windyakin.net/</id>
 	<author>
 		<name>windyakin</name>
 		<email>windyakin@napple.team</email>
 	</author>
+	
+	<entry>
+		<title>Twitterの報酬系を刺激する部分だけを取り出してウェブツール化した</title>
+		<link href="https://windyakin.net/articles/2025/06/12/12/modoki.html"/>
+		<updated>2025-12-12T00:00:00Z</updated>
+		<id>https://windyakin.net/articles/2025/06/12/12/modoki.html</id>
+		<content type="html">&lt;p&gt;Twitter (X) をしてたときに、何が一番気になっていたかって考えると、やっぱり通知欄だった気がするんですよね。特に用事もないのに無限に開いては更新していた気がする。&lt;/p&gt;
+&lt;p&gt;だから、ツイートしてそれに通知が来さえすりゃいいんじゃないかと。そこに必ずしも他者という人間が介在する必要があるかというと、必ずしもそうではないのではないかと。知らん誰かなんてNPCみたいなもんじゃないですか。あくまで「数字」として受け取っているもののほうが多かったような気がするわけです。個人的には。&lt;/p&gt;
+&lt;p&gt;なのでそれだけを取り出したものを作ってみました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://modoki.windyakin.net/&quot;&gt;https://modoki.windyakin.net/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://modoki.windyakin.net/&quot;&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/-ctSmkxcg1-2732.webp 2732w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;&quot; src=&quot;https://windyakin.net/img/optimized/-ctSmkxcg1-2732.jpeg&quot; width=&quot;2732&quot; height=&quot;1536&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;%E4%BD%95%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%AE%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/12/12/modoki.html#%E4%BD%95%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%AE%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 何ができるのか&lt;/h3&gt;
+&lt;p&gt;ツイートの投稿ができます。投稿したツイートはインターネットには送られず、内容はブラウザ内の &lt;a href=&quot;https://developer.mozilla.org/ja/docs/Web/API/Window/localStorage&quot;&gt;localStorage&lt;/a&gt; と &lt;a href=&quot;https://developer.mozilla.org/ja/docs/Web/API/Window/indexedDB&quot;&gt;IndexedDB&lt;/a&gt; に保存されるようになっています。&lt;/p&gt;
+&lt;p&gt;投稿したポストには、定期的に誰かからのリアクションが自動でつくようになっています。頻度は適当ですが、一応設定から比重を選べるようにはなっています。&lt;/p&gt;
+&lt;p&gt;リアクションがつくと通知欄にバッジがついて、数字が増えるようになっています。開くと既読になって消える。&lt;/p&gt;
+&lt;p&gt;主だった機能はそれだけです。&lt;/p&gt;
+&lt;p&gt;個人的には、先述の通り、通知が来ることと、その通知の数字を消すこと無意識に繰り返していた節があり、実際使ってみていると、全然これだけで何十分と時間を消費できてしまうんですよね。&lt;/p&gt;
+&lt;p&gt;なのでこの通知欄の数字こそが「報酬系を刺激する部分」だったのだろうと思っています。もちろん人それぞれだとは思いますが。&lt;/p&gt;
+&lt;h3 id=&quot;claude-code&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/12/12/modoki.html#claude-code&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Claude Code&lt;/h3&gt;
+&lt;p&gt;コードはほとんど Claude Code に書いてもらいました。人間が介在したのは機能の提案とコンポーネントの設計がよくないときにそれを指摘するぐらい。&lt;/p&gt;
+&lt;p&gt;現状、コンポーネントで共通化させるには人間が言わないとしてくれない感じがします。ただ共通化したいのは人間の認知範囲に限界があるからというのが主だった理由で、コーディングエージェントだけが稼働している世界になったとき、彼らにとってはあんまり気にすることでもないのかもしれません。&lt;/p&gt;
+&lt;p&gt;各アイコンとかの SVG は Claude Code が勝手に作り出したんですが、あまりにもそのまんますぎるのも扱いに困りますね。&lt;/p&gt;
+&lt;p&gt;ロゴアイコンは最初本当にそのままの鳥が出てきたので、「オマージュ的なものにして」と指示を出したところ現状のものになりました。一応下側のふたつの円が胴体と羽と言い張ってるんですが、全然そうには見えません。溶けてる鳥かな？&lt;/p&gt;
+&lt;h3 id=&quot;%E3%81%93%E3%81%AE%E5%85%88&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/12/12/modoki.html#%E3%81%93%E3%81%AE%E5%85%88&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; この先&lt;/h3&gt;
+&lt;p&gt;すぐ思いつくのは、タイムラインに LLM による他者を介在させたいというところですよね。何人かにこのツール見せたとき、だいたいそういう提案をもらいました。&lt;/p&gt;
+&lt;p&gt;ただ現状の「バックエンドが介在しない」というのがこのツールの利点でもあるので、あんまり実装に乗り気ではないです。 &lt;a href=&quot;https://developer.chrome.com/docs/ai/built-in?hl=ja&quot;&gt;Chrome がブラウザから JavaScript で LLM を呼び出す API を実験機能として出している&lt;/a&gt;っぽいので、そういうので解決できればいいですよね。&lt;/p&gt;
+&lt;h3 id=&quot;%E7%B5%90%E8%AB%96&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/12/12/modoki.html#%E7%B5%90%E8%AB%96&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 結論&lt;/h3&gt;
+&lt;p&gt;インターネットをやめたい人におすすめです。&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Aqours の Finale ライブへ行くために、ラブライブ！サンシャイン!!ラッピングバスの貸切運行をした</title>
