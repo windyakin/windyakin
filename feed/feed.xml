@@ -5,12 +5,60 @@
 	
 	<link href="https://windyakin.net/feed/feed.xml" rel="self"/>
 	<link href="https://windyakin.net/"/>
-	<updated>2025-12-13T12:00:08Z</updated>
+	<updated>2026-03-12T12:47:04Z</updated>
 	<id>https://windyakin.net/</id>
 	<author>
 		<name>windyakin</name>
 		<email>windyakin@napple.team</email>
 	</author>
+	
+	<entry>
+		<title>XとYouTubeを見なくなって4ヶ月経った</title>
+		<link href="https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html"/>
+		<updated>2026-03-12T00:00:00Z</updated>
+		<id>https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html</id>
+		<content type="html">&lt;p&gt;XとYouTubeを見なくなって4ヶ月ぐらい経った。&lt;/p&gt;
+&lt;p&gt;去年の11月ぐらい、多忙も重なったことで精神的にかなり辛い状態になってしまい、各方面に迷惑をかけてしまっていた。反省し、色々顧みた結果、今のXやYouTubeを見る生活によって蝕まれているものが多すぎるという結論になり、身の回りの環境を整理している。&lt;/p&gt;
+&lt;p&gt;結果として、自分の精神状態については悪くはない方向に進んでいると感じている。&lt;/p&gt;
+&lt;h3 id=&quot;%E5%90%84%E7%A8%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E8%A6%8B%E3%82%8C%E3%81%AA%E3%81%8F%E3%81%97%E3%80%81%E6%B3%A8%E6%84%8F%E3%82%92%E9%80%B8%E3%82%89%E3%81%99%E3%82%82%E3%81%AE%E3%82%92%E5%88%87%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html#%E5%90%84%E7%A8%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E8%A6%8B%E3%82%8C%E3%81%AA%E3%81%8F%E3%81%97%E3%80%81%E6%B3%A8%E6%84%8F%E3%82%92%E9%80%B8%E3%82%89%E3%81%99%E3%82%82%E3%81%AE%E3%82%92%E5%88%87%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 各種サイトを見れなくし、注意を逸らすものを切る&lt;/h3&gt;
+&lt;p&gt;かねてよりプライバシーの懸念から、 DNS over HTTPS を実現する &lt;a href=&quot;https://nextdns.io/&quot;&gt;NextDNS&lt;/a&gt; というサービスを使っていたのだが、これのペアレンタルコントロール機能や、拒否リストなどをつかうことで、特定のサイトを見れない環境を作り出している。 NextDNS は Android スマホもネイティブで対応しているので、スマホからも見れないし、 PC からもごく一部の回避方法を取らない限りは見れないようになった。&lt;/p&gt;
+&lt;p&gt;YouTube については、サイトそのものを見れなくなったものの、副作用として YouTube の動画を埋め込みしているサイトが世の中には多く存在し、それらが見れなくて不便することも多い（どうしても必要な場合については、 DNS over HTTPS を使わないブラウザで見ることはある）。&lt;/p&gt;
+&lt;p&gt;また、Xについては、完全にログアウト。各方面には今後連絡手段として使わないようアナウンスした。自分が運営する組織のアカウントから告知などを発信する必要がある場面については、委任アカウントを設定して、完全に人任せにすることで、義務的な場面で目にする必要もなくなった。&lt;/p&gt;
+&lt;h3 id=&quot;%E5%8F%AF%E5%87%A6%E5%88%86%E6%99%82%E9%96%93%E3%81%AE%E5%A2%97%E5%8A%A0&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html#%E5%8F%AF%E5%87%A6%E5%88%86%E6%99%82%E9%96%93%E3%81%AE%E5%A2%97%E5%8A%A0&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 可処分時間の増加&lt;/h3&gt;
+&lt;p&gt;ここからはこれらの選択の結果、起きたことを書いていく。&lt;/p&gt;
+&lt;p&gt;まず身の回りで起きた変化といえば、なによりも可処分時間が増えたことである。最近の YouTube の動画は1本あたり20〜30分とか、悪ければ1時間近いものが当たり前になってきていて、それが自動再生でダラダラと続くので、気づいたら1〜2時間はなくなっていることもあった。ただ動画を見なければそんなことは起きない。&lt;/p&gt;
+&lt;p&gt;一方でそれまでほぼ欠かさず見ていた様々なチャンネル共々見れなくなったので、最初は葛藤や寂しさも感じていたものの、そもそも見れなければ次第に興味も失っていくもので、現在ではあまり気にせずに生きている。&lt;/p&gt;
+&lt;p&gt;空いた時間で何しているかというと、買い漁った新書を読んだり、自作アプリのコードを書いたり書かせたりしている。「もうやること無いから寝る」みたいなことも多くて、そういえばコロナ禍前の自分の生活ってこんな感じだったよなと思うことがある。&lt;/p&gt;
+&lt;h3 id=&quot;%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8C%E3%80%8C%E3%81%A4%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE%E3%80%8D%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html#%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8C%E3%80%8C%E3%81%A4%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE%E3%80%8D%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; スマホが「つまらないもの」になった&lt;/h3&gt;
+&lt;p&gt;前は何かあればスマホでXやYouTubeをだらだら見ていたが、両者とも見れなくなくなった現在、たいしてやることがない機械となっている。通知のスマートウォッチ連動もやめ、スマートフォン自体に届く通知も極限まで減らし、気を逸らされないようにしている。&lt;/p&gt;
+&lt;p&gt;ただひとつだけ白状すると、唯一 Bluesky を見たり更新することは続けている。ただ、 X よりは圧倒的に流れが遅いものだし、知らない人間による感情を煽るポストも流れてこないので、かつての「Twitter」をしていた頃に戻ったような感覚で生きている。&lt;/p&gt;
+&lt;p&gt;スマホを「意識的に視界に入れない・届かない場所に置く」というのも心がけていて、これも非常にスマホ離れへの効果のある施策の一つだった。仕事するときはここ、ソファに座るときはここ、というように、視界に入らない・少し手を伸ばさないと届かない場所を定位置として運用することで、格段に手に取る機会が減ることがわかった。&lt;/p&gt;
+&lt;h3 id=&quot;%E6%83%85%E5%A0%B1%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E5%A4%89%E5%8C%96&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html#%E6%83%85%E5%A0%B1%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E5%A4%89%E5%8C%96&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 情報メディアの変化&lt;/h3&gt;
+&lt;p&gt;情報に関してもキャッチアップする場所を変える必要があった。 X が見れなくなっているので、最新の話題にはかなり疎くなっているというような感覚はある。そのため、ある程度は自分で拾いに行くことが重要となってくるのだが、これもなるべく無駄に感情を煽られないものを選択したい。&lt;/p&gt;
+&lt;p&gt;インターネットで見ているメディアは以下の通り。Feedly で購読しているものもあれば、適当に自分からアクセスする場合もある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://japan.cnet.com/&quot;&gt;CNET Japan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.publickey1.jp/&quot;&gt;Publickey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gihyo.jp/&quot;&gt;gihyo.jp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.watch.impress.co.jp/&quot;&gt;Impress watch 系列&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://news.web.nhk/newsweb&quot;&gt;NHK NEWS WEB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.bbc.com/japanese&quot;&gt;BBC 日本語&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;アニメ関連の情報については、個人的に追いかけていたコンテンツが一段落したこともあって、積極的な発信も少ない状態になっているのも大きい。たまに公式サイトを見たりもするようにしていて、そのときに自分から欲しかった情報に出会えると嬉しいものがある。 SNS でよく知らない人間を経由して持たされる一報より、自分から発信元に足を運び、そこで得られたほうが驚きも価値も大きい。&lt;/p&gt;
+&lt;h3 id=&quot;%E6%96%B0%E8%81%9E%E3%82%92%E8%AA%AD%E3%82%80%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html#%E6%96%B0%E8%81%9E%E3%82%92%E8%AA%AD%E3%82%80%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 新聞を読むようになった&lt;/h3&gt;
+&lt;p&gt;情報メディアの変化に関連して、特筆するべき点として、年明けから静岡新聞を購読しはじめたことも挙げておく。まあ以前静岡新聞社の協力を得て開催したイベントから、仲良くなったこともあって購読を始めてみたのだが、これがどういうわけかなかなかよかった。&lt;/p&gt;
+&lt;p&gt;先述の可処分時間についても、朝もそれなりに時間が取れるようになったので、始業前にコーヒーを飲みながらだったり、オフィスに出社する日は新幹線で読むというのが習慣になりつつある。&lt;/p&gt;
+&lt;p&gt;読み始めてからの変化としては、まず興味が沼津市だけではなく、静岡県全体に広がるようになった。県紙なので内容が沼津だけにとどまらないのは当たり前なのだが、今まであんまりきにしてこなかった中部・西部の話題も自然と目に入るようになって理解が深まりつつある。&lt;/p&gt;
+&lt;p&gt;もちろん静岡県以外の国際・国内の社会情勢についても報道されるし、どちらかといえばそういった話題のほうに接する機会が増えたのも気に入っている点のひとつだ。&lt;/p&gt;
+&lt;p&gt;今や新聞社はその旧態依然っぽさから「オールドメディア」として揶揄されることもあるが、PVを稼ぐために無駄に感情を煽る見出しや内容を書き連ねる無責任な「自認メディア」よりはよほど健全だと思う。&lt;/p&gt;
+&lt;h3 id=&quot;%E9%80%80%E5%8C%96%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E9%81%B8%E6%8A%9E&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html#%E9%80%80%E5%8C%96%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E9%81%B8%E6%8A%9E&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 退化ではなく選択&lt;/h3&gt;
+&lt;p&gt;かつて私がSNSやYouTubeに費やしていた時間は明らかに異常だった。それは、各ソーシャルメディアが様々な方法で人間の注意を惹き、滞在時間を増やし、広告収益を上げようと躍起になっているからだ。&lt;/p&gt;
+&lt;p&gt;あなたも自分が何に時間を差し出しているのか、一度立ち止まって考えてみてほしい。アルゴリズムはあなたの将来のことを考えてはくれていない。あなたの可処分時間を1秒でも多く奪うことだけを、最適化し続けている。&lt;/p&gt;
+&lt;p&gt;私もいきなりこの生活ができるようになったわけではなく、この4ヶ月間、色々な試行錯誤や失敗を経験して、今はなんとかこの形に落ち着いているというだけである。1ヶ月後にはアップデートされてまた変わっているかもしれないし、この試みそのものに失敗してまたSNS漬けの生活で心を痛めているかもしれない。これらはほぼ「依存症」との戦いと同じなのである。&lt;/p&gt;
+&lt;p&gt;もちろん全員に「新聞を読め」とか「SNSをやめろ」と言いたいわけではない。今回自分が選択した結果がたまたまそうだったから紹介したまでであるが、あなたは今の生活で問題ないと感じているだろうか。あなたが昨日スマホで費やした2時間で、何か一つでも、あなたの生活に残るものはあっただろうか。&lt;/p&gt;
+&lt;p&gt;現代の情報スピードについていかない選択をしたと言われてもしょうがない感じもある。自分でも「コーヒー飲みながら新聞読んでる」なんて、「ジジイかよ」と言われるような生活をしているのはわかっている。しかしながら、かつてのような情報の接し方は、生活を蝕み、精神的によくないことをもたらしていたのも事実だ。そこから逃れるためならば、これは「退化」ではなく「選択」なのである。&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Twitterの報酬系を刺激する部分だけを取り出してウェブツール化した</title>
