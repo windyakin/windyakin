@@ -5,12 +5,37 @@
 	
 	<link href="https://windyakin.net/feed/feed.xml" rel="self"/>
 	<link href="https://windyakin.net/"/>
-	<updated>2026-04-19T07:27:46Z</updated>
+	<updated>2026-04-29T13:26:52Z</updated>
 	<id>https://windyakin.net/</id>
 	<author>
 		<name>windyakin</name>
 		<email>windyakin@napple.team</email>
 	</author>
+	
+	<entry>
+		<title>Notion + Astro + Cloudflare Pages で作ったブログ</title>
+		<link href="https://windyakin.net/articles/2026/04/29/create-my-note.html"/>
+		<updated>2026-04-29T00:00:00Z</updated>
+		<id>https://windyakin.net/articles/2026/04/29/create-my-note.html</id>
+		<content type="html">&lt;p&gt;Notion + Astro + Cloudflare Pages でブログをつくった。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://note.windyakin.net/&quot;&gt;note.windyakin.net&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;記事を公開する場所としては「ここ」もあるのだが、すべてを GitHub 上で管理していることもあって、どうしてもどっしり腰を据えて書くことが必要という感じになってきている。かといって Bluesky の文字量だと伝えきれないこともままあるので、今後は弊サイト、上記の新サイト、 Bluesky と3並行で更新していくことにする。&lt;/p&gt;
+&lt;p&gt;最初に公開したポストは読書の感想である。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://note.windyakin.net/posts/35165d0f-19ba-8086-9027-ec08a68951be/&quot;&gt;読了「アフリカから来たランナーたち」&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;気づいたらうっかり記事っぽい分量を書いてしまったが、今後は気軽なメモ書きみたいなのも公開できるといいなあと考えている。メモ書き側の記事を清書してこっちに持ってくるということもあるかもしれない。更新頻度が増えるといいね。&lt;/p&gt;
+&lt;p&gt;そして今回のブログのためにつくったビルドシステムはこちらに公開しておく。既に似たような構成を自作する人は多く、 AI 時代にいまさら目新しさも何もないと思うのだが一応ね、一応。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/windyakin/note&quot;&gt;windyakin/note&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cloudflare Worker で Notion API を叩いて、更新があれば Cloudflare Pages のビルドを行い、 Astro によって生成した静的サイトが公開されるという構成になっている。外部リンクの OGP にも対応したため、記事数が増えたらビルド時間が長くなってしまう可能性もあるのだが、今のところ致命的ではない。そういった問題は悩むほど記事が増えてから考えることにした。&lt;/p&gt;
+&lt;p&gt;元々この新サイトに公開する温度感の記事については、 note.com で公開するかと考えていたものの、最近あの場所の空気感が少し苦手になってきたこともあって、自作することにした。そしてその空気感のイメージが note という一般名詞に付くことに抗う意味もあって、リポジトリ名は windyakin/note としている。&lt;/p&gt;
+&lt;p&gt;note.com のアカウントのほうの記事は残しておくが、今後も更新はほとんどしないだろう。&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>XとYouTubeを見なくなって4ヶ月経った</title>
