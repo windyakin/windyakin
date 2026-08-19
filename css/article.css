@@ -66,9 +66,22 @@ ul.tags > li {
   padding: 0.5rem;
 }
 
+article :is(h1, h2, h3, h4)[id] {
+  position: relative;
+}
+
 a.anchor-link {
+  position: absolute;
+  right: 100%;
+  padding-right: 0.25em;
   color: #888;
   text-decoration: none;
+  opacity: 0;
+}
+
+article :is(h1, h2, h3, h4)[id]:hover > a.anchor-link,
+a.anchor-link:focus {
+  opacity: 1;
 }
 
 article code {
@@ -118,4 +131,16 @@ article figure figcaption {
   font-size: 0.85em;
   color: #666;
   text-align: center;
+}
+
+article figure.blockquote-cite {
+  margin: 1.5rem 0;
+}
+
+article figure.blockquote-cite blockquote {
+  margin: 0 0 0.25rem 0;
+}
+
+article figure.blockquote-cite figcaption {
+  text-align: right;
 }
