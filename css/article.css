@@ -66,9 +66,22 @@ ul.tags > li {
   padding: 0.5rem;
 }
 
+article :is(h1, h2, h3, h4)[id] {
+  position: relative;
+}
+
 a.anchor-link {
+  position: absolute;
+  right: 100%;
+  padding-right: 0.25em;
   color: #888;
   text-decoration: none;
+  opacity: 0;
+}
+
+article :is(h1, h2, h3, h4)[id]:hover > a.anchor-link,
+a.anchor-link:focus {
+  opacity: 1;
 }
 
 article code {
