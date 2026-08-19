@@ -119,3 +119,15 @@ article figure figcaption {
   color: #666;
   text-align: center;
 }
+
+article figure.blockquote-cite {
+  margin: 1.5rem 0;
+}
+
+article figure.blockquote-cite blockquote {
+  margin: 0 0 0.25rem 0;
+}
+
+article figure.blockquote-cite figcaption {
+  text-align: right;
+}
