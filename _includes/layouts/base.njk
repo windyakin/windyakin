@@ -14,14 +14,14 @@
     <meta property="og:title" content="{{ title or metadata.title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ page.url | url | absoluteUrl(metadata.url) }}" />
-    <meta property="og:image" content="{{ '/img/ogp.png' | url | absoluteUrl(metadata.url)}}" />
+    <meta property="og:image" content="{{ (ogImage or '/img/ogp.png') | url | absoluteUrl(metadata.url)}}" />
     <meta property="og:description" content="{{ description or metadata.description }}" />
 
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="{{ 'summary_large_image' if ogImage else 'summary' }}" />
     <meta name="twitter:site" content="{{ metadata.author.twitter }}" />
     <meta name="twitter:creator" content="{{ metadata.author.twitter }}" />
     <meta name="twitter:title" content="{{ title or metadata.title }}" />
-    <meta name="twitter:image" content="{{ '/img/ogp.png' | url | absoluteUrl(metadata.url) }}" />
+    <meta name="twitter:image" content="{{ (ogImage or '/img/ogp.png') | url | absoluteUrl(metadata.url) }}" />
     <meta name="twitter:description" content="{{ description or metadata.description }}" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
