@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleList from '../../components/ArticleList.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const allArticles = await getCollection('articles');
+  const tagSet = new Set<string>();
+  allArticles.forEach((article) => {
+    article.data.tags.forEach((tag) => tagSet.add(tag));
+  });
+
+  return Array.from(tagSet).map((tag) => {
+    const filtered = allArticles
+      .filter((article) => article.data.tags.includes(tag))
+      .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+    return {
+      params: { tag },
+      props: { articles: filtered },
+    };
+  });
+}
+
+const { tag } = Astro.params;
+const { articles } = Astro.props;
+---
+<BaseLayout title={`#${tag} 関連の記事一覧`} robots={['noindex', 'follow']}>
+  <div class="container">
+    <div class="row justify-content-center">
+      <main class="col-12 col-lg-12 col-xl-9">
+        <h2>#{tag} 関連の記事一覧</h2>
+        <ArticleList articles={articles} />
+      </main>
+    </div>
+  </div>
+</BaseLayout>

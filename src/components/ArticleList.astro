@@ -1,0 +1,38 @@
+---
+import { dateString } from '../utils/date';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  articles: CollectionEntry<'articles'>[];
+}
+
+const { articles } = Astro.props;
+---
+<ol class="articles">
+  {articles.map((article) => (
+    <li class="articles-item">
+      <div class="article-header">
+        <time datetime={dateString(article.data.date)}>{dateString(article.data.date)}</time>
+        <ul class="tags" aria-hidden="true">
+          {article.data.tags.map((tag) => (
+            <li>
+              <a href={`/tags/${tag}.html`} class="tags-item">{tag}</a>
+            </li>
+          ))}
+          {article.data.externalUrl && (
+            <li>
+              <span class="tags-item">⚠️ 外部サイト</span>
+            </li>
+          )}
+        </ul>
+      </div>
+      <h3 class="article-title">
+        {article.data.externalUrl ? (
+          <a href={article.data.externalUrl}>{article.data.title}</a>
+        ) : (
+          <a href={`/articles/${article.id}.html`}>{article.data.title}</a>
+        )}
+      </h3>
+    </li>
+  ))}
+</ol>

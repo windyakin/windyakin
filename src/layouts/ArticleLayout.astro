@@ -1,0 +1,39 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Profile from '../components/Profile.astro';
+import { dateString } from '../utils/date';
+
+interface Props {
+  title: string;
+  date: Date;
+  tags: string[];
+  ogImage?: string | null;
+}
+
+const { title, date, tags, ogImage } = Astro.props;
+---
+<BaseLayout title={title} ogImage={ogImage}>
+  <div class="container">
+    <div class="row justify-content-lg-center">
+      <main class="col-12 col-lg-8 col-xl-6 order-lg-last">
+        <article class="article-body">
+          <div class="article-header">
+            <time datetime={dateString(date)}>{dateString(date)}</time>
+            <ul class="tags" aria-hidden="true">
+              {tags.map((tag) => (
+                <li>
+                  <a href={`/tags/${tag}.html`} class="tags-item">{tag}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <h2 class="article-title">{title}</h2>
+          <slot />
+        </article>
+      </main>
+      <aside class="col-12 col-lg-4 col-xl-3 order-lg-first mt-5 mt-lg-0">
+        <Profile />
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

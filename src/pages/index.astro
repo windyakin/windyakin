@@ -1,0 +1,25 @@
+---
+import HomeLayout from '../layouts/HomeLayout.astro';
+import ArticleList from '../components/ArticleList.astro';
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('articles');
+const sorted = allArticles.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const articles = sorted.slice(0, 10);
+---
+<HomeLayout>
+  <h2 class="mt-0">
+    最新の記事一覧
+  </h2>
+
+  <ArticleList articles={articles} />
+
+  {sorted.length >= 10 && (
+    <nav class="more">
+      <ul class="d-flex flex-row justify-content-between">
+        <li><a href="/articles/1.html">すべての記事一覧</a></li>
+        <li><a href="/feed/feed.xml" aria-hidden="true">Atom Feed</a></li>
+      </ul>
+    </nav>
+  )}
+</HomeLayout>
