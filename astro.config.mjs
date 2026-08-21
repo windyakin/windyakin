@@ -1,8 +1,8 @@
 import { defineConfig } from 'astro/config';
+import { satteri, satteriHeadingIdsPlugin } from '@astrojs/markdown-satteri';
 import compress from '@playform/compress';
-import rehypeSlug from 'rehype-slug';
-import rehypeAutolinkHeadings from 'rehype-autolink-headings';
-import { rehypeFigure } from './src/plugins/rehype-figure.mjs';
+import { autolinkHeadings } from './src/plugins/satteri-autolink-headings.mjs';
+import { figure } from './src/plugins/satteri-figure.mjs';
 
 export default defineConfig({
   integrations: [compress()],
@@ -11,18 +11,12 @@ export default defineConfig({
     format: 'preserve',
     assets: 'assets',
   },
-markdown: {
+  markdown: {
+    processor: satteri({
+      hastPlugins: [satteriHeadingIdsPlugin(), autolinkHeadings, figure],
+    }),
     shikiConfig: {
       theme: 'github-light',
     },
-    rehypePlugins: [
-      rehypeSlug,
-      [rehypeAutolinkHeadings, {
-        behavior: 'prepend',
-        properties: { class: 'anchor-link', ariaHidden: 'true' },
-        content: { type: 'text', value: '#' },
-      }],
-      rehypeFigure,
-    ],
   },
 });
