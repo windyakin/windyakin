@@ -8,15 +8,29 @@ export function rehypeFigure() {
       if (node.children.length !== 1) return;
 
       const child = node.children[0];
-      if (child.type !== 'element' || child.tagName !== 'img') return;
+      if (child.type !== 'element') return;
 
-      child.properties = child.properties || {};
-      child.properties.className = (child.properties.className || []).concat('responsive-img');
-      child.properties.decoding = 'async';
+      let img;
+      if (child.tagName === 'img') {
+        img = child;
+      } else if (
+        child.tagName === 'a' &&
+        child.children.length === 1 &&
+        child.children[0].type === 'element' &&
+        child.children[0].tagName === 'img'
+      ) {
+        img = child.children[0];
+      } else {
+        return;
+      }
+
+      img.properties = img.properties || {};
+      img.properties.className = (img.properties.className || []).concat('responsive-img');
+      img.properties.decoding = 'async';
 
       const children = [child];
-      if (child.properties.title) {
-        children.push(h('figcaption', child.properties.title));
+      if (img.properties.title) {
+        children.push(h('figcaption', img.properties.title));
       }
 
       parent.children[index] = h('figure', children);

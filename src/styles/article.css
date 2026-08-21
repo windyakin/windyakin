@@ -118,7 +118,8 @@ article blockquote footer cite {
   color: #666;
 }
 
-.responsive-img {
+.responsive-img,
+article img {
   max-width: 100%;
   height: auto;
 }
