@@ -84,12 +84,18 @@ a.anchor-link:focus {
   opacity: 1;
 }
 
+article pre.astro-code {
+  padding: 1em;
+  border-radius: 6px;
+  border: 1px solid rgba(175, 184, 193, 0.3);
+}
+
 article code {
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace !important;
   font-size: 85% !important;
 }
 
-article code:not([class*=language-]) {
+article :not(pre) > code {
   padding: .2em .4em;
   margin: 0;
   white-space: break-spaces;
@@ -118,7 +124,6 @@ article blockquote footer cite {
   color: #666;
 }
 
-.responsive-img,
 article img {
   max-width: 100%;
   height: auto;
