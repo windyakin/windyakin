@@ -1,47 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-	<title>windyakin.net</title>
-	<subtitle>windyakin&#39;s profile and portfolio site.</subtitle>
-	
-	<link href="https://windyakin.net/feed/feed.xml" rel="self"/>
-	<link href="https://windyakin.net/"/>
-	<updated>2026-08-19T10:21:20Z</updated>
-	<id>https://windyakin.net/</id>
-	<author>
-		<name>windyakin</name>
-		<email>windyakin@napple.team</email>
-	</author>
-	
-	<entry>
-		<title>沼津駅で起きている指定席券売機の行列をなんとかする</title>
-		<link href="https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html"/>
-		<updated>2026-08-19T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html</id>
-		<content type="html">&lt;h3 id=&quot;%E6%9C%80%E5%88%9D%E3%81%AB%E7%B5%90%E8%AB%96&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html#%E6%9C%80%E5%88%9D%E3%81%AB%E7%B5%90%E8%AB%96&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 最初に結論&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>windyakin.net</title><description>windyakin&apos;s profile and portfolio site.</description><link>https://windyakin.net/</link><item><title>沼津駅で起きている指定席券売機の行列をなんとかする</title><link>https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html</link><guid isPermaLink="true">https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html</guid><pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;最初に結論&lt;/h3&gt;
 &lt;p&gt;沼津駅から三島駅までICカード（モバイルSuica不可）または近距離きっぷで乗車し、新幹線乗換口にある指定席券売機を使うとよい。&lt;/p&gt;
-&lt;h3 id=&quot;%E6%B2%BC%E6%B4%A5%E9%A7%85%E3%81%AE%E6%8C%87%E5%AE%9A%E5%B8%AD%E5%88%B8%E5%A3%B2%E6%A9%9F%E3%81%AB%E8%A1%8C%E5%88%97%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%A6%E3%81%84%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html#%E6%B2%BC%E6%B4%A5%E9%A7%85%E3%81%AE%E6%8C%87%E5%AE%9A%E5%B8%AD%E5%88%B8%E5%A3%B2%E6%A9%9F%E3%81%AB%E8%A1%8C%E5%88%97%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%A6%E3%81%84%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 沼津駅の指定席券売機に行列ができている&lt;/h3&gt;
+&lt;h3&gt;沼津駅の指定席券売機に行列ができている&lt;/h3&gt;
 &lt;p&gt;沼津駅は、JR東日本との境界となっている熱海駅にも近く、&lt;a href=&quot;https://toica.jr-central.co.jp/howto/sharing/index.html&quot;&gt;交通系ICでは熱海から先に乗り継げない問題&lt;/a&gt;や、三島駅から新幹線に乗り換えて東京方面に行く人も多いこともあって、もともと遠距離の乗車券を購入する需要が高い駅である。&lt;/p&gt;
 &lt;p&gt;それにもかかわらず、指定席券売機は北口と南口にそれぞれ1台ずつしか設置されておらず、2026年4月からは有人窓口も2つから1つに減らされている（代わりに1台しかない自動券売機を&lt;a href=&quot;https://railway.jr-central.co.jp/support-atvm/&quot;&gt;サポートつき指定席券売機&lt;/a&gt;に変更）。&lt;/p&gt;
 &lt;p&gt;その結果、ピーク時には駅できっぷを買い求める人によって、有人窓口と指定席券売機の両方に長蛇の列が発生しており、実際「きっぷが買えずに乗りたい列車に乗り遅れた」などといった報告もみられる。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/27_J5Dsr1C-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;沼津駅の指定席券売機の様子。5〜6人ほどの行列ができており、先頭では駅員が購入希望者から行き先を聞いて操作を代行している。&quot; title=&quot;ピーク時の沼津駅では駅員が指定席券売機の操作を代行して待ち時間の短縮を図る&quot; src=&quot;https://windyakin.net/img/optimized/27_J5Dsr1C-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;ピーク時の沼津駅では駅員が指定席券売機の操作を代行して待ち時間の短縮を図る&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;kenbaiki_gyouretsu.jpg&quot; alt=&quot;沼津駅の指定席券売機の様子。5〜6人ほどの行列ができており、先頭では駅員が購入希望者から行き先を聞いて操作を代行している。&quot; title=&quot;ピーク時の沼津駅では駅員が指定席券売機の操作を代行して待ち時間の短縮を図る&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;そもそも、沼津駅の乗降者数は、&lt;a href=&quot;https://toukei.pref.shizuoka.jp/toukeikikakuhan/page/nenkan/tyouki_nenkan20190401.html&quot;&gt;令和6年度に行われた静岡県の調査&lt;/a&gt;で静岡・浜松・三島に次いで4位と、静岡県内の&lt;b&gt;新幹線が止まらない駅としては最上位&lt;/b&gt;であり、3位の三島駅と4位の沼津駅の差は1.5倍しかない。にもかかわらず指定席券売機の数は三島駅が北口だけで8台配置されているのに対し、沼津駅は南北合わせてもたった2台となっている。&lt;/p&gt;
 &lt;p&gt;冒頭にも述べた通り、もともと沼津駅はその立地から窓口や指定席券売機の需要が高いということは、JR東海も把握していないことはないだろう。それにもかかわらず有人窓口を減らし、指定席券売機は増設しないままとした采配は、意地悪な言い方をすれば「コストカットによるサービスの低下」と受け取らざるを得ない。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%81%84%E3%81%BE%E6%88%91%E3%80%85%E3%81%AF%E3%81%A9%E3%81%86%E3%81%99%E3%82%8B%E3%81%B9%E3%81%8D%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html#%E3%81%84%E3%81%BE%E6%88%91%E3%80%85%E3%81%AF%E3%81%A9%E3%81%86%E3%81%99%E3%82%8B%E3%81%B9%E3%81%8D%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; いま我々はどうするべきか&lt;/h3&gt;
+&lt;h3&gt;いま我々はどうするべきか&lt;/h3&gt;
 &lt;p&gt;この状態の改善には、指定席券売機の増設を利用者だけでなく行政とも一体となり、様々なチャンネルを通してJR東海に要望を出し続けることが必要とされるが、一般に鉄道会社においてコストがかかることが見込まれる改善に対しての腰は重いものであり、かなりの時間を要するか、そもそも改善されないといったことも見込まれる。そこで「今」我々が損をしないために取れる手段がないかを考えるべきである。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88ex%E3%81%A7%E3%81%AE%E4%B9%97%E3%82%8A%E7%B6%99%E3%81%8E%E3%81%AF%E6%90%8D%E3%82%92%E3%81%99%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html#%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88ex%E3%81%A7%E3%81%AE%E4%B9%97%E3%82%8A%E7%B6%99%E3%81%8E%E3%81%AF%E6%90%8D%E3%82%92%E3%81%99%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; スマートEXでの乗り継ぎは損をする&lt;/h3&gt;
+&lt;h3&gt;スマートEXでの乗り継ぎは損をする&lt;/h3&gt;
 &lt;p&gt;まず駅でも案内されている対応としては、「&lt;a href=&quot;https://smart-ex.jp/top.php&quot;&gt;スマートEX&lt;/a&gt;」を使うという方法である。かねてから、JR東海ではスマートフォンを使って新幹線のきっぷを買うことができるサービスを運営しており、このサービスを使うことによって、沼津駅から東京まですべての改札をICカードで通過することが可能になるため、沼津駅で乗車券を購入する必要がなくなる。&lt;/p&gt;
 &lt;p&gt;しかしながら、スマートEXには、&lt;strong&gt;新幹線駅間の運賃と、そこから乗り継いだ在来線の運賃は別になる&lt;/strong&gt;という問題がある。これの何が問題なのかわからない人のために説明しよう。&lt;/p&gt;
 &lt;p&gt;例えば、沼津駅から山手線の渋谷駅まで新幹線の自由席を乗り継いで行くとする。これを紙のきっぷで購入すれば、乗車券が2,310円と特急券が1,760円の【合計 4,080円】で移動できる。&lt;/p&gt;
 &lt;p&gt;しかし、スマートEXを利用した場合は、&lt;strong&gt;三島駅から品川駅までの移動のみに 4,080円 を支払う&lt;/strong&gt;という点に注意が必要である。&lt;/p&gt;
 &lt;p&gt;そのため、今回想定しているパターン（沼津⇔渋谷）では、沼津から三島までと、品川から渋谷の運賃はそれぞれ別料金となる。一見、ICカード1枚でシームレスに乗り降りしているように見えるが、乗車券をバラバラに購入していることになり、沼津駅から三島駅の運賃190円、品川駅から渋谷駅の運賃209円、これらを&lt;strong&gt;別途ICカードの残高から支払う&lt;/strong&gt;ことになっている。&lt;/p&gt;
 &lt;p&gt;結果、沼津駅から渋谷駅までスマートEXを使って乗り継ぐと【合計 4,479円】となり、紙のきっぷを購入した人と、スマートEXで購入した人が、まったく同じ列車に乗って移動できたとしても、片道で約400円の差額が発生してしまう。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/oRup6rRM2u-1600.webp 1600w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;紙のきっぷとスマートEXの運賃比較&quot; title=&quot;紙のきっぷとスマートEXでの運賃計算方法の違い&quot; src=&quot;https://windyakin.net/img/optimized/oRup6rRM2u-1600.jpeg&quot; width=&quot;1600&quot; height=&quot;600&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;紙のきっぷとスマートEXでの運賃計算方法の違い&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;unchin.jpg&quot; alt=&quot;紙のきっぷとスマートEXの運賃比較&quot; title=&quot;紙のきっぷとスマートEXでの運賃計算方法の違い&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;端的に言えば、スマートEXを使うと「損をする」状態になっているため、沼津駅から乗車し、東京・品川以外の駅で降車したい場合においては、紙のきっぷでの移動のほうが望ましいのである。&lt;/p&gt;
-&lt;h3 id=&quot;ic%E3%82%AB%E3%83%BC%E3%83%89%E4%B9%97%E8%BB%8A%EF%BC%8B%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88%E7%94%A8%E6%8C%87%E5%AE%9A%E5%B8%AD%E5%88%B8%E5%A3%B2%E6%A9%9F-%E3%81%A8%E3%81%84%E3%81%86%E8%A7%A3&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html#ic%E3%82%AB%E3%83%BC%E3%83%89%E4%B9%97%E8%BB%8A%EF%BC%8B%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88%E7%94%A8%E6%8C%87%E5%AE%9A%E5%B8%AD%E5%88%B8%E5%A3%B2%E6%A9%9F-%E3%81%A8%E3%81%84%E3%81%86%E8%A7%A3&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; ICカード乗車＋乗り換え用指定席券売機 という解&lt;/h3&gt;
+&lt;h3&gt;ICカード乗車＋乗り換え用指定席券売機 という解&lt;/h3&gt;
 &lt;p&gt;しかしながら、冒頭述べた通り沼津駅の指定席券売機は行列ができており不便である。では、どうするべきか。実はその答えは&lt;a href=&quot;https://toica.jr-central.co.jp/howto/sharing/index.html&quot;&gt;JR東海のウェブサイト&lt;/a&gt;に載っている。&lt;/p&gt;
 &lt;p&gt;このページの最下部に書いてある内容を引用する。&lt;/p&gt;
-&lt;figure class=&quot;blockquote-cite&quot;&gt;
-&lt;blockquote cite=&quot;https://toica.jr-central.co.jp/howto/sharing/index.html&quot;&gt;
+&lt;figure&gt;
+&lt;blockquote&gt;
 &lt;p&gt;在来線の駅からTOICAで入場し、新幹線のきっぷをお持ちでない場合は、乗換口の指定席券売機またはきっぷうりばでお買い求めください。&lt;strong&gt;TOICAの入場情報を取り消し、在来線の乗車駅から目的の駅まで&lt;/strong&gt;（中略）&lt;strong&gt;のきっぷをご購入いただけます&lt;/strong&gt;。（後略）&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;figcaption&gt;— &lt;cite&gt;&lt;a href=&quot;https://toica.jr-central.co.jp/howto/sharing/index.html&quot;&gt;TOICA｜ご利用可能エリア（JR東海）&lt;/a&gt;&lt;/cite&gt;&lt;/figcaption&gt;
@@ -49,41 +30,33 @@
 &lt;p&gt;この文章の意するところを解読すると、ICカードで在来線駅から新幹線駅に移動した後に、新幹線乗換口にある指定席券売機を操作すれば、1枚の連続した乗車券と特急券を発券し、ICカードの残高はそのままになるという意味に受け取れる。&lt;/p&gt;
 &lt;p&gt;ここでポイントとなるのが、新幹線駅で&lt;strong&gt;改札の外に出ないこと&lt;/strong&gt;である。&lt;/p&gt;
 &lt;p&gt;在来線から新幹線に乗り継ぎができる駅の乗換口には必ず指定席券売機が設置されている。赤い文字で「本日」と書かれているので、なんとなく目にしたことがある人も多いはずだ。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/Qzy0odEdCU-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;三島駅の新幹線乗換口にある指定席券売機の写真。「新幹線 指定席・自由席券 本日」と書かれた看板の下に2台の券売機がある。&quot; title=&quot;実際の三島駅にある新幹線乗換口の指定席券売機&quot; src=&quot;https://windyakin.net/img/optimized/Qzy0odEdCU-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1355&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;実際の三島駅にある新幹線乗換口の指定席券売機&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;norikae_kenbaiki.jpg&quot; alt=&quot;三島駅の新幹線乗換口にある指定席券売機の写真。「新幹線 指定席・自由席券 本日」と書かれた看板の下に2台の券売機がある。&quot; title=&quot;実際の三島駅にある新幹線乗換口の指定席券売機&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;実は、乗車する駅で特急券や目的地までの乗車券を持っていなくても、この改札内にある指定席券売機を操作することで、新幹線に乗ることが可能なのである。&lt;/p&gt;
-&lt;h3 id=&quot;ic%E4%B9%97%E8%BB%8A%E2%86%92%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88%E7%94%A8%E6%8C%87%E5%AE%9A%E5%B8%AD%E5%88%B8%E5%A3%B2%E6%A9%9F-%E3%82%92%E5%AE%9F%E9%9A%9B%E3%81%AB%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B%E3%81%A8&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html#ic%E4%B9%97%E8%BB%8A%E2%86%92%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88%E7%94%A8%E6%8C%87%E5%AE%9A%E5%B8%AD%E5%88%B8%E5%A3%B2%E6%A9%9F-%E3%82%92%E5%AE%9F%E9%9A%9B%E3%81%AB%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B%E3%81%A8&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; IC乗車→乗り換え用指定席券売機 を実際にやってみると&lt;/h3&gt;
+&lt;h3&gt;IC乗車→乗り換え用指定席券売機 を実際にやってみると&lt;/h3&gt;
 &lt;p&gt;実際に沼津駅でICカードで入場したのち、三島駅へ移動。そのまま乗換口にある指定席券売機を操作すると、最初に「ここまで乗ってきたきっぷかICカードを挿入してください」と案内された。指示された通りICカードを差し込んで操作を行うと、そのまま目的の駅までのきっぷ購入を行うことができた。&lt;/p&gt;
 &lt;p&gt;このとき購入したきっぷは、沼津→東京（山手線内）の乗車券と自由席特急券で4,080円と、沼津駅で紙のきっぷを買ったときと同じ値段であった。&lt;/p&gt;
 &lt;p&gt;念のためICカードの履歴をみたが、記録上は「沼津→三島 0円」となっており、入場記録が取り消されているというより、三島駅まで0円で移動したことになっていた。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/1NR-7GVjTx-1080.webp 1080w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;ICカードの履歴を調べた画像。「入:沼津→出:三島 0円」となっている&quot; title=&quot;JR東日本アプリでICカードの履歴を調べたときの画像&quot; src=&quot;https://windyakin.net/img/optimized/1NR-7GVjTx-1080.jpeg&quot; width=&quot;1080&quot; height=&quot;262&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;JR東日本アプリでICカードの履歴を調べたときの画像&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;ic_rireki.jpg&quot; alt=&quot;ICカードの履歴を調べた画像。「入:沼津→出:三島 0円」となっている&quot; title=&quot;JR東日本アプリでICカードの履歴を調べたときの画像&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;また個人的に利用しているICカードが、クレカ機能付きのICカード（ビューカード）のため、指定席券売機で最初にICカードを差し込んでしまったら、支払いのためにそのカードのクレカ機能を利用できないのではないかという心配があった。しかし、これについても実際に行ったところ、最初にICカードとして差し込んだ際に、このカードをどの機能として使うかを選ぶ画面が出て来て、ICカードとして利用しても、そのままクレジットカードとしても同時に利用できたので問題なく購入することができた。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/LRsRTTY929-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;クレカ機能付きICカードを差し込んだ際の機能選択画面。差し込んだカードを「IC+クレカ」または「IC単体」もしくは「クレカ単体」のどれとして扱うかを選択できる。&quot; title=&quot;反射で見づらいが IC+クレカで利用するという選択肢がある&quot; src=&quot;https://windyakin.net/img/optimized/LRsRTTY929-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1355&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;反射で見づらいが IC+クレカで利用するという選択肢がある&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
-&lt;h3 id=&quot;%E3%83%A2%E3%83%90%E3%82%A4%E3%83%ABsuica%E3%81%AB%E3%81%AF%E9%9D%9E%E5%AF%BE%E5%BF%9C%E3%81%AA%E3%81%93%E3%81%A8%E3%81%AB%E6%B3%A8%E6%84%8F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html#%E3%83%A2%E3%83%90%E3%82%A4%E3%83%ABsuica%E3%81%AB%E3%81%AF%E9%9D%9E%E5%AF%BE%E5%BF%9C%E3%81%AA%E3%81%93%E3%81%A8%E3%81%AB%E6%B3%A8%E6%84%8F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; モバイルSuicaには非対応なことに注意&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;view_card.jpg&quot; alt=&quot;クレカ機能付きICカードを差し込んだ際の機能選択画面。差し込んだカードを「IC+クレカ」または「IC単体」もしくは「クレカ単体」のどれとして扱うかを選択できる。&quot; title=&quot;反射で見づらいが IC+クレカで利用するという選択肢がある&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;モバイルSuicaには非対応なことに注意&lt;/h3&gt;
 &lt;p&gt;三島駅の指定席券売機事情として注意が必要なのが、モバイルSuicaに非対応なことだ。世の中にはモバイルSuicaに対応した指定席券売機も存在するが、三島駅では2026年8月現在で非導入であり、これについては段階的に行われているであろう機器の入れ替えを待つ必要がある。&lt;/p&gt;
 &lt;p&gt;もし沼津駅からモバイルSuicaで入場してしまった際は、有人改札に申し出るか、沼津・三島間の運賃190円については諦めて一度在来線改札を出ることをおすすめする。&lt;/p&gt;
 &lt;p&gt;ただ、この悲劇は沼津駅で近距離きっぷを購入するという方法で回避することができる。&lt;/p&gt;
-&lt;h3 id=&quot;%E8%BF%91%E8%B7%9D%E9%9B%A2%E3%81%8D%E3%81%A3%E3%81%B7%E3%81%A7%E3%82%82%E6%96%B0%E5%B9%B9%E7%B7%9A%E3%81%AB%E4%B9%97%E3%82%8A%E7%B6%99%E3%81%90%E3%81%93%E3%81%A8%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html#%E8%BF%91%E8%B7%9D%E9%9B%A2%E3%81%8D%E3%81%A3%E3%81%B7%E3%81%A7%E3%82%82%E6%96%B0%E5%B9%B9%E7%B7%9A%E3%81%AB%E4%B9%97%E3%82%8A%E7%B6%99%E3%81%90%E3%81%93%E3%81%A8%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 近距離きっぷでも新幹線に乗り継ぐことができる&lt;/h3&gt;
+&lt;h3&gt;近距離きっぷでも新幹線に乗り継ぐことができる&lt;/h3&gt;
 &lt;p&gt;もし沼津駅でモバイルSuicaしか持っていない場合や、現金のみで支払いたい場合は、沼津駅から三島駅までの近距離きっぷの購入をおすすめする。&lt;/p&gt;
 &lt;p&gt;近距離きっぷというのはいわゆるオレンジ色の小さな紙のきっぷのことで、最近ではモバイルSuicaの残高を使った購入もすることができる。また沼津駅には近距離券売機が3台ほどあるので、混雑はしていても、指定席券売機のように何分も行列で待たされることはないだろう。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/5fQdjbQtGc-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;沼津駅の入場券&quot; title=&quot;こんな感じの小さなきっぷ（写真は入場券）で、三島駅で乗り換えであれば190円分を購入すればよい&quot; src=&quot;https://windyakin.net/img/optimized/5fQdjbQtGc-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1201&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;こんな感じの小さなきっぷ（写真は入場券）で、三島駅で乗り換えであれば190円分を購入すればよい&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;ticket.jpg&quot; alt=&quot;沼津駅の入場券&quot; title=&quot;こんな感じの小さなきっぷ（写真は入場券）で、三島駅で乗り換えであれば190円分を購入すればよい&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;最初に三島駅までの190円のきっぷの支払いをする必要があるが、三島駅の新幹線乗換口にある指定席券売機では、この190円を差し引いた金額が請求されるようになっており、スマートEXのような損をすることはない。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/pl3c6MtlnF-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;近距離きっぷを使って三島駅の乗換口で購入したときの金額表示。3,880円を請求されている。&quot; title=&quot;実際に支払い画面には 3,880円 と表示される&quot; src=&quot;https://windyakin.net/img/optimized/pl3c6MtlnF-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;実際に支払い画面には 3,880円 と表示される&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;kinkyo_kippu.jpg&quot; alt=&quot;近距離きっぷを使って三島駅の乗換口で購入したときの金額表示。3,880円を請求されている。&quot; title=&quot;実際に支払い画面には 3,880円 と表示される&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;出てくるきっぷが通常の乗車券とは異なり、「区間変更券」というものになるのだが、普通に使う分には気にせず使うことができる。ただ、この券は通常の乗車券に比べて払い戻しに関する扱いがややこしいため、もし天候や路線の状態に不安がある場合には気をつける必要があるが、ここでそこまで取り扱うと終わらないため、「若干のリスクを伴う」ということだけ申し伝えておく。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/8oiPbaC_4N-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;発券された区間変更券。原券発駅の表示や、原券の金額なども印字されている。それ以外は普通の乗車券と同じ見た目。&quot; title=&quot;一番上の部分に「区間変更券」と印字されている&quot; src=&quot;https://windyakin.net/img/optimized/8oiPbaC_4N-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1350&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;一番上の部分に「区間変更券」と印字されている&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
-&lt;h3 id=&quot;%E3%81%BE%E3%81%A8%E3%82%81&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/08/19/numazu-ticket-machine-queue.html#%E3%81%BE%E3%81%A8%E3%82%81&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; まとめ&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;kukanhenko_ken.jpg&quot; alt=&quot;発券された区間変更券。原券発駅の表示や、原券の金額なども印字されている。それ以外は普通の乗車券と同じ見た目。&quot; title=&quot;一番上の部分に「区間変更券」と印字されている&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;まとめ&lt;/h3&gt;
 &lt;p&gt;本記事では、沼津駅の指定席券売機の行列を回避するために、三島駅の新幹線乗換口にある指定席券売機を活用する方法を紹介した。かねてより近距離きっぷやICカードを使って在来線駅から乗車し、新幹線駅に移動するという需要は存在しており、実際に御殿場線などのローカル線では近距離券売機や簡易IC改札しかない駅も存在するため、そういった駅からの新幹線への乗車に対応する仕組みとして整備されているものである。&lt;/p&gt;
 &lt;p&gt;ただし、これはあくまで対症療法的な手段であることを強調しておきたい。本来であれば、乗車駅で目的地までのきっぷを不自由なく購入できるべきであり、それができないこと自体が問題である。2026年4月の有人窓口の削減に端を発する指定席券売機の不足は、沼津駅の利用者数や遠距離きっぷの需要を考慮すれば明らかに不十分な体制であり、JR東海に対して指定席券売機の増設や窓口体制の改善を、利用者・行政が一体となって訴え続ける必要がある。&lt;/p&gt;
 &lt;p&gt;また、本記事で紹介した方法は新幹線を利用して東京方面へ向かう場合に限った対処法であることにも注意してほしい。在来線のみで熱海を経由して東京圏へ移動する場合には、この方法は使えない。在来線利用の場合は引き続き沼津駅の指定席券売機で乗車券を購入するか、降車駅で精算するほかないのが現状である。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/4-SbOUdNcs-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;沼津駅駅舎&quot; src=&quot;https://windyakin.net/img/optimized/4-SbOUdNcs-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Notion + Astro + Cloudflare Pages で作ったブログ</title>
-		<link href="https://windyakin.net/articles/2026/04/29/create-my-note.html"/>
-		<updated>2026-04-29T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2026/04/29/create-my-note.html</id>
-		<content type="html">&lt;p&gt;Notion + Astro + Cloudflare Pages でブログをつくった。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;numazu_station.jpg&quot; alt=&quot;沼津駅駅舎&quot; /&gt;&lt;/p&gt;
+</content:encoded></item><item><title>Notion + Astro + Cloudflare Pages で作ったブログ</title><link>https://windyakin.net/articles/2026/04/29/create-my-note.html</link><guid isPermaLink="true">https://windyakin.net/articles/2026/04/29/create-my-note.html</guid><pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Notion + Astro + Cloudflare Pages でブログをつくった。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://note.windyakin.net/&quot;&gt;note.windyakin.net&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -100,31 +73,23 @@
 &lt;p&gt;Cloudflare Worker で Notion API を叩いて、更新があれば Cloudflare Pages のビルドを行い、 Astro によって生成した静的サイトが公開されるという構成になっている。外部リンクの OGP にも対応したため、記事数が増えたらビルド時間が長くなってしまう可能性もあるのだが、今のところ致命的ではない。そういった問題は悩むほど記事が増えてから考えることにした。&lt;/p&gt;
 &lt;p&gt;元々この新サイトに公開する温度感の記事については、 note.com で公開するかと考えていたものの、最近あの場所の空気感が少し苦手になってきたこともあって、自作することにした。そしてその空気感のイメージが note という一般名詞に付くことに抗う意味もあって、リポジトリ名は windyakin/note としている。&lt;/p&gt;
 &lt;p&gt;note.com のアカウントのほうの記事は残しておくが、今後も更新はほとんどしないだろう。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>XとYouTubeを見なくなって4ヶ月経った</title>
-		<link href="https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html"/>
-		<updated>2026-03-12T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html</id>
-		<content type="html">&lt;p&gt;XとYouTubeを見なくなって4ヶ月ぐらい経った。&lt;/p&gt;
+</content:encoded></item><item><title>XとYouTubeを見なくなって4ヶ月経った</title><link>https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html</link><guid isPermaLink="true">https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html</guid><pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;XとYouTubeを見なくなって4ヶ月ぐらい経った。&lt;/p&gt;
 &lt;p&gt;去年の11月ぐらい、多忙も重なったことで精神的にかなり辛い状態になってしまい、各方面に迷惑をかけてしまっていた。反省し、色々顧みた結果、今のXやYouTubeを見る生活によって蝕まれているものが多すぎるという結論になり、身の回りの環境を整理している。&lt;/p&gt;
 &lt;p&gt;結果として、自分の精神状態については悪くはない方向に進んでいると感じている。&lt;/p&gt;
-&lt;h3 id=&quot;%E5%90%84%E7%A8%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E8%A6%8B%E3%82%8C%E3%81%AA%E3%81%8F%E3%81%97%E3%80%81%E6%B3%A8%E6%84%8F%E3%82%92%E9%80%B8%E3%82%89%E3%81%99%E3%82%82%E3%81%AE%E3%82%92%E5%88%87%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html#%E5%90%84%E7%A8%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E8%A6%8B%E3%82%8C%E3%81%AA%E3%81%8F%E3%81%97%E3%80%81%E6%B3%A8%E6%84%8F%E3%82%92%E9%80%B8%E3%82%89%E3%81%99%E3%82%82%E3%81%AE%E3%82%92%E5%88%87%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 各種サイトを見れなくし、注意を逸らすものを切る&lt;/h3&gt;
+&lt;h3&gt;各種サイトを見れなくし、注意を逸らすものを切る&lt;/h3&gt;
 &lt;p&gt;かねてよりプライバシーの懸念から、 DNS over HTTPS を実現する &lt;a href=&quot;https://nextdns.io/&quot;&gt;NextDNS&lt;/a&gt; というサービスを使っていたのだが、これのペアレンタルコントロール機能や、拒否リストなどをつかうことで、特定のサイトを見れない環境を作り出している。 NextDNS は Android スマホもネイティブで対応しているので、スマホからも見れないし、 PC からもごく一部の回避方法を取らない限りは見れないようになった。&lt;/p&gt;
 &lt;p&gt;YouTube については、サイトそのものを見れなくなったものの、副作用として YouTube の動画を埋め込みしているサイトが世の中には多く存在し、それらが見れなくて不便することも多い（どうしても必要な場合については、 DNS over HTTPS を使わないブラウザで見ることはある）。&lt;/p&gt;
 &lt;p&gt;また、Xについては、完全にログアウト。各方面には今後連絡手段として使わないようアナウンスした。自分が運営する組織のアカウントから告知などを発信する必要がある場面については、委任アカウントを設定して、完全に人任せにすることで、義務的な場面で目にする必要もなくなった。&lt;/p&gt;
-&lt;h3 id=&quot;%E5%8F%AF%E5%87%A6%E5%88%86%E6%99%82%E9%96%93%E3%81%AE%E5%A2%97%E5%8A%A0&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html#%E5%8F%AF%E5%87%A6%E5%88%86%E6%99%82%E9%96%93%E3%81%AE%E5%A2%97%E5%8A%A0&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 可処分時間の増加&lt;/h3&gt;
+&lt;h3&gt;可処分時間の増加&lt;/h3&gt;
 &lt;p&gt;ここからはこれらの選択の結果、起きたことを書いていく。&lt;/p&gt;
 &lt;p&gt;まず身の回りで起きた変化といえば、なによりも可処分時間が増えたことである。最近の YouTube の動画は1本あたり20〜30分とか、悪ければ1時間近いものが当たり前になってきていて、それが自動再生でダラダラと続くので、気づいたら1〜2時間はなくなっていることもあった。ただ動画を見なければそんなことは起きない。&lt;/p&gt;
 &lt;p&gt;一方でそれまでほぼ欠かさず見ていた様々なチャンネル共々見れなくなったので、最初は葛藤や寂しさも感じていたものの、そもそも見れなければ次第に興味も失っていくもので、現在ではあまり気にせずに生きている。&lt;/p&gt;
 &lt;p&gt;空いた時間で何しているかというと、買い漁った新書を読んだり、自作アプリのコードを書いたり書かせたりしている。「もうやること無いから寝る」みたいなことも多くて、そういえばコロナ禍前の自分の生活ってこんな感じだったよなと思うことがある。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8C%E3%80%8C%E3%81%A4%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE%E3%80%8D%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html#%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%8C%E3%80%8C%E3%81%A4%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE%E3%80%8D%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; スマホが「つまらないもの」になった&lt;/h3&gt;
+&lt;h3&gt;スマホが「つまらないもの」になった&lt;/h3&gt;
 &lt;p&gt;前は何かあればスマホでXやYouTubeをだらだら見ていたが、両者とも見れなくなくなった現在、たいしてやることがない機械となっている。通知のスマートウォッチ連動もやめ、スマートフォン自体に届く通知も極限まで減らし、気を逸らされないようにしている。&lt;/p&gt;
 &lt;p&gt;ただひとつだけ白状すると、唯一 Bluesky を見たり更新することは続けている。ただ、 X よりは圧倒的に流れが遅いものだし、知らない人間による感情を煽るポストも流れてこないので、かつての「Twitter」をしていた頃に戻ったような感覚で生きている。&lt;/p&gt;
 &lt;p&gt;スマホを「意識的に視界に入れない・届かない場所に置く」というのも心がけていて、これも非常にスマホ離れへの効果のある施策の一つだった。仕事するときはここ、ソファに座るときはここ、というように、視界に入らない・少し手を伸ばさないと届かない場所を定位置として運用することで、格段に手に取る機会が減ることがわかった。&lt;/p&gt;
-&lt;h3 id=&quot;%E6%83%85%E5%A0%B1%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E5%A4%89%E5%8C%96&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html#%E6%83%85%E5%A0%B1%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E5%A4%89%E5%8C%96&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 情報メディアの変化&lt;/h3&gt;
+&lt;h3&gt;情報メディアの変化&lt;/h3&gt;
 &lt;p&gt;情報に関してもキャッチアップする場所を変える必要があった。 X が見れなくなっているので、最新の話題にはかなり疎くなっているというような感覚はある。そのため、ある程度は自分で拾いに行くことが重要となってくるのだが、これもなるべく無駄に感情を煽られないものを選択したい。&lt;/p&gt;
 &lt;p&gt;インターネットで見ているメディアは以下の通り。Feedly で購読しているものもあれば、適当に自分からアクセスする場合もある。&lt;/p&gt;
 &lt;ul&gt;
@@ -136,69 +101,53 @@
 &lt;li&gt;&lt;a href=&quot;https://www.bbc.com/japanese&quot;&gt;BBC 日本語&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;アニメ関連の情報については、個人的に追いかけていたコンテンツが一段落したこともあって、積極的な発信も少ない状態になっているのも大きい。たまに公式サイトを見たりもするようにしていて、そのときに自分から欲しかった情報に出会えると嬉しいものがある。 SNS でよく知らない人間を経由して持たされる一報より、自分から発信元に足を運び、そこで得られたほうが驚きも価値も大きい。&lt;/p&gt;
-&lt;h3 id=&quot;%E6%96%B0%E8%81%9E%E3%82%92%E8%AA%AD%E3%82%80%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html#%E6%96%B0%E8%81%9E%E3%82%92%E8%AA%AD%E3%82%80%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 新聞を読むようになった&lt;/h3&gt;
+&lt;h3&gt;新聞を読むようになった&lt;/h3&gt;
 &lt;p&gt;情報メディアの変化に関連して、特筆するべき点として、年明けから静岡新聞を購読しはじめたことも挙げておく。まあ以前静岡新聞社の協力を得て開催したイベントから、仲良くなったこともあって購読を始めてみたのだが、これがどういうわけかなかなかよかった。&lt;/p&gt;
 &lt;p&gt;先述の可処分時間についても、朝もそれなりに時間が取れるようになったので、始業前にコーヒーを飲みながらだったり、オフィスに出社する日は新幹線で読むというのが習慣になりつつある。&lt;/p&gt;
 &lt;p&gt;読み始めてからの変化としては、まず興味が沼津市だけではなく、静岡県全体に広がるようになった。県紙なので内容が沼津だけにとどまらないのは当たり前なのだが、今まであんまりきにしてこなかった中部・西部の話題も自然と目に入るようになって理解が深まりつつある。&lt;/p&gt;
 &lt;p&gt;もちろん静岡県以外の国際・国内の社会情勢についても報道されるし、どちらかといえばそういった話題のほうに接する機会が増えたのも気に入っている点のひとつだ。&lt;/p&gt;
 &lt;p&gt;今や新聞社はその旧態依然っぽさから「オールドメディア」として揶揄されることもあるが、PVを稼ぐために無駄に感情を煽る見出しや内容を書き連ねる無責任な「自認メディア」よりはよほど健全だと思う。&lt;/p&gt;
-&lt;h3 id=&quot;%E9%80%80%E5%8C%96%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E9%81%B8%E6%8A%9E&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2026/03/12/leaving-x-and-youtube.html#%E9%80%80%E5%8C%96%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E9%81%B8%E6%8A%9E&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 退化ではなく選択&lt;/h3&gt;
+&lt;h3&gt;退化ではなく選択&lt;/h3&gt;
 &lt;p&gt;かつて私がSNSやYouTubeに費やしていた時間は明らかに異常だった。それは、各ソーシャルメディアが様々な方法で人間の注意を惹き、滞在時間を増やし、広告収益を上げようと躍起になっているからだ。&lt;/p&gt;
 &lt;p&gt;あなたも自分が何に時間を差し出しているのか、一度立ち止まって考えてみてほしい。アルゴリズムはあなたの将来のことを考えてはくれていない。あなたの可処分時間を1秒でも多く奪うことだけを、最適化し続けている。&lt;/p&gt;
 &lt;p&gt;私もいきなりこの生活ができるようになったわけではなく、この4ヶ月間、色々な試行錯誤や失敗を経験して、今はなんとかこの形に落ち着いているというだけである。1ヶ月後にはアップデートされてまた変わっているかもしれないし、この試みそのものに失敗してまたSNS漬けの生活で心を痛めているかもしれない。これらはほぼ「依存症」との戦いと同じなのである。&lt;/p&gt;
 &lt;p&gt;もちろん全員に「新聞を読め」とか「SNSをやめろ」と言いたいわけではない。今回自分が選択した結果がたまたまそうだったから紹介したまでであるが、あなたは今の生活で問題ないと感じているだろうか。あなたが昨日スマホで費やした2時間で、何か一つでも、あなたの生活に残るものはあっただろうか。&lt;/p&gt;
 &lt;p&gt;現代の情報スピードについていかない選択をしたと言われてもしょうがない感じもある。自分でも「コーヒー飲みながら新聞読んでる」なんて、「ジジイかよ」と言われるような生活をしているのはわかっている。しかしながら、かつてのような情報の接し方は、生活を蝕み、精神的によくないことをもたらしていたのも事実だ。そこから逃れるためならば、これは「退化」ではなく「選択」なのである。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Twitterの報酬系を刺激する部分だけを取り出してウェブツール化した</title>
-		<link href="https://windyakin.net/articles/2025/06/12/12/modoki.html"/>
-		<updated>2025-12-12T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2025/06/12/12/modoki.html</id>
-		<content type="html">&lt;p&gt;Twitter (X) をしてたときに、何が一番気になっていたかって考えると、やっぱり通知欄だった気がするんですよね。特に用事もないのに無限に開いては更新していた気がする。&lt;/p&gt;
+</content:encoded></item><item><title>Twitterの報酬系を刺激する部分だけを取り出してウェブツール化した</title><link>https://windyakin.net/articles/2025/12/12/modoki.html</link><guid isPermaLink="true">https://windyakin.net/articles/2025/12/12/modoki.html</guid><pubDate>Fri, 12 Dec 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Twitter (X) をしてたときに、何が一番気になっていたかって考えると、やっぱり通知欄だった気がするんですよね。特に用事もないのに無限に開いては更新していた気がする。&lt;/p&gt;
 &lt;p&gt;だから、ツイートしてそれに通知が来さえすりゃいいんじゃないかと。そこに必ずしも他者という人間が介在する必要があるかというと、必ずしもそうではないのではないかと。知らん誰かなんてNPCみたいなもんじゃないですか。あくまで「数字」として受け取っているもののほうが多かったような気がするわけです。個人的には。&lt;/p&gt;
 &lt;p&gt;なのでそれだけを取り出したものを作ってみました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://modoki.windyakin.net/&quot;&gt;https://modoki.windyakin.net/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://modoki.windyakin.net/&quot;&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/-ctSmkxcg1-2732.webp 2732w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;&quot; src=&quot;https://windyakin.net/img/optimized/-ctSmkxcg1-2732.jpeg&quot; width=&quot;2732&quot; height=&quot;1536&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;%E4%BD%95%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%AE%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/12/12/modoki.html#%E4%BD%95%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%AE%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 何ができるのか&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://modoki.windyakin.net/&quot;&gt;&lt;img src=&quot;modoki.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;何ができるのか&lt;/h3&gt;
 &lt;p&gt;ツイートの投稿ができます。投稿したツイートはインターネットには送られず、内容はブラウザ内の &lt;a href=&quot;https://developer.mozilla.org/ja/docs/Web/API/Window/localStorage&quot;&gt;localStorage&lt;/a&gt; と &lt;a href=&quot;https://developer.mozilla.org/ja/docs/Web/API/Window/indexedDB&quot;&gt;IndexedDB&lt;/a&gt; に保存されるようになっています。&lt;/p&gt;
 &lt;p&gt;投稿したポストには、定期的に誰かからのリアクションが自動でつくようになっています。頻度は適当ですが、一応設定から比重を選べるようにはなっています。&lt;/p&gt;
 &lt;p&gt;リアクションがつくと通知欄にバッジがついて、数字が増えるようになっています。開くと既読になって消える。&lt;/p&gt;
 &lt;p&gt;主だった機能はそれだけです。&lt;/p&gt;
 &lt;p&gt;個人的には、先述の通り、通知が来ることと、その通知の数字を消すこと無意識に繰り返していた節があり、実際使ってみていると、全然これだけで何十分と時間を消費できてしまうんですよね。&lt;/p&gt;
 &lt;p&gt;なのでこの通知欄の数字こそが「報酬系を刺激する部分」だったのだろうと思っています。もちろん人それぞれだとは思いますが。&lt;/p&gt;
-&lt;h3 id=&quot;claude-code&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/12/12/modoki.html#claude-code&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Claude Code&lt;/h3&gt;
+&lt;h3&gt;Claude Code&lt;/h3&gt;
 &lt;p&gt;コードはほとんど Claude Code に書いてもらいました。人間が介在したのは機能の提案とコンポーネントの設計がよくないときにそれを指摘するぐらい。&lt;/p&gt;
 &lt;p&gt;現状、コンポーネントで共通化させるには人間が言わないとしてくれない感じがします。ただ共通化したいのは人間の認知範囲に限界があるからというのが主だった理由で、コーディングエージェントだけが稼働している世界になったとき、彼らにとってはあんまり気にすることでもないのかもしれません。&lt;/p&gt;
 &lt;p&gt;各アイコンとかの SVG は Claude Code が勝手に作り出したんですが、あまりにもそのまんますぎるのも扱いに困りますね。&lt;/p&gt;
 &lt;p&gt;ロゴアイコンは最初本当にそのままの鳥が出てきたので、「オマージュ的なものにして」と指示を出したところ現状のものになりました。一応下側のふたつの円が胴体と羽と言い張ってるんですが、全然そうには見えません。溶けてる鳥かな？&lt;/p&gt;
-&lt;h3 id=&quot;%E3%81%93%E3%81%AE%E5%85%88&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/12/12/modoki.html#%E3%81%93%E3%81%AE%E5%85%88&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; この先&lt;/h3&gt;
+&lt;h3&gt;この先&lt;/h3&gt;
 &lt;p&gt;すぐ思いつくのは、タイムラインに LLM による他者を介在させたいというところですよね。何人かにこのツール見せたとき、だいたいそういう提案をもらいました。&lt;/p&gt;
 &lt;p&gt;ただ現状の「バックエンドが介在しない」というのがこのツールの利点でもあるので、あんまり実装に乗り気ではないです。 &lt;a href=&quot;https://developer.chrome.com/docs/ai/built-in?hl=ja&quot;&gt;Chrome がブラウザから JavaScript で LLM を呼び出す API を実験機能として出している&lt;/a&gt;っぽいので、そういうので解決できればいいですよね。&lt;/p&gt;
-&lt;h3 id=&quot;%E7%B5%90%E8%AB%96&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/12/12/modoki.html#%E7%B5%90%E8%AB%96&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 結論&lt;/h3&gt;
+&lt;h3&gt;結論&lt;/h3&gt;
 &lt;p&gt;インターネットをやめたい人におすすめです。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Aqours の Finale ライブへ行くために、ラブライブ！サンシャイン!!ラッピングバスの貸切運行をした</title>
-		<link href="https://windyakin.net/articles/2025/06/25/bus_charter.html"/>
-		<updated>2025-06-25T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2025/06/25/bus_charter.html</id>
-		<content type="html">&lt;h3 id=&quot;%E3%83%90%E3%82%B9%E3%82%92%E5%80%9F%E3%82%8A%E3%81%A6%E4%BC%9A%E5%A0%B4%E5%85%A5%E3%82%8A%E3%81%97%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/25/bus_charter.html#%E3%83%90%E3%82%B9%E3%82%92%E5%80%9F%E3%82%8A%E3%81%A6%E4%BC%9A%E5%A0%B4%E5%85%A5%E3%82%8A%E3%81%97%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; バスを借りて会場入りした&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/CP_2IpnAfK-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;ベルーナドーム前を通過する、富士急ラブライブ！サンシャイン!!ラッピングバス&quot; title=&quot;今回貸し切り運行した富士急ラブライブ！サンシャイン!!ラッピングバス (E3408)&quot; src=&quot;https://windyakin.net/img/optimized/CP_2IpnAfK-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;今回貸し切り運行した富士急ラブライブ！サンシャイン!!ラッピングバス (E3408)&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;6月21日・22日に埼玉県のベルーナドームを会場に行われた、 &lt;a href=&quot;https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Aqours_Finale&quot;&gt;Aqours Finale LoveLive! 〜永久stage〜&lt;/a&gt; の開催に合わせ、沼津から会場まで直行する貸切バス「【特急】永久stage」の運行を、 &lt;a href=&quot;https://umineco.org/&quot;&gt;沼津移住者コミュニティ うみねこ&lt;/a&gt; の主催として行った。&lt;/p&gt;
+</content:encoded></item><item><title>Aqours の Finale ライブへ行くために、ラブライブ！サンシャイン!!ラッピングバスの貸切運行をした</title><link>https://windyakin.net/articles/2025/06/25/bus_charter.html</link><guid isPermaLink="true">https://windyakin.net/articles/2025/06/25/bus_charter.html</guid><pubDate>Wed, 25 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;バスを借りて会場入りした&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;bus_charter.jpg&quot; alt=&quot;ベルーナドーム前を通過する、富士急ラブライブ！サンシャイン!!ラッピングバス&quot; title=&quot;今回貸し切り運行した富士急ラブライブ！サンシャイン!!ラッピングバス (E3408)&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;6月21日・22日に埼玉県のベルーナドームを会場に行われた、 &lt;a href=&quot;https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Aqours_Finale&quot;&gt;Aqours Finale LoveLive! 〜永久stage〜&lt;/a&gt; の開催に合わせ、沼津から会場まで直行する貸切バス「【特急】永久stage」の運行を、 &lt;a href=&quot;https://umineco.org&quot;&gt;沼津移住者コミュニティ うみねこ&lt;/a&gt; の主催として行った。&lt;/p&gt;
 &lt;p&gt;概要についてはうみねこのウェブサイトにも掲載しているので、そちらを見てほしい。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://umineco.org/news/20250621/aqours_finale_lovelive_charter_bus&quot;&gt;ラブライブ！サンシャイン!!ラッピングバスを貸し切ってAqoursのFinaleライブ会場に向かいました&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;本記事では、今回のバスの貸し切り運行に関する紆余曲折と、今後同じことをやる人が居たときのためになんとなくの知見を共有する。&lt;/p&gt;
-&lt;h3 id=&quot;%E4%BC%9A%E5%A0%B4%E5%85%A5%E3%82%8A%E3%81%A7%E3%81%8D%E3%82%8B%E3%83%90%E3%82%B9%E3%82%92%E6%8E%A2%E3%81%9B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/25/bus_charter.html#%E4%BC%9A%E5%A0%B4%E5%85%A5%E3%82%8A%E3%81%A7%E3%81%8D%E3%82%8B%E3%83%90%E3%82%B9%E3%82%92%E6%8E%A2%E3%81%9B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 会場入りできるバスを探せ&lt;/h3&gt;
+&lt;h3&gt;会場入りできるバスを探せ&lt;/h3&gt;
 &lt;p&gt;ライブの開催については1年ほど前から告知されていたことや、&lt;a href=&quot;https://x.com/LoveLive_staff/status/1859201909791617359&quot;&gt;日程・場所の公開も去年の11月には発表されていたこと&lt;/a&gt;もあり、昨年の12月には「Aqours のラッピングバスを借りて会場入りできないか」という模索が始まっていた。&lt;/p&gt;
 &lt;p&gt;うみねこのメンバーの中に、過去に伊豆箱根鉄道の HAPPY PARTY TRAIN 仕様の列車を貸し切り運行した経歴を持つ人がおり、その人が中心となって進めることになった。&lt;/p&gt;
 &lt;p&gt;「ラッピングバス」と一言で言っても、実は様々な種類が存在する。沼津駅や市内でよく見かけるのは、東海バスや伊豆箱根バスのいわゆる「路線バス」だが、路線バスは一般道での走行を前提として作られており、乗客用の座席にシートベルトなどが装備されていないため、貸し切ることができたとしても、それで会場まで向かうことは難しい。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/rbJLneLw37-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;東海バスのラブライブ！サンシャイン!!ラッピングバス 1号車とあまんちゅのラッピングバスが並んで止まっている&quot; title=&quot;これは路線バスなので高速道路は走れない&quot; src=&quot;https://windyakin.net/img/optimized/rbJLneLw37-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;これは路線バスなので高速道路は走れない&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;localbus.jpg&quot; alt=&quot;東海バスのラブライブ！サンシャイン!!ラッピングバス 1号車とあまんちゅのラッピングバスが並んで止まっている&quot; title=&quot;これは路線バスなので高速道路は走れない&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;しかしながら、東海バス・富士急シティバスには、高速バスに Aqours ラッピングを施したものが存在する。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.tokaibus.jp/Wrapping_bus_anime/lovelive_wrapping_bus_4.html&quot;&gt;ラブライブ！サンシャイン!!ラッピングバス4号車 - アニメコラボラッピングバス - 東海バス&lt;/a&gt;&lt;/li&gt;
@@ -207,54 +156,54 @@
 &lt;p&gt;東海バスが所有しているラッピング高速バスは、普段バスタ新宿に乗り入れる路線に現役で供用されている。 Brightest Melody の衣装の9人と共に、「Aqoursは沼津にいます」というメッセージ性の強いバスだ。&lt;/p&gt;
 &lt;p&gt;富士急シティバスについては、2018年頃投入された車体で、かつて東京駅から沼津に直通する高速バス路線で使われていたのだが、コロナ禍以降その路線は休止状態となっており、最近では会社の通勤用送迎バスや、三島駅から河口湖を結ぶ路線に投入されている姿をよく目撃されている。&lt;/p&gt;
 &lt;p&gt;この2つの編成のどちらかが使えれば嬉しいのだが、一方で西武ライオンズの球場に西武グループの伊豆箱根の通常の観光バスで向かうのも、「浦の星女学院のPTAによる団体旅行」っぽくて味があるなということで、とにかく12月中には沼津でバスを運行している3社（東海バス・伊豆箱根バス・富士急シティバス）にコンタクトを取り、見積もりなどを集めることになった。&lt;/p&gt;
-&lt;h3 id=&quot;%E9%81%8B%E8%A1%8C%E3%83%AB%E3%83%BC%E3%83%88%E3%81%A8%E9%A7%90%E8%BB%8A%E5%A0%B4&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/25/bus_charter.html#%E9%81%8B%E8%A1%8C%E3%83%AB%E3%83%BC%E3%83%88%E3%81%A8%E9%A7%90%E8%BB%8A%E5%A0%B4&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 運行ルートと駐車場&lt;/h3&gt;
+&lt;h3&gt;運行ルートと駐車場&lt;/h3&gt;
 &lt;p&gt;運行ルートについては、距離はそこまでではないものの、「往復するかどうか」の問題があった。往復する場合については、まず帰りのバスが出発できる時間がいつになるのかが読めないという、この会場特有の問題があった。帰りに鉄道を使わない場合でも、基本的に規制退場による誘導がなされるので、終わる時間がなんとなくわかったとしても、なかなか「この時間までに集合」というのは難しい。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/lXlyhl0YV8-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;ベルーナドームのゲート。ベルーナドームと大きな発光する文字のオブジェがある&quot; title=&quot;ベルーナドームは退場が難しい&quot; src=&quot;https://windyakin.net/img/optimized/lXlyhl0YV8-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;ベルーナドームは退場が難しい&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;belluna_gate.jpg&quot; alt=&quot;ベルーナドームのゲート。ベルーナドームと大きな発光する文字のオブジェがある&quot; title=&quot;ベルーナドームは退場が難しい&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;また、ライブ中も乗務員を待機させることになるため、拘束時間が長くなること。そのために交代用の追加の乗務員が必要になること。沼津に到着する頃には日付を回ることから深夜労働手当などの割増料金が発生し、一人当たりの負担額もそれなりになってしまうことなど、様々な理由から復路についての運行は早々に諦めることとなった。&lt;/p&gt;
 &lt;p&gt;あと、諦めた理由のもう一つがバスの駐車場の問題である。ベルーナドーム周辺にはバスが停められるような場所はなく、基本的に各社とも運行を依頼する我々が駐車場を用意する必要があった。ただ唯一、西武傘下の伊豆箱根バスは駐車場を自身で確保してくれそうな返答に見えたのだが、それがグループの成せる技なのか、そもそも伝え忘れていただけなのか、真偽は不明である。&lt;/p&gt;
 &lt;p&gt;まあ、そもそも 2 DAYS 開催のライブなので、往復しても乗らない人も多いだろうということで、本運行の経路は往路（沼津→ベルーナドーム）のみ絞ることとなった。&lt;/p&gt;
-&lt;h3 id=&quot;%E5%AF%8C%E5%A3%AB%E6%80%A5%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%81%A8%E3%81%AE%E9%9D%A2%E8%AB%87&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/25/bus_charter.html#%E5%AF%8C%E5%A3%AB%E6%80%A5%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%81%A8%E3%81%AE%E9%9D%A2%E8%AB%87&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 富士急トラベルとの面談&lt;/h3&gt;
+&lt;h3&gt;富士急トラベルとの面談&lt;/h3&gt;
 &lt;p&gt;問い合わせの結果、東海バスについては、貸し切りバスの運行はできるものの、ラッピング仕様車については、通常の運行路線への充当があるので難しいという回答であった。一方で富士急トラベル（富士急の旅行代理店）からは、二つ返事でOKという回答とともに見積もりが届いた。貸し切り運行の実績はあったのはなんとなく知ってはいたが、こうもあっさりできるとは。やってみるものである。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/AGNVscqdMY-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;運行途中のPA休憩で撮影したバスの右前部からの写真&quot; title=&quot;というわけで今回借りることとなった 富士急シティバス保有のE3408&quot; src=&quot;https://windyakin.net/img/optimized/AGNVscqdMY-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;というわけで今回借りることとなった 富士急シティバス保有のE3408&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;e3408.jpg&quot; alt=&quot;運行途中のPA休憩で撮影したバスの右前部からの写真&quot; title=&quot;というわけで今回借りることとなった 富士急シティバス保有のE3408&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;見積もりについては、経路を往路だけにしたことで、拘束時間も減り、ある程度の人数を集めさえすれば現実的な金額で返ってきたこともあり、富士急にお願いすることにした。&lt;/p&gt;
 &lt;p&gt;富士急でのバスの貸し切りは当団体としては初めて（というか私の人生としても初）だったので、挨拶も兼ねて直接オフィスに伺って担当の方と打ち合わせをした。担当してくださった方も、オタクの我々に優しいと言うか、移住者についても興味を持って聞いてくれるなどし、お互いに「それではよろしくお願いします」ということで、運行が決定した。&lt;/p&gt;
-&lt;h3 id=&quot;%E9%81%8B%E8%A1%8C%E3%81%AB%E3%81%82%E3%81%9F%E3%81%A3%E3%81%A6%E3%81%AE%E5%8B%9F%E9%9B%86&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/25/bus_charter.html#%E9%81%8B%E8%A1%8C%E3%81%AB%E3%81%82%E3%81%9F%E3%81%A3%E3%81%A6%E3%81%AE%E5%8B%9F%E9%9B%86&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 運行にあたっての募集&lt;/h3&gt;
+&lt;h3&gt;運行にあたっての募集&lt;/h3&gt;
 &lt;p&gt;団体旅行において広く一般に参加者を募るためには、「&lt;a href=&quot;https://laws.e-gov.go.jp/law/327AC0100000239&quot;&gt;旅行業法&lt;/a&gt;」によって、&lt;a href=&quot;https://www.mlit.go.jp/kankocho/seisaku_seido/ryokogyoho/ryokogyohogaiyo.html&quot;&gt;所定の管轄に登録が必要&lt;/a&gt;とされており、この登録がない個人や団体が勝手にSNS上で募集を行う行為はできない。&lt;/p&gt;
 &lt;p&gt;そのため、本貸し切り運行については「知り合い同士の団体旅行」、いわば自治会などで行われる団体旅行みたいなものという扱いにする必要があるため、運営スタッフの知り合いへ声をかけるのみに制限した。参加者への事前のSNSへの投稿も厳しく制限し、法への抵触や、当日の混乱を避けることにはとにかく気を使う必要があった。&lt;/p&gt;
 &lt;p&gt;結果、20名程度が集まり、まあ負担額も普通に電車で行くよりは高くなるものの、価値のある体験を得たいという人が集まったのはよかった。&lt;/p&gt;
-&lt;h3 id=&quot;%E6%B2%BC%E6%B4%A5%E3%81%AE%E3%82%81%E3%81%90%E3%81%BF%EF%BC%81%E3%81%84%E3%82%8D%E3%81%A9%E3%82%8A%E5%BC%81%E5%BD%93&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/25/bus_charter.html#%E6%B2%BC%E6%B4%A5%E3%81%AE%E3%82%81%E3%81%90%E3%81%BF%EF%BC%81%E3%81%84%E3%82%8D%E3%81%A9%E3%82%8A%E5%BC%81%E5%BD%93&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 沼津のめぐみ！いろどり弁当&lt;/h3&gt;
+&lt;h3&gt;沼津のめぐみ！いろどり弁当&lt;/h3&gt;
 &lt;p&gt;今回、バスの運行は12時を回ることから、参加者には沼津駅の駅弁業者である桃中軒が販売している「&lt;a href=&quot;https://tochuken.jugem.jp/?eid=391&quot;&gt;沼津のめぐみ！いろどり弁当&lt;/a&gt;」の購入オプションを提供することにした。結果全員申し込んだので、オプションにした意味はあまりなかったのだが。というか駅弁ですらラブライブ！コラボがある当地よ。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/nLgBGPCxWm-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;桃中軒から出ている沼津のめぐみ！いろどり弁当。市政100周年記念のイラストが使われている&quot; title=&quot;（まさかこのパッケージ絵が伏線になるとは…。）&quot; src=&quot;https://windyakin.net/img/optimized/nLgBGPCxWm-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;（まさかこのパッケージ絵が伏線になるとは…。）&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;bento.jpg&quot; alt=&quot;桃中軒から出ている沼津のめぐみ！いろどり弁当。市政100周年記念のイラストが使われている&quot; title=&quot;（まさかこのパッケージ絵が伏線になるとは…。）&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;通常、桃中軒の弁当の注文は、本社工場にある外商部に行うよう案内されているのだが、電話するとどういうわけか「その弁当については沼津駅の売店から注文して貰う必要があります」と言われ、そのように対応した。&lt;/p&gt;
 &lt;p&gt;そもそもこの弁当は沼津駅でしか販売されておらず、土日祝しか販売されていないなど、おそらく桃中軒の内部でも特殊な立ち位置にいるのだろう。&lt;/p&gt;
 &lt;p&gt;受け取りに関しても、通常の大口注文では行ってくれる配達には対応していないとのことなので、駅南口の売店で直接受け取ることになった。売店の方の対応も親切で、売店は10時開店である一方で、我々の出発時間も10時だったため、弁当を待っての出発となる可能性もあったのだが、工場からの到着後すぐに引き渡していただくなど、色々と融通を効かせてくださった。また、何度か電話することがあったのだが、どなたが電話に出ても「21日にラブライブ！の弁当を20個注文している…」というと、「ああ！」と言ってくれたので、その後の話もスムーズだった（特殊すぎる客なのでわかりやすかったのだと思うが）。&lt;/p&gt;
-&lt;h3 id=&quot;led%E8%A1%8C%E5%85%88%E8%A1%A8%E7%A4%BA%E5%99%A8%E9%A2%A8%E3%81%AE%E3%83%9C%E3%83%BC%E3%83%89&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/25/bus_charter.html#led%E8%A1%8C%E5%85%88%E8%A1%A8%E7%A4%BA%E5%99%A8%E9%A2%A8%E3%81%AE%E3%83%9C%E3%83%BC%E3%83%89&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; LED行先表示器風のボード&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/uym8OVj8Hv-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;「【特急】永久stage」という文字が行先表示器風に描かれているボードと背景に沼津駅の南口駅舎&quot; title=&quot;#つくった&quot; src=&quot;https://windyakin.net/img/optimized/uym8OVj8Hv-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;#つくった&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;LED行先表示器風のボード&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;direction_led.jpg&quot; alt=&quot;「【特急】永久stage」という文字が行先表示器風に描かれているボードと背景に沼津駅の南口駅舎&quot; title=&quot;#つくった&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;盛り上げのためというか、雰囲気作りとして、LED行先表示器風のボードを作った。&lt;/p&gt;
 &lt;p&gt;最初は Illustrator でそれっぽいものを作ろうと思ったのだが、LED行先表示器はいわゆるドット絵なので、 Illustrator の分野ではないかもしれないと思い、 AI と相談しながら、ブラウザで動くドット絵用のツールを作った。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/windyakin/direction-led-simulator&quot;&gt;windyakin/direction-led-simulator&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://windyakin.github.io/direction-led-simulator/&quot;&gt;https://windyakin.github.io/direction-led-simulator/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;https://windyakin.github.io/direction-led-simulator/&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;なるべく本来のバスについている行先表示器と雰囲気を合わせるために、バスの写真からマトリックスのサイズをなんとなく揃えたり、永久stageの文字も単純な文字ではなく、ロゴを参考にするなどした。砂時計のイラストの中のドットは「9つ」にするなど、細かいこだわりポイントなどもある。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/0rnUkExfE2-976.webp 976w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;LEDのデザイン&quot; title=&quot;路線バスであればもっと解像度が高く自由が効くのだが、今回はかなり解像度低めで苦労した&quot; src=&quot;https://windyakin.net/img/optimized/0rnUkExfE2-976.jpeg&quot; width=&quot;976&quot; height=&quot;196&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;路線バスであればもっと解像度が高く自由が効くのだが、今回はかなり解像度低めで苦労した&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;led-matrix.png&quot; alt=&quot;LEDのデザイン&quot; title=&quot;路線バスであればもっと解像度が高く自由が効くのだが、今回はかなり解像度低めで苦労した&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;これをコンビニで印刷し、余っていたスチレンボードにスプレーのりで貼り付けて完成。沼津に来て5年、物が増え続けた結果、だいたいの工作部品が自宅にある。&lt;/p&gt;
 &lt;p&gt;運行当日にこれを持っていったところ、結構喜ばれ、いろいろな人が写真を撮ってくれた。撮影会をしていると、運転手の人に「バスに貼り付けますか？」と言われ、停車中のバスにマスキングテープで貼り付けて撮影させてもらった。というか適当に作った割に、サイズぴったりすぎ。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/5pxyebTHiQ-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;バスの車体の行先表示器の上に貼り付けている&quot; title=&quot;貼り付けられたスチレンボードくん サイズぴったりすぎワロタ&quot; src=&quot;https://windyakin.net/img/optimized/5pxyebTHiQ-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;貼り付けられたスチレンボードくん サイズぴったりすぎワロタ&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
-&lt;h3 id=&quot;%E5%87%BA%E7%99%BA%E3%80%81%E6%B2%BC%E6%B4%A5%E3%81%A8%E5%86%85%E6%B5%A6%E3%82%92%E5%BF%83%E3%81%AB%E5%88%BB%E3%82%80&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/25/bus_charter.html#%E5%87%BA%E7%99%BA%E3%80%81%E6%B2%BC%E6%B4%A5%E3%81%A8%E5%86%85%E6%B5%A6%E3%82%92%E5%BF%83%E3%81%AB%E5%88%BB%E3%82%80&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 出発、沼津と内浦を心に刻む&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;bus_direction_led.jpg&quot; alt=&quot;バスの車体の行先表示器の上に貼り付けている&quot; title=&quot;貼り付けられたスチレンボードくん サイズぴったりすぎワロタ&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;出発、沼津と内浦を心に刻む&lt;/h3&gt;
 &lt;p&gt;当日朝もなんとか大きなトラブルもなく、バスは沼津駅北口を出発する。&lt;/p&gt;
 &lt;p&gt;バスは一路、作品に登場する「浦の星女学院」のモデルとなった、長井崎小中一貫学校のある内浦へ向かった。途中、バスをみかけた子どもや、あげつち商店街にある商店の店主の方が気づいて手を降ってくれるなど、バスは終始和やかな雰囲気となった。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/EsIT3agGBT-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;バスの車窓越しの海とそれを眺める人物&quot; title=&quot;この日はいつにも増して本当に海がきれいだった&quot; src=&quot;https://windyakin.net/img/optimized/EsIT3agGBT-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;この日はいつにも増して本当に海がきれいだった&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;sea.jpg&quot; alt=&quot;バスの車窓越しの海とそれを眺める人物&quot; title=&quot;この日はいつにも増して本当に海がきれいだった&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;天候にも恵まれ、夏には珍しく、ちょうど富士山も顔を出してくれており、まさに作品で描かれた沼津や内浦を体感できる行程となり、非常によかった。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/wkY4EKs_k2-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;バスの車窓越しに青々とした淡島と富士山が見えている&quot; title=&quot;バスの車窓から淡島と富士山を望む&quot; src=&quot;https://windyakin.net/img/optimized/wkY4EKs_k2-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;バスの車窓から淡島と富士山を望む&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
-&lt;h3 id=&quot;%E4%B8%8B%E8%BB%8A&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/25/bus_charter.html#%E4%B8%8B%E8%BB%8A&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 下車&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;awashima.jpg&quot; alt=&quot;バスの車窓越しに青々とした淡島と富士山が見えている&quot; title=&quot;バスの車窓から淡島と富士山を望む&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;下車&lt;/h3&gt;
 &lt;p&gt;そのまま、バスは伊豆縦貫道、東名高速をひた走り、会場となるベルーナドームへと向かった。特に大きな渋滞もなく、トイレ付、クーラーの効いた車内でそれぞれが思い思いに過ごす快適な旅路となった。&lt;/p&gt;
 &lt;p&gt;しかしながら、本運行における最大の難点はこれからである。それは下車場所の確保だった。&lt;/p&gt;
 &lt;p&gt;過去に参加した 6th SUNNY STAGE のときに会場周辺を歩いた際、接続道路の路側帯にパイロンが立てられていた記憶があり、事前に目星をつけていたバスが退避できる箇所も塞がれている可能性があった。そのため、下車場所の選定には入念な打ち合わせを行い、降りられなかった場合には、所沢駅のバスロータリーを利用するというプランBも用意していた。&lt;/p&gt;
 &lt;p&gt;会場前に着くとやはり路側帯にはパイロンが置かれており、予定していた場所での下車は叶わなかったのだが、運転手さんの機転によって、運良く近くに停車ぐらいならできそうな場所を見つけ、そこで乗客全員速やかに下車することにした。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/7EuDbHIWOj-1800.webp 1800w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;ボードを掲げ、バスを見送る自分&quot; title=&quot;バスを見送っている自分 うれしそう&quot; src=&quot;https://windyakin.net/img/optimized/7EuDbHIWOj-1800.jpeg&quot; width=&quot;1800&quot; height=&quot;1200&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;バスを見送っている自分 うれしそう&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;bye.jpg&quot; alt=&quot;ボードを掲げ、バスを見送る自分&quot; title=&quot;バスを見送っている自分 うれしそう&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;下車するときに、運転手さんが「あと何周すればいいですか？」と言ってくれたので、（何周でもするの！？）と思いつつ「追加でもう1周してきてください」と伝え、我々もベルーナドームの前を通るバスを写真に納めることができた。そもそもこの運行自体がオタクのわがままに付き合っていただいているというだけにもかかわらず、運転手さんのサービス精神も豊富だった。大変ありがたい。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/uTCI96vjXF-4096.webp 4096w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;ベルーナドーム前を通過するバスを撮影する人々&quot; title=&quot;会場前道路はファミリーマートの待機列などもあり、注目度は抜群&quot; src=&quot;https://windyakin.net/img/optimized/uTCI96vjXF-4096.jpeg&quot; width=&quot;4096&quot; height=&quot;3072&quot; /&gt;&lt;/picture&gt;&lt;figcaption&gt;会場前道路はファミリーマートの待機列などもあり、注目度は抜群&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;belluna.jpg&quot; alt=&quot;ベルーナドーム前を通過するバスを撮影する人々&quot; title=&quot;会場前道路はファミリーマートの待機列などもあり、注目度は抜群&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;結果、予定していた15時より大幅に早い14時には会場に無事到着でき、バスも回送して帰ったことを確認して、会場入りをXでポストした。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;【特急】永久stage 🚍️&lt;br /&gt;
@@ -263,22 +212,14 @@
 #Aqours_finale_Day1 #特急永久stage&lt;/p&gt;
 &lt;footer&gt;&lt;cite&gt;https://x.com/umineco_nmz/status/1936310571143663924&lt;/cite&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/mbM9LQB4bj-1200.webp 1200w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;バスが回送で帰っていく姿を歩道橋から写した写真&quot; src=&quot;https://windyakin.net/img/optimized/mbM9LQB4bj-1200.jpeg&quot; width=&quot;1200&quot; height=&quot;1800&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
-&lt;h3 id=&quot;%E6%84%9F%E6%83%B3&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2025/06/25/bus_charter.html#%E6%84%9F%E6%83%B3&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 感想&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;out_of_service.jpg&quot; alt=&quot;バスが回送で帰っていく姿を歩道橋から写した写真&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;感想&lt;/h3&gt;
 &lt;p&gt;今回の Finale ライブでは、オープニングで沼津駅やあげつち商店街、内浦の景色が描かれており、まさに今回のバスでやってきた経路と同じものを見ることができており、ライブの没入度を高めることができて本当にいい体験だった。&lt;/p&gt;
 &lt;p&gt;あと、開演まで X でいろいろな人が目撃したというポストを見つけては、ニヤニヤしていた。すみません。&lt;/p&gt;
 &lt;p&gt;貸し切りバスでの来場は、半分ぐらい「盛り上げ」のためだったのだが、沼津からベルーナドームに行く移動手段として見たときに、乗り換え無しで行けることや、移動時間も他の移動手段と比べても見劣りしないため、実は一番快適な移動手段ではないかと思った。&lt;/p&gt;
 &lt;p&gt;次の約束はないものの、またこういったことをする機会が生まれることを願ってやまない。&lt;/p&gt;
 &lt;p&gt;最後に今回の運行の手配をしてくださった、富士急トラベル様、及びバスを貸してくださった富士急シティバス様、発案・見積もりなど事務処理をしてくださった ぷらむ さん、ご乗車いただいたすべての皆様に感謝します。ありがとうございました。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Finale ライブを迎えるにあたって</title>
-		<link href="https://windyakin.net/articles/2025/06/19/pre_finale.html"/>
-		<updated>2025-06-19T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2025/06/19/pre_finale.html</id>
-		<content type="html">&lt;p&gt;&lt;a href=&quot;https://windyakin.net/2024/07/01/emotion.html&quot;&gt;前回の記事&lt;/a&gt;から1年が経とうとしている。&lt;/p&gt;
+</content:encoded></item><item><title>Finale ライブを迎えるにあたって</title><link>https://windyakin.net/articles/2025/06/19/pre_finale.html</link><guid isPermaLink="true">https://windyakin.net/articles/2025/06/19/pre_finale.html</guid><pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;/2024/07/01/emotion.html&quot;&gt;前回の記事&lt;/a&gt;から1年が経とうとしている。&lt;/p&gt;
 &lt;p&gt;そして今、 Aqours が Finale ライブを迎えるにあたって、何か今の気持ちを書いたほうがいいのではないかと思って、とりあえず書き始めてみる。&lt;/p&gt;
 &lt;p&gt;去年の6月30日に、「あと1年」というタイムリミットを突きつけられた自分は、冷静ではなかった気がする。その時は Finale というものがよくわかっていなかったし、さらにその先の未来について考え、どうなってしまうんだろうという不安に襲われていた。&lt;/p&gt;
 &lt;p&gt;そのような中、7月にリバーサイドホテルで行われた、ヨハネ誕生祭に参加する機会を得る事ができ、そのイベントのゲストとして小林愛香さんと降幡愛さんが登場した。上土商店街の方がゲストの2人にインタビューをする中で、受け取ったメッセージは、「Finale ライブを迎えても Aqours の全部が終わるわけではない」ということだった。&lt;/p&gt;
@@ -298,180 +239,137 @@
 &lt;p&gt;誰しもがそうだとは思うが、 Finale ライブの後に自分がどうなっているかなんて、全く考えられもしない。&lt;/p&gt;
 &lt;p&gt;だけども、自分はこの1年を通して、その未来はまったくの暗闇ではないと感じ取ることができている。&lt;/p&gt;
 &lt;p&gt;だからこそ今は、彼女たちが伝えたい想いを全力で受け取りに行きたいと思う。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>今の感情</title>
-		<link href="https://windyakin.net/articles/2024/07/01/emotion.html"/>
-		<updated>2024-07-01T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2024/07/01/emotion.html</id>
-		<content type="html">&lt;h3 id=&quot;%E7%94%9F%E6%94%BE%E9%80%81%E3%82%92%E8%A6%8B%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2024/07/01/emotion.html#%E7%94%9F%E6%94%BE%E9%80%81%E3%82%92%E8%A6%8B%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 生放送を見た&lt;/h3&gt;
+</content:encoded></item><item><title>今の感情</title><link>https://windyakin.net/articles/2024/07/01/emotion.html</link><guid isPermaLink="true">https://windyakin.net/articles/2024/07/01/emotion.html</guid><pubDate>Mon, 01 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;生放送を見た&lt;/h3&gt;
 &lt;p&gt;知り合いの家で何人かで集まって見た生放送、正直言って前から漂っていた嫌な予感が的中したというか、考えられる最悪のシナリオを突きつけられた形だった。&lt;/p&gt;
 &lt;p&gt;正直どう受け止めればいいのかわかりかねているのが率直な感想である。生放送以降はSNSもほとんど見ることができず、次の日も仕事できるか怪しいぐらいの感情だったが、逆にラブライブ！サンシャイン!!以外のことに集中してないと辛いなと思って、結局朝から仕事をしている。&lt;/p&gt;
 &lt;p&gt;まあただ、目論見通り没頭できるかといえばそんなことはなくて、生放送で伊波さんが言葉を選んでいる姿を思い出したり、自分は今後どうなるんだろうというすごく漠然とした不安に襲われているばかりで、結局ほとんど仕事もできないというのが現状である。&lt;/p&gt;
-&lt;h3 id=&quot;%E8%87%AA%E5%88%86%E3%81%AE%E4%BB%8A%E3%81%AE%E6%B0%97%E6%8C%81%E3%81%A1&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2024/07/01/emotion.html#%E8%87%AA%E5%88%86%E3%81%AE%E4%BB%8A%E3%81%AE%E6%B0%97%E6%8C%81%E3%81%A1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 自分の今の気持ち&lt;/h3&gt;
+&lt;h3&gt;自分の今の気持ち&lt;/h3&gt;
 &lt;p&gt;思えば、自分がラブライブ！サンシャイン!!に抱いていたものとは何だったのだろうか。考えれば考えるほど具体的な言葉にできなくなってくるが、とにかく「楽しい」という感情。彼女たちが居なければ、ライブという文化に触れることもなく、福岡や旭川に旅行で行ったりすることもなかっただろうし、いま自分の周りにいる人達にだって会えなかっただろう。それぐらい、今の自分のアイデンティティに深く根付いているコンテンツで、もはや無いということが考えられない。想像できない。&lt;/p&gt;
 &lt;p&gt;だから、わがままを言えば自分が死ぬまで続いてほしい。続けてもらわないと、「自分」という存在を維持することができないと思うぐらいに、このコンテンツが存在することが、自分にとっての自然な状態なのだ。取り上げられたら、本当に何も無い人間になってしまうのではないか。&lt;/p&gt;
-&lt;p&gt;ただ、これまでにそういったことを一度も考えなかった訳ではない。ここ最近あったμ&#39;sのイベントに参加して、その姿を未来のAqoursに重ねることはあった。正直、その姿を見て、想像して、これまでと同じぐらい楽めるのかと言われれば、肯定はできない。やはりライブがあって、キャストが飛んで跳ねて、アニメと同じパフォーマンスをする「シンクロパフォーマンス」こそが自分にとってラブライブ！と出会ったときの原体験で、今でも渇望しているものであり、それを与えてくれるのがAqoursというグループなのだ。見れなくなるならラブライブ！である必要がない。&lt;/p&gt;
+&lt;p&gt;ただ、これまでにそういったことを一度も考えなかった訳ではない。ここ最近あったμ&apos;sのイベントに参加して、その姿を未来のAqoursに重ねることはあった。正直、その姿を見て、想像して、これまでと同じぐらい楽めるのかと言われれば、肯定はできない。やはりライブがあって、キャストが飛んで跳ねて、アニメと同じパフォーマンスをする「シンクロパフォーマンス」こそが自分にとってラブライブ！と出会ったときの原体験で、今でも渇望しているものであり、それを与えてくれるのがAqoursというグループなのだ。見れなくなるならラブライブ！である必要がない。&lt;/p&gt;
 &lt;p&gt;しかし、現実を見ると、彼女たちに今後もこの活動を続けていってもらうためには、彼女たちのいろいろなものを犠牲にさせてしまうのではないかという考えもよぎってしまう。自分がメンバーとほとんど同世代であるがゆえに、年齢という壁を原寸大で感じることがある。ただでさえ難しいパフォーマンスを求められているというのに、そこに年齢という壁を乗り越えるのは、普段の生活にも求められるものが高いだろうし、努力や練習も並大抵のものではないことは容易に察することができる。&lt;/p&gt;
 &lt;p&gt;結婚とかそういうのも、Aqoursでいる限りは「しづらい」という視線を感じてるだろう。実際、キャストが結婚するとなったとき、そのことを自分は心から祝福できないかもしれないと考えてしまうことがある。でも適齢期とかそういうのを考えると、自分はなんてわがままを女性に押し付けてるんだろうと思い、自分がファンであることが嫌になる瞬間がある。そういったことからしても、活動に一旦の区切りをつけることは、必要なことなのではないか。&lt;/p&gt;
-&lt;h3 id=&quot;%E6%B2%BC%E6%B4%A5%E3%81%AE%E3%81%93%E3%81%A8&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2024/07/01/emotion.html#%E6%B2%BC%E6%B4%A5%E3%81%AE%E3%81%93%E3%81%A8&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 沼津のこと&lt;/h3&gt;
+&lt;h3&gt;沼津のこと&lt;/h3&gt;
 &lt;p&gt;Aqoursの結成日に沼津に越してきて、今年で5年目になる。最近色々な活動も始めたこともあって、改めて思うのは、沼津は本当に奇跡の場所である。コンテンツがやってきて、そこへの乗っかり方が絶妙だった。役所のサポート、コンテンツ側の資金や協力の姿勢、地元の人たちの理解、各所におけるキーパーソンの存在、そこにやってくるファン、これ以外を含むすべてが絶妙なバランスで成り立っていて、今の沼津が存在できている。&lt;/p&gt;
 &lt;p&gt;自分が沼津に来た理由を人に説明するとき「アニメは沼津を知ったきっかけでしかない」と言う事が多かった。実際、自分の生活観に合ってて住みやすいなあと思いながら暮らしているが、今回の発表で気持ちが揺らいでいないといえば嘘になる。奥底ではアニメの聖地に住んでいるということが、心の支えであったと痛感したし、実家の事情でいつかは帰らないといけないかもということもあって、それがより具体的な未来として思い浮かんでしまう。&lt;/p&gt;
 &lt;p&gt;うみねこの活動なんかも、「たった今」の話をすればモチベーションがほぼ無いに等しい。1周年イベントを乗り越えて力尽きていたところに今回のことがあったので、本当にメンタル面にまで深く響いている。何をやろうにも「いつかみんな居なくなるんじゃないか」と考えてしまい、じゃあ今やってることって何のためにやってるんだとなってしまう。&lt;/p&gt;
 &lt;p&gt;唯一の支えとなっているのは、以前から「沼津がラブライブ！に依存するのは良くない」みたいな新聞の社説や、意見があるという話への反骨精神である。おそらくそういった意見の人達にとって、我々が迎えた現実は「それみたことか」と言いたくなるような状態なんだろうが、もはやこれほど歴史と言えるまで根付いたものが、そうすぐ無くなったりするかと言えば、逆に難しいだろう。そもそも今から早々にキリをつけてみすみす手放したとき、残った自分たちだけでこれだけのムーブメントを作れるのか？それとも誰かがやってくると思っているのか？とは思う。逆に「まだ1年ある」のだ。そこでいかに次に繋げていくかではないか。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E8%80%83%E3%81%88%E3%81%A6&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2024/07/01/emotion.html#%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E8%80%83%E3%81%88%E3%81%A6&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; いろいろ考えて&lt;/h3&gt;
+&lt;h3&gt;いろいろ考えて&lt;/h3&gt;
 &lt;p&gt;冒頭に「考えられる最悪のシナリオ」と言ったが、1年という猶予期間があるということを考えれば、突然解散や休止を発表されるよりよほどマシかもしれない。&lt;/p&gt;
 &lt;p&gt;そう考えると、ヤケになったり、落ち込んでいる暇はあまりなくて、残りを全部本気で取り組むしかないことは確かだが、その道を全力で1年間走りきったとき、自分や周りがどうなっているかは、本当にわからなくて不安だ。&lt;/p&gt;
 &lt;p&gt;ただ、気になっていること（コンテンツの締めくくり方や、その後の形）からくる不安は、徐々に発表されていくだろうから、時間が解決してくれるだろう。今の自分には、それが少しでもAqoursや周りの人たちにとっていい方向になればいいなと願うことしかできない。&lt;/p&gt;
-&lt;h3 id=&quot;1%E5%B9%B4%E5%BE%8C%E3%80%81%E3%81%93%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92%E8%A6%8B%E3%81%9F%E8%87%AA%E5%88%86%E3%81%B8&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2024/07/01/emotion.html#1%E5%B9%B4%E5%BE%8C%E3%80%81%E3%81%93%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92%E8%A6%8B%E3%81%9F%E8%87%AA%E5%88%86%E3%81%B8&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 1年後、この記事を見た自分へ&lt;/h3&gt;
+&lt;h3&gt;1年後、この記事を見た自分へ&lt;/h3&gt;
 &lt;p&gt;1年経ってどうですか？1年前に抱えていた不安は少しでも解消されましたか？あなた自身が、周りのみんなが、納得のできるような未来が示されているでしょうか。&lt;/p&gt;
 &lt;p&gt;多分まだ噛み砕けてないことも多いと思うし、もしかしたら1年前の自分とは違う不安を抱えているかもしれませんが、もしよかったら感想を聞かせてください。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>地方移住者が移住者のためのコミュニティを立ち上げたら100人集まった話</title>
-		<link href="https://note.com/windyakin/n/n3f6b37790b07"/>
-		<updated>2024-06-09T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2024/06/09/create-local-community.html</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>沼津に引っ越して3年で得た変化</title>
-		<link href="https://windyakin.net/articles/2023/06/30/numazu_life_4th.html"/>
-		<updated>2023-06-30T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2023/06/30/numazu_life_4th.html</id>
-		<content type="html">&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/KY15nK79r9-840.webp 840w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;木負地区のみかん山から望む富士山の写真。沼津の三の浦地域は地形上、駿河湾の向こうに富士山が見える場所になっている。&quot; src=&quot;https://windyakin.net/img/optimized/KY15nK79r9-840.jpeg&quot; width=&quot;840&quot; height=&quot;560&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+</content:encoded></item><item><title>地方移住者が移住者のためのコミュニティを立ち上げたら100人集まった話</title><link>https://note.com/windyakin/n/n3f6b37790b07</link><guid isPermaLink="true">https://note.com/windyakin/n/n3f6b37790b07</guid><pubDate>Sun, 09 Jun 2024 00:00:00 GMT</pubDate><content:encoded/></item><item><title>沼津に引っ越して3年で得た変化</title><link>https://windyakin.net/articles/2023/06/30/numazu_life_4th.html</link><guid isPermaLink="true">https://windyakin.net/articles/2023/06/30/numazu_life_4th.html</guid><pubDate>Fri, 30 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;mt_fuji.jpg&quot; alt=&quot;木負地区のみかん山から望む富士山の写真。沼津の三の浦地域は地形上、駿河湾の向こうに富士山が見える場所になっている。&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;私が沼津市役所で転入届を出して沼津市民となったのは &lt;a href=&quot;https://twitter.com/MITLicense/status/1277786317896642561&quot;&gt;Aqours の結成日である6月30日&lt;/a&gt;。その年は5周年だったAqoursが、今年8周年を迎えるということは、わたしの沼津市民生活も3年目を終えたということだ。&lt;/p&gt;
 &lt;p&gt;ちょうどいい機会なのでここまでの3年間を振り返ってみて、自身にどういう変化があったかについて雑に書いていこうと思う。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%83%90%E3%82%A4%E3%82%AF%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/06/30/numazu_life_4th.html#%E3%83%90%E3%82%A4%E3%82%AF%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; バイクを買った&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/F_XTedzV4n-840.webp 840w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;購入したクロスカブ110の写真。車体の色は黄色がベースでところどころ黒色になっている。&quot; src=&quot;https://windyakin.net/img/optimized/F_XTedzV4n-840.jpeg&quot; width=&quot;840&quot; height=&quot;560&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;バイクを買った&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;motorcycle.jpg&quot; alt=&quot;購入したクロスカブ110の写真。車体の色は黄色がベースでところどころ黒色になっている。&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;地方都市の問題として乗り物が無いと困ることが多いというのがある。住んでる場所次第では最悪無くても生きていけるのだが、気軽に買い物や内浦に行ったりしたいのであれば、あった方が好ましい。&lt;/p&gt;
 &lt;p&gt;とはいえいきなり車を買う勇気はなかったことと、実家でリトルカブを乗り回していたこともあって、これを機会にバイクを購入することにした。ただそこそこ交通量のある沼津で 50cc は大変だと思い、ある程度の排気量のバイクに乗るために、免許の取得からすることにした。&lt;/p&gt;
 &lt;p&gt;フレックスタイムや半休などを駆使して無理やりねじ込み、1ヶ月半ぐらい自動車学校に通って、中型二輪免許を取得した。免許自体は 400cc まで乗れることになっている。&lt;/p&gt;
 &lt;p&gt;購入するバイクは &lt;a href=&quot;https://www.honda.co.jp/CROSSCUB/&quot;&gt;ホンダ クロスカブ110&lt;/a&gt; にした。信頼と実績のスーパーカブの兄弟車で、工事車両みたいなイエローとブラックで配色された見た目のかわいさと、税金の手頃さなどから 110cc のバイクを選んだ。クロスカブは今となっては人気車種で半年から1年待ちなんて言われているが、当時はまだ人気が出始めたぐらいの頃で、近所のバイク屋さんで注文して1ヶ月もしないぐらいで納車されたので、本当にタイミングが良かった。&lt;/p&gt;
 &lt;p&gt;125cc 以下のバイクは自動車専用道や高速道路には乗れないが、下道では一番小回りとスピードが両立できるサイズである。見知らぬ細い道に入って行っても怖くないし、大きい道でも周りの車と同じ速度で走ることができる。&lt;/p&gt;
-&lt;h3 id=&quot;%E8%87%AA%E7%84%B6%E7%8F%BE%E8%B1%A1%E3%81%AB%E9%96%A2%E5%BF%83%E3%82%92%E6%8C%81%E3%81%A4%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/06/30/numazu_life_4th.html#%E8%87%AA%E7%84%B6%E7%8F%BE%E8%B1%A1%E3%81%AB%E9%96%A2%E5%BF%83%E3%82%92%E6%8C%81%E3%81%A4%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 自然現象に関心を持つようになった&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/Sld5tqanKV-840.webp 840w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;冬の内浦地区で撮影した海霧の写真。冬の条件が重なった朝にしか見ることができない。この地方では「しおくずばんば」と呼ばれる現象。&quot; src=&quot;https://windyakin.net/img/optimized/Sld5tqanKV-840.jpeg&quot; width=&quot;840&quot; height=&quot;560&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;自然現象に関心を持つようになった&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;shiokuzu_banba.jpg&quot; alt=&quot;冬の内浦地区で撮影した海霧の写真。冬の条件が重なった朝にしか見ることができない。この地方では「しおくずばんば」と呼ばれる現象。&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;沼津は海と山の両方を楽しめる自然に囲まれた地だ。季節ならではの自然現象も多く、沼津では「しおくずばんば」と呼ばれる海霧や、水平線に沈む夕日が蜃気楼のようになって見える「だるま夕日」、夏の訪れを告げる「夜光虫」など、見所は枚挙にいとまがない。&lt;/p&gt;
 &lt;p&gt;そしてやはり沼津にとって富士山は欠かせない。子供の頃から沼津に住んでいる人が言っていた「富士山はいつ見ても飽きない」と言っていたのは本当にそうだなと思う。案外毎日少しづつ違いがあったりするもので、冠雪が増えた・減ったとか、空気が綺麗だとよく見えたり、雲のかかり方ひとつとっても季節性があったりするので面白いのだ。&lt;/p&gt;
 &lt;p&gt;東京に住んでいた頃は気温や雨が降るのかぐらいしか気にしたことがなかったが、沼津に来てからは自然を感じるシーンは格段に多くなった。&lt;/p&gt;
-&lt;h3 id=&quot;%E6%96%B0%E5%B9%B9%E7%B7%9A%E3%81%A7%E9%80%9A%E5%8B%A4%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/06/30/numazu_life_4th.html#%E6%96%B0%E5%B9%B9%E7%B7%9A%E3%81%A7%E9%80%9A%E5%8B%A4%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 新幹線で通勤するようになった&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/ir84rx60N_-840.webp 840w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;東京駅ホームから撮影した新幹線の行き先表示画面の写真。「こだま 三島」と書かれていて、列車の終点が三島駅であることを示している。&quot; src=&quot;https://windyakin.net/img/optimized/ir84rx60N_-840.jpeg&quot; width=&quot;840&quot; height=&quot;560&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;新幹線で通勤するようになった&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;shinkansen.jpg&quot; alt=&quot;東京駅ホームから撮影した新幹線の行き先表示画面の写真。「こだま 三島」と書かれていて、列車の終点が三島駅であることを示している。&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;現職は現状フルリモートをやっていないので、週に1回ぐらいオフィスへ出社することがある。沼津からの通勤には新幹線を使っている。実は三島・沼津エリアから東京への通勤というのはあまり珍しいものではない。というのも三島駅に新幹線の車庫があり、朝・晩の時間帯だけ車庫に出し入れする列車を営業列車にした三島発着のこだま号が結構な頻度で運行されているため、昔から三島から東京の会社に通っているという人は少なくないのだ。&lt;/p&gt;
 &lt;p&gt;三島・沼津間の列車は新幹線に合わせてダイヤが組まれているので乗り継ぎもよく、片道2時間ぐらいあれば通勤が可能できる。遠いは遠いが、こだま号の自由席はほぼ確実に座れるので、首都圏の通勤列車の硬いロングシートでの移動に比べれば楽な方かもしれないなと思っている。&lt;/p&gt;
-&lt;h3 id=&quot;%E8%87%AA%E5%8B%95%E8%BB%8A%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/06/30/numazu_life_4th.html#%E8%87%AA%E5%8B%95%E8%BB%8A%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 自動車を買った&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/li5T_y_cRD-840.webp 840w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;購入した自動車の写真。正月飾りをフロントにつけている。背景は富士山。&quot; src=&quot;https://windyakin.net/img/optimized/li5T_y_cRD-840.jpeg&quot; width=&quot;840&quot; height=&quot;560&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;自動車を買った&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;car.jpg&quot; alt=&quot;購入した自動車の写真。正月飾りをフロントにつけている。背景は富士山。&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;バイクを買って1年後、車を買った。最初こそバイクだけで十分じゃん〜とか思っていたのだが、冬のバイクの過酷さを完全に舐めていた。とはいえ、沼津は冬も比較的温暖な地方だし、雪の心配をすることもないので、乗ろうと思えば乗れるのだけども、寒いもんは寒い。&lt;/p&gt;
 &lt;p&gt;買ったのは &lt;a href=&quot;https://www.honda.co.jp/N-ONE/&quot;&gt;Honda N-ONE RS&lt;/a&gt; のマニュアル車である。「なぜマニュアルを」とよく聞かれるが、よくある「人生で一度ぐらいはマニュアル車に乗りたい」という思いからである。最初は軽トラも候補にあったのだが、普段遣いのことを考えて乗用車となった。&lt;/p&gt;
 &lt;p&gt;初の新車購入の車なので大事に乗っている。とはいえ通勤には使わないし、もともとバイクもあるので、あまり動かさない週もあるのだが、雨の日の移動や、ライブ会場の遠征などに使えるので非常に便利である。バッテリーさえ持っていけばワークスペースとしても機能させることができて便利である。&lt;/p&gt;
-&lt;h3 id=&quot;%E9%A6%B4%E6%9F%93%E3%81%BF%E3%81%AE%E5%BA%97%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/06/30/numazu_life_4th.html#%E9%A6%B4%E6%9F%93%E3%81%BF%E3%81%AE%E5%BA%97%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 馴染みの店ができた&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/4mSbayoM8e-840.webp 840w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;毎週欠かさず食べている「マリー・ルゥ」のオムライスの写真。&quot; src=&quot;https://windyakin.net/img/optimized/4mSbayoM8e-840.jpeg&quot; width=&quot;840&quot; height=&quot;560&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;馴染みの店ができた&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;omurice.jpg&quot; alt=&quot;毎週欠かさず食べている「マリー・ルゥ」のオムライスの写真。&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;これまであまり決まった店に行くということがなかった。外食という選択があまり自分の中で優先度が低く、行ってもチェーン店とか、そういったところで済ませる事が多いのが実情だった。また、個人店となると（勝手に）入りづらいと思ってしまい、あまり進んで行く感じでもないタイプである。&lt;/p&gt;
 &lt;p&gt;沼津は聖地巡礼者向けに Twitter をやっている店が多いため、事前に店の雰囲気を知ることができる。よく行っている「&lt;a href=&quot;https://www.nekohaku.com/&quot;&gt;ねこと白鳥&lt;/a&gt;」というバーは、 Twitter で存在を知った店の一つである。そもそもそれまでバーというものに縁遠かったのだが、 Twitter で雰囲気を知ったり、聖地巡礼で訪れた観光客を拒まない雰囲気が良いなと思い、初めて入店したのは私が移住する前の出来事である。それ以降、沼津に行くと訪れることも多かったのだが、移住をきっかけに頻度が上がり、今ではほぼ毎週通うぐらいになった。&lt;/p&gt;
 &lt;p&gt;また、市場町にある マリー・ルゥ という喫茶店は、移住してから散歩しているときに知ったお店である。少し大通りから離れたそのお店の雰囲気は、昭和〜平成初期のままで、2023年の今でもランチはサラダ・ドリンク付きで800円という良心的な価格で提供しており、個人的に応援しているお店だ。&lt;/p&gt;
 &lt;p&gt;木曜日にランチメニューで出るオムライスが気に入ったので、毎週食べに行っていたら、どうやら「オムライスの人」として認知されたらしい。店主の人も気さくに話しかけてくれるので、仲良くしていただいている。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3!!-%E3%81%AE%E5%8B%A2%E3%81%84%E3%81%8C%E3%81%A8%E3%81%A9%E3%81%BE%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/06/30/numazu_life_4th.html#%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3!!-%E3%81%AE%E5%8B%A2%E3%81%84%E3%81%8C%E3%81%A8%E3%81%A9%E3%81%BE%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; ラブライブ！サンシャイン!! の勢いがとどまることを知らない&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/0lU4Z6qVY--840.webp 840w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;臨時急行 ラブライブ！サンシャイン!! 号の指定席券の写真。背景は沼津駅南口に掲示されているJR東海の制服を着たAqoursメンバー。&quot; src=&quot;https://windyakin.net/img/optimized/0lU4Z6qVY--840.jpeg&quot; width=&quot;840&quot; height=&quot;560&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;ラブライブ！サンシャイン!! の勢いがとどまることを知らない&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;sunshine_express.jpg&quot; alt=&quot;臨時急行 ラブライブ！サンシャイン!! 号の指定席券の写真。背景は沼津駅南口に掲示されているJR東海の制服を着たAqoursメンバー。&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;沼津という土地で避けて通れないのが ラブライブ！サンシャイン!! である。自分自身ラブライブ！で沼津という街を初めて知った身である。そこから沼津そのものが好きになり移住までしたというのは、移住者にはよくある話である。&lt;/p&gt;
 &lt;p&gt;自分が入植した2020年は、アニメも劇場版まで終わって一段落し、ラブライブ！シリーズでも新しいグループが出てきたので、もうこれ以上はないのではという雰囲気だった。そこで自分は勝手に「これから下火になっていくかもしれない沼津を見届けるんだ！」という気持ちだったのだが、その予想は外れることになる。なんと2023年になっても、新たにJR東海とコラボをして駅の装飾が増えたり、また新しくスピンオフアニメが始まったりと、8年目の今日も勢いが増していくばかりなのだ。&lt;/p&gt;
 &lt;p&gt;まだまだ何が起こるかわからない沼津の変化は、これからも自分を驚かせてくれるだろうと思っている。&lt;/p&gt;
-&lt;h3 id=&quot;%E8%89%AF%E3%81%84%E3%81%93%E3%81%A8%E3%81%B0%E3%81%A3%E3%81%8B%E3%82%8A%E8%A8%80%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%8C%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E3%81%AF%E3%81%AA%E3%81%84%E3%81%AE%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/06/30/numazu_life_4th.html#%E8%89%AF%E3%81%84%E3%81%93%E3%81%A8%E3%81%B0%E3%81%A3%E3%81%8B%E3%82%8A%E8%A8%80%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%8C%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E3%81%AF%E3%81%AA%E3%81%84%E3%81%AE%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 良いことばっかり言っているがデメリットはないのか&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/J23qilnU6i-840.webp 840w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;駅南口の商店街、沼津仲見世商店街に掲示されていたスクフェス感謝祭2022の横断幕の写真。駅周辺の商業施設は生活には困らないが、娯楽には少し心もとない感じもある。&quot; src=&quot;https://windyakin.net/img/optimized/J23qilnU6i-840.jpeg&quot; width=&quot;840&quot; height=&quot;560&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;良いことばっかり言っているがデメリットはないのか&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;nakamise.jpg&quot; alt=&quot;駅南口の商店街、沼津仲見世商店街に掲示されていたスクフェス感謝祭2022の横断幕の写真。駅周辺の商業施設は生活には困らないが、娯楽には少し心もとない感じもある。&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;個人的な話として田舎で生まれ育ったというのもあり、自分には都会での生活はどうしても馴染めなかったという過去がある。沼津での生活は東京に比べて居心地が非常にいいと思っている。&lt;/p&gt;
 &lt;p&gt;ただ都会の生活に慣れている人からすると、おそらく信じられないぐらい娯楽がないと思うだろう。イベントや演劇といったものは都会でしか行われないことが多い。まあただ沼津は時間とお金さえあれば、在来線でも東京に行けるぐらいの距離にあるので、東京のイベントに行こうと思えばいけなくはない。気軽さは減るだろうが。&lt;/p&gt;
 &lt;p&gt;他にも沼津には映画館やショッピングモールはあるものの、それ以外の遊び場は本当に限られる。自分はただバイクで走って季節を感じるだけでも楽しめる人間なので、娯楽施設は必要としていないのだが、刺激的なことがしたいとか、新しいことをやりたい！みたいなキラキラした人には向いてないのが事実である。&lt;/p&gt;
-&lt;h3 id=&quot;4%E5%B9%B4%E7%9B%AE%E3%81%AB%E3%82%84%E3%81%A3%E3%81%A6%E3%81%84%E3%81%8D%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/06/30/numazu_life_4th.html#4%E5%B9%B4%E7%9B%AE%E3%81%AB%E3%82%84%E3%81%A3%E3%81%A6%E3%81%84%E3%81%8D%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 4年目にやっていきたいこと&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/j4qYOmgRFv-840.webp 840w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;冬の島郷海岸から見る夕日の写真。&quot; src=&quot;https://windyakin.net/img/optimized/j4qYOmgRFv-840.jpeg&quot; width=&quot;840&quot; height=&quot;560&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;4年目にやっていきたいこと&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;tougou.jpg&quot; alt=&quot;冬の島郷海岸から見る夕日の写真。&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;沼津生活もついに4年目になり、自分的には非常に満足度が高い日々を送っている。一方で自分自身が他者とのつながりや地域コミュニティへの参加という部分が希薄という部分に問題を感じている。&lt;/p&gt;
 &lt;p&gt;沼津に住んでいる移住者の知り合いは少なく、ここ最近ようやく増えて何人かと仲良くさせてもらっている。しかし同じように沼津に移住したという人はもっと多いはずなのに、その実態は殆ど見たことがない。 Twitter を見ていると、それぞれ小さなつながりはあれど、横のつながりがないというのが現状のようだ。&lt;/p&gt;
 &lt;p&gt;自分はこれを少しでも解決できないかと思っている。中には何かに困っていたりして、コミュニティがあれば参加したいという人も少なくはないはずだ。同じ理由で同じ場所に移住してきた者同士で、相談や情報交換とかができるような場所を作れないかと思っていて、今まさに活動している真っ最中である。&lt;/p&gt;
 &lt;p&gt;実現にはまだ道半ばだし、もしかしたらうまくできないかもしれないが、できることから頑張っていこうかなと思う。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%81%95%E3%81%84%E3%81%94%E3%81%AB&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/06/30/numazu_life_4th.html#%E3%81%95%E3%81%84%E3%81%94%E3%81%AB&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; さいごに&lt;/h3&gt;
+&lt;h3&gt;さいごに&lt;/h3&gt;
 &lt;p&gt;「お前がそこまで推す沼津に興味がある」、「行ってみたい」などがあれば、沼津旅行のご案内や、旅程のコーディネートだけでも相談に乗ります。すでに何名かの方にはご案内し、ご満足していただいた実績もありますので、ぜひ気軽にお声がけください。&lt;/p&gt;
 &lt;p&gt;それではまた沼津でお会いしましょう。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>eplus の Stremaing+ を快適にするためのブラウザ拡張機能 &quot;Streaming+ sequencer&quot; をつくった</title>
-		<link href="https://windyakin.net/articles/2023/02/19/streaming-plus-sequencer.html"/>
-		<updated>2023-02-19T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2023/02/19/streaming-plus-sequencer.html</id>
-		<content type="html">&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/gGL8sZoM_8-1280.webp 1280w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;&quot; src=&quot;https://windyakin.net/img/optimized/gGL8sZoM_8-1280.jpeg&quot; width=&quot;1280&quot; height=&quot;800&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
-&lt;h3 id=&quot;streaming%2B-%E3%81%AE%E6%93%8D%E4%BD%9C%E3%81%8C%E3%81%97%E3%81%A5%E3%82%89%E3%81%84%E3%81%A8%E3%81%84%E3%81%86%E5%95%8F%E9%A1%8C&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/19/streaming-plus-sequencer.html#streaming%2B-%E3%81%AE%E6%93%8D%E4%BD%9C%E3%81%8C%E3%81%97%E3%81%A5%E3%82%89%E3%81%84%E3%81%A8%E3%81%84%E3%81%86%E5%95%8F%E9%A1%8C&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Streaming+ の操作がしづらいという問題&lt;/h3&gt;
+</content:encoded></item><item><title>eplus の Stremaing+ を快適にするためのブラウザ拡張機能 &quot;Streaming+ sequencer&quot; をつくった</title><link>https://windyakin.net/articles/2023/02/19/streaming-plus-sequencer.html</link><guid isPermaLink="true">https://windyakin.net/articles/2023/02/19/streaming-plus-sequencer.html</guid><pubDate>Sun, 19 Feb 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;eyecatch.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Streaming+ の操作がしづらいという問題&lt;/h3&gt;
 &lt;p&gt;eplus のライブ動画配信サービス Streaming+ というものがある。アーティストのライブを有料でオンライン配信する際に利用されるプラットフォームなのだが、一定期間アーカイブ視聴できる機能があって、自分もよく利用している。&lt;/p&gt;
 &lt;p&gt;ただこのサービス、配信の動画品質や転送速度には不満は無いのだが、画面上での動画の操作が非常にしづらいという欠点がある。例えば、「あ、今のシーンよかったな。もう一度みたいな」と思う場面があったときに、時間を操作するための UI がシーケンスバーしかなく、その上動画の長さが3時間とかあるため、細かい操作ができずにイライラさせられることが多かった。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/25ACRSsvrt-402.webp 402w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;シーケンスバーの上にマウスをフォーカスさせているスクリーンショット。現在位置は1:20:50だが、少し横にフォーカスすると1:22:59になる。&quot; src=&quot;https://windyakin.net/img/optimized/25ACRSsvrt-402.jpeg&quot; width=&quot;402&quot; height=&quot;232&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
-&lt;h3 id=&quot;%E3%81%93%E3%81%AE%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/19/streaming-plus-sequencer.html#%E3%81%93%E3%81%AE%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; この問題を解決するためのブラウザ拡張機能を作った&lt;/h3&gt;
-&lt;p&gt;毎回ライブ動画を視聴する度に、このことを不満を感じていたのと、 &lt;a href=&quot;https://twitter.com/yamakawasui/status/1624665559383306241&quot;&gt;Twitter でも同じような悩みを持つ人を観測した&lt;/a&gt;ので、問題を解決するため、 &amp;quot;Streaming+ sequencer&amp;quot; というブラウザ拡張機能を作った。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;sequence.png&quot; alt=&quot;シーケンスバーの上にマウスをフォーカスさせているスクリーンショット。現在位置は1:20:50だが、少し横にフォーカスすると1:22:59になる。&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;この問題を解決するためのブラウザ拡張機能を作った&lt;/h3&gt;
+&lt;p&gt;毎回ライブ動画を視聴する度に、このことを不満を感じていたのと、 &lt;a href=&quot;https://twitter.com/yamakawasui/status/1624665559383306241&quot;&gt;Twitter でも同じような悩みを持つ人を観測した&lt;/a&gt;ので、問題を解決するため、 &quot;Streaming+ sequencer&quot; というブラウザ拡張機能を作った。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/-/kfcdfgmgegbdhbhlaplbkalkelalkjcl?hl=ja&quot;&gt;Streaming+ sequencer - Chrome ウェブストア&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/ja/firefox/addon/streaming-sequencer/&quot;&gt;Streaming+ sequencer – 🦊 Firefox (ja) 向け拡張機能を入手&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;この拡張機能は、 Steraming+ で再生中の動画に表示されるコントローラの部分に、動画の再生位置を10秒スキップ・10秒巻き戻すためのボタンを追加してくれるものである。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/CbfdOnklvw-652.webp 652w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;作った拡張機能によって追加されたボタンのスクリーンショット&quot; src=&quot;https://windyakin.net/img/optimized/CbfdOnklvw-652.jpeg&quot; width=&quot;652&quot; height=&quot;305&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;screenshot.png&quot; alt=&quot;作った拡張機能によって追加されたボタンのスクリーンショット&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;押すと実際に10秒行ったり戻ったりの操作が行われるのだが、実際に自分で使っていても当初の目的を達成できて、非常に便利なので満足している。というか eplus が利用している Video.js のプラグインを入れて機能として提供してくれれば、こんなまどろっこしいことをしなくて済んだのだけども。&lt;/p&gt;
-&lt;h3 id=&quot;%E6%A9%9F%E8%83%BD%E5%AE%9F%E8%A3%85%E3%81%AE%E6%96%B9%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/19/streaming-plus-sequencer.html#%E6%A9%9F%E8%83%BD%E5%AE%9F%E8%A3%85%E3%81%AE%E6%96%B9%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 機能実装の方法について&lt;/h3&gt;
+&lt;h3&gt;機能実装の方法について&lt;/h3&gt;
 &lt;p&gt;ちなみに、実現方法としてはごくシンプルに &lt;a href=&quot;https://developer.mozilla.org/ja/docs/Web/API/HTMLVideoElement&quot;&gt;HTMLVideoElement&lt;/a&gt; の API を使っているだけである。拡張機能側は &lt;code&gt;live.eplus.jp&lt;/code&gt; というドメインにアクセスすると、必要な JavaScript と CSS を流し込むだけで、特に環境を汚したりとか、 eplus 側に負荷をかけて迷惑がかかるということもないだろう。&lt;/p&gt;
 &lt;p&gt;実装コードは GitHub にも公開しているので、どういった実装になっているか気になる人は見てもらうこともできる。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/windyakin/streaming-plus-sequencer&quot;&gt;windyakin/streaming-plus-sequencer&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;ただ今後の課題としては、配信画面の実装が変わったときにデバッグするのが困難なことであろうか。まさに「ペイウォール」に阻まれているので、動かなくなった報告を受けても自分で確認するのはなかなか難しいものがあるなと感じている。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Ruby Gem が依存している Gem の参照先をプライベートリポジトリなどに変更したい場合</title>
-		<link href="https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html"/>
-		<updated>2023-02-16T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html</id>
-		<content type="html">&lt;h3 id=&quot;ruby-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E4%BE%9D%E5%AD%98%E5%85%88%E3%81%AE%E5%8F%82%E7%85%A7%E6%8C%87%E5%AE%9A&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html#ruby-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E4%BE%9D%E5%AD%98%E5%85%88%E3%81%AE%E5%8F%82%E7%85%A7%E6%8C%87%E5%AE%9A&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Ruby アプリケーションの依存先の参照指定&lt;/h3&gt;
-&lt;p&gt;Ruby のアプリケーションだと、依存するライブラリ(Gem) を Gemfile に書くことが多いが、その際に &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems.org&lt;/a&gt; ではなく、 GitHub の特定のブランチなどを指定してインストールする構文がある。&lt;/p&gt;
-&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# application/Gemfile&lt;/span&gt;
-gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;awesome_fluent_logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token symbol&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;windyakin/awesome_fluent_logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token symbol&quot;&gt;branch&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;specific_branch&#39;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+</content:encoded></item><item><title>Ruby Gem が依存している Gem の参照先をプライベートリポジトリなどに変更したい場合</title><link>https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html</link><guid isPermaLink="true">https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html</guid><pubDate>Thu, 16 Feb 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Ruby アプリケーションの依存先の参照指定&lt;/h3&gt;
+&lt;p&gt;Ruby のアプリケーションだと、依存するライブラリ(Gem) を Gemfile に書くことが多いが、その際に &lt;a href=&quot;https://rubygems.org&quot;&gt;RubyGems.org&lt;/a&gt; ではなく、 GitHub の特定のブランチなどを指定してインストールする構文がある。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# application/Gemfile
+gem &apos;awesome_fluent_logger&apos;, github: &apos;windyakin/awesome_fluent_logger&apos;, branch: &apos;specific_branch&apos;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;こうすることで、プライベートリポジトリを参照させたり、 Fork して独自の対応をしたコードなどを読み込ませて、アプリケーションを稼働させることが可能になる。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%81%A7%E3%81%AF-gem-%E8%87%AA%E8%BA%AB%E3%81%AE%E4%BE%9D%E5%AD%98%E3%81%AF%E3%81%A9%E3%81%86%E8%A1%A8%E7%8F%BE%E3%81%95%E3%82%8C%E3%82%8B%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html#%E3%81%A7%E3%81%AF-gem-%E8%87%AA%E8%BA%AB%E3%81%AE%E4%BE%9D%E5%AD%98%E3%81%AF%E3%81%A9%E3%81%86%E8%A1%A8%E7%8F%BE%E3%81%95%E3%82%8C%E3%82%8B%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; では Gem 自身の依存はどう表現されるか&lt;/h3&gt;
+&lt;h3&gt;では Gem 自身の依存はどう表現されるか&lt;/h3&gt;
 &lt;p&gt;一方で、参照される Gem 側にも依存する Gem が存在する。そういった情報は gemspec というファイルに書くことになっている。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Gem::Specification#add_dependencies&lt;/code&gt; は依存する Gem のバージョンを細かく指定できるが、 Gemfile のように「GitHub のリポジトリなどを指定する」といった情報は書くことができない。&lt;/p&gt;
 &lt;p&gt;ではこのとき、どうするかというと、 Gem 側にも Gemfile が存在するので、そこにアプリケーションと同じ構文で指定することによって、読み込み先を変更することができる。&lt;/p&gt;
-&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# example/example.gemspec&lt;/span&gt;
-spec&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add_dependency &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;fluent-logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;~&gt; 0.9&#39;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# example/Gemfile&lt;/span&gt;
-source &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://rubygems.org&quot;&lt;/span&gt;&lt;/span&gt;
+&lt;pre&gt;&lt;code&gt;# example/example.gemspec
+spec.add_dependency &apos;fluent-logger&apos;, &apos;~&amp;gt; 0.9&apos;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;# example/Gemfile
+source &quot;https://rubygems.org&quot;
 
 gemspec
 
-gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;fluent-logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token symbol&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;windyakin/fluent-logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token symbol&quot;&gt;branch&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;specific_branch&#39;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+gem &apos;fluent-logger&apos;, github: &apos;windyakin/fluent-logger&apos;, branch: &apos;specific_branch&apos;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;この状態で、 Gem の開発環境上で &lt;code&gt;bundle install&lt;/code&gt; などを実行すれば、 Git リポジトリから落としてきたコードを利用することができるようになる。&lt;/p&gt;
-&lt;h3 id=&quot;%E5%8F%82%E7%85%A7%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E4%B8%8A%E3%81%A7%E3%81%AF%E3%81%A9%E3%81%86%E3%81%AA%E3%82%8B%E3%81%AE%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html#%E5%8F%82%E7%85%A7%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E4%B8%8A%E3%81%A7%E3%81%AF%E3%81%A9%E3%81%86%E3%81%AA%E3%82%8B%E3%81%AE%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 参照しているアプリケーション上ではどうなるのか&lt;/h3&gt;
-&lt;p&gt;一方、この指定は Gem として読び出しているアプリケーション側に継承されることはなく、 &lt;code&gt;bundle install&lt;/code&gt; をしても &lt;a href=&quot;http://rubygems.org/&quot;&gt;RubyGems.org&lt;/a&gt; から該当する名前の Gem とバージョンを参照してくるようになっている。&lt;/p&gt;
+&lt;h3&gt;参照しているアプリケーション上ではどうなるのか&lt;/h3&gt;
+&lt;p&gt;一方、この指定は Gem として読び出しているアプリケーション側に継承されることはなく、 &lt;code&gt;bundle install&lt;/code&gt; をしても RubyGems.org から該当する名前の Gem とバージョンを参照してくるようになっている。&lt;/p&gt;
 &lt;p&gt;わかりにくいので、下記のような関係の場合において考えてほしい。&lt;/p&gt;
-&lt;pre class=&quot;language-plain&quot;&gt;&lt;code class=&quot;language-plain&quot;&gt;Application (A) -&gt; Example Gem (B) -&gt; Dependency Gem (C)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Application (A) -&amp;gt; Example Gem (B) -&amp;gt; Dependency Gem (C)
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;例えば Example Gem (B) が依存する Dependency Gem (C) の参照先を GitHub に向けたいとする。&lt;/p&gt;
-&lt;p&gt;このとき、 Example Gem (B) の Gemfile に Dependency Gem (C) の参照先として GitHub を記述しても、 Application (A) はその情報を読み取ることはなく、 &lt;a href=&quot;http://rubygems.org/&quot;&gt;RubyGems.org&lt;/a&gt; にある Dependency Gem (C) を参照するようになっている。&lt;/p&gt;
+&lt;p&gt;このとき、 Example Gem (B) の Gemfile に Dependency Gem (C) の参照先として GitHub を記述しても、 Application (A) はその情報を読み取ることはなく、 RubyGems.org にある Dependency Gem (C) を参照するようになっている。&lt;/p&gt;
 &lt;p&gt;もし、 Dependency Gem (C) の参照先を GitHub に変更したい場合は、 Application (A) 側の Gemfile 上で Dependency Gem (C) の参照先を記述するとよい。アプリケーション側で直接利用していなくても、こうすることで解決することができる。&lt;/p&gt;
-&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# application/Gemfile&lt;/span&gt;
-gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;awesome_fluent_logger&#39;&lt;/span&gt;&lt;/span&gt;
-gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;fluent-logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token symbol&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;windyakin/fluent-logger&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token symbol&quot;&gt;branch&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;specific_branch&#39;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;%E5%8F%82%E8%80%83%E3%81%AB%E3%81%97%E3%81%9F%E6%83%85%E5%A0%B1&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/02/16/gem_dependency_reference_github.html#%E5%8F%82%E8%80%83%E3%81%AB%E3%81%97%E3%81%9F%E6%83%85%E5%A0%B1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 参考にした情報&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;# application/Gemfile
+gem &apos;awesome_fluent_logger&apos;
+gem &apos;fluent-logger&apos;, github: &apos;windyakin/fluent-logger&apos;, branch: &apos;specific_branch&apos;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;参考にした情報&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.ruby-lang.org/ja/latest/method/Gem=3a=3aSpecification/i/add_dependency.html&quot;&gt;Gem::Specification#add_dependency (Ruby 3.2 リファレンスマニュアル)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.takeyuweb.co.jp/entry/2014/10/16/163113&quot;&gt;gemspecの依存先にGitHubのプライベートリポジトリを指定する - タケユー・ウェブ日報&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>External Secrets で Doppler を使っている</title>
-		<link href="https://windyakin.net/articles/2023/01/13/external-secrets-doppler.html"/>
-		<updated>2023-01-13T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2023/01/13/external-secrets-doppler.html</id>
-		<content type="html">&lt;h3 id=&quot;sealed-secrets-%E3%81%AE%E9%81%8B%E7%94%A8%E3%81%AE%E5%95%8F%E9%A1%8C&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/01/13/external-secrets-doppler.html#sealed-secrets-%E3%81%AE%E9%81%8B%E7%94%A8%E3%81%AE%E5%95%8F%E9%A1%8C&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Sealed Secrets の運用の問題&lt;/h3&gt;
+</content:encoded></item><item><title>External Secrets で Doppler を使っている</title><link>https://windyakin.net/articles/2023/01/13/external-secrets-doppler.html</link><guid isPermaLink="true">https://windyakin.net/articles/2023/01/13/external-secrets-doppler.html</guid><pubDate>Fri, 13 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Sealed Secrets の運用の問題&lt;/h3&gt;
 &lt;p&gt;Kubernetes で Secrets の管理というのは簡単そうで面倒なものの1つである。特に GitOps をしようとすると、 Secrets リソースをそのまま置いたりすることもできないので、何かしらの対応を考える必要があるのだが、自分の場合はこれまで Sealed Secrets を使って対応してきた。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://sealed-secrets.netlify.app/&quot;&gt;Sealed Secrets&lt;/a&gt;&lt;/li&gt;
@@ -480,7 +378,7 @@ gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;toke
 &lt;p&gt;導入当初はこれで問題なく運用していたのだが、しばらくすると問題が浮き出てきた。&lt;/p&gt;
 &lt;p&gt;まず Secrets の内容を変更・追加したい場合のオペレーションが煩雑で（&lt;a href=&quot;https://github.com/bitnami-labs/sealed-secrets#update-existing-secrets&quot;&gt;できなくはないのだが&lt;/a&gt;）、何度かオペレーションミスを起こすことがあった。&lt;/p&gt;
 &lt;p&gt;また、自分の場合、運用している Kubernetes クラスタ複数あることも問題だった。 Sealed Secrets が暗号化・復号のために利用する秘密鍵は、基本的にクラスタごとに異なった鍵を用いるので、クラスタごとに異なる Sealed Secrets を保持する必要が出てきてしまう。&lt;/p&gt;
-&lt;h3 id=&quot;doppler-%E3%81%A8%E3%81%AE%E5%87%BA%E4%BC%9A%E3%81%84&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/01/13/external-secrets-doppler.html#doppler-%E3%81%A8%E3%81%AE%E5%87%BA%E4%BC%9A%E3%81%84&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Doppler との出会い&lt;/h3&gt;
+&lt;h3&gt;Doppler との出会い&lt;/h3&gt;
 &lt;p&gt;このような問題を解決できるのが External Secrets というもので、ざっくり言うと Secrets を外部サービスに保存して、クラスタに登録するのは外部サービスとの連携キーだけにしようという仕組みである。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://external-secrets.io/&quot;&gt;External Secrets Operator&lt;/a&gt;&lt;/li&gt;
@@ -493,43 +391,27 @@ gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;toke
 &lt;li&gt;&lt;a href=&quot;https://external-secrets.io/v0.7.1/provider/doppler/&quot;&gt;Doppler - External Secrets Operator&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;聞き馴染みのないサービスだったのだが、調べてみると共同編集5ユーザまでなら基本機能が無料で、SLO等は保証されないものの、当然自分はホビーユースなのでそんなに気になる点でもないため、試しにフリーライドさせてもらうことにした。&lt;/p&gt;
-&lt;h3 id=&quot;external-secrets-%E3%81%AE%E9%81%8B%E7%94%A8&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/01/13/external-secrets-doppler.html#external-secrets-%E3%81%AE%E9%81%8B%E7%94%A8&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; External Secrets の運用&lt;/h3&gt;
+&lt;h3&gt;External Secrets の運用&lt;/h3&gt;
 &lt;p&gt;Doppler の使い方そのものについては、既に色んな場所で紹介されていると思われるので割愛するが、環境(integration / staging / production)ごとに Secrets の値を別けて持てることから、まあそれなりに便利に使っている。&lt;/p&gt;
 &lt;p&gt;しかし、これにも1つだけ問題があって、「External Secrets のために Secrets が必要」という点で、先程述べた通り External Secrets が外部サービスの API に接続するために使う認証キーを Kubernetes クラスタ上に Secrets リソースで保持する必要があるのだ。&lt;/p&gt;
 &lt;p&gt;つまり、当初の目的である複数クラスタでの GitOps を実現したい場合だと、当初の問題と同じような問題に直面してしまうのである。&lt;/p&gt;
 &lt;p&gt;自分の場合は、 External Secrets 用の Secrets を Sealed Secrets にするという運用にしている。 Secrets の内容の更新の頻度より、クラスタの置き換えなどが発生する頻度のほうが明らかに少ないし、最悪でも External Secrets 用のキーを再発行・暗号化すればよいので、いくらかマシであるという判断だ。&lt;/p&gt;
 &lt;p&gt;釈然としないと思うが、そんな感じで今の所満足して運用している。&lt;/p&gt;
 &lt;p&gt;また時間が経てば別の問題を感じるようになるかもしれないので、その時はまた解決法を考えて記事を書こう。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>ウェブサイトを作り直した</title>
-		<link href="https://windyakin.net/articles/2023/01/04/renewed-my-website.html"/>
-		<updated>2023-01-04T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2023/01/04/renewed-my-website.html</id>
-		<content type="html">&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/buGeA_cODG-1280.webp 1280w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;このサイトのトップページをスクリーンショットした画像&quot; src=&quot;https://windyakin.net/img/optimized/buGeA_cODG-1280.jpeg&quot; width=&quot;1280&quot; height=&quot;800&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+</content:encoded></item><item><title>ウェブサイトを作り直した</title><link>https://windyakin.net/articles/2023/01/04/renewed-my-website.html</link><guid isPermaLink="true">https://windyakin.net/articles/2023/01/04/renewed-my-website.html</guid><pubDate>Wed, 04 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;./screenshot.png&quot; alt=&quot;このサイトのトップページをスクリーンショットした画像&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;前々から自分のウェブサイトを作り直したいと思っていたのだが（n回目）、正月休みに特段やることがなかったのでようやく手を付けることにした。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%99%E3%81%8E%E3%82%84%E3%81%97%E3%81%AA%E3%81%84%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/01/04/renewed-my-website.html#%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%99%E3%81%8E%E3%82%84%E3%81%97%E3%81%AA%E3%81%84%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; シンプルすぎやしないか&lt;/h3&gt;
+&lt;h3&gt;シンプルすぎやしないか&lt;/h3&gt;
 &lt;p&gt;これまで、人よりかは様々なウェブサイトを作った経験があると自負しているが、それによって得られた知見としては、ぬるぬると動くサイトは格好がいいのだが、その後の維持管理にかかるコストがでかすぎて手に負えなくなるということである。そこで、そういったコストをかけたくない自分のサイトにおいては、「とにかくシンプル」に「伝えたいことを伝えられるだけのサイト」となるようにした。&lt;/p&gt;
 &lt;p&gt;具体的に目指したのは「CSS が欠損しても最悪どうにかなる DOM 構造にする」で、結果として CSS 装飾ほぼなし・ JavaScript は一切なしという、&lt;a href=&quot;http://abehiroshi.la.coocan.jp/&quot;&gt;阿部寛のホームページ&lt;/a&gt;もびっくりな過激サイトが完成してしまったのである。&lt;/p&gt;
 &lt;p&gt;ブログについても、これまで はてなブログ を使っていたのだが、自身のコンテンツを第三者が左右できる状態にあるという状態がどうも落ち着かないので、これを機にサイトと統合することにした。直近公開していたいくつかの記事については、新しいサイトにもアーカイブとしてコピーしてきたが、既にはてなブログ側で公開している記事については、各所からハイパーリンクで参照されている可能性もあるので、デッドリンクとしないために残しておくことにする（今後ははてなブログを更新をしないつもりでいる）。&lt;/p&gt;
-&lt;h3 id=&quot;eleventy-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/01/04/renewed-my-website.html#eleventy-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Eleventy を使った&lt;/h3&gt;
+&lt;h3&gt;Eleventy を使った&lt;/h3&gt;
 &lt;p&gt;ちなみに今回のリニューアルに際して、使用することとしたサイトジェネレータは、昨今話題の &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; である。冒頭に書いたこのサイトのコンセプトがあるため、テンプレートをイチから自身で書くことになったが、初めて触った割にはすんなり動かすことができて概ね満足である。&lt;/p&gt;
 &lt;p&gt;リポジトリについては以下の通り。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/windyakin/windyakin&quot;&gt;windyakin/windyakin: windyakin&#39;s profile and portfolio&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;%E4%BB%8A%E5%BE%8C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2023/01/04/renewed-my-website.html#%E4%BB%8A%E5%BE%8C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 今後について&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/windyakin/windyakin&quot;&gt;windyakin/windyakin: windyakin&apos;s profile and portfolio&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;今後について&lt;/h3&gt;
 &lt;p&gt;ウェブサイトの構成はまだ詰めきれていないのだが、&lt;q&gt;完璧を目指すよりまず終わらせろ&lt;/q&gt;ということで、公開してから調整することにする。&lt;/p&gt;
 &lt;p&gt;あとコンテンツについてももう少し拡充するつもりである。以前から温めている職務経歴書が公開できるとよいのだが。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>右クリックしたリンクのURLをAPIに送信するためのブラウザ拡張機能「かんかんみかん」を作りました</title>
-		<link href="https://windyakin.net/articles/2022/05/14/kankan-mikan.html"/>
-		<updated>2022-05-14T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2022/05/14/kankan-mikan.html</id>
-		<content type="html">&lt;p&gt;ブラウザでリンクを右クリックしたときに、そのリンクのURLを特定のAPIエンドポイントへPOSTデータとして送信することができるブラウザ拡張機能を作った。&lt;/p&gt;
+</content:encoded></item><item><title>右クリックしたリンクのURLをAPIに送信するためのブラウザ拡張機能「かんかんみかん」を作りました</title><link>https://windyakin.net/articles/2022/05/14/kankan-mikan.html</link><guid isPermaLink="true">https://windyakin.net/articles/2022/05/14/kankan-mikan.html</guid><pubDate>Sat, 14 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ブラウザでリンクを右クリックしたときに、そのリンクのURLを特定のAPIエンドポイントへPOSTデータとして送信することができるブラウザ拡張機能を作った。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/%E3%81%8B%E3%82%93%E3%81%8B%E3%82%93%E3%81%BF%E3%81%8B%E3%82%93/lnbmaedapefpogdjkjgliaaoglebeiil&quot;&gt;かんかんみかん - Chrome ウェブストア&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/ja/firefox/addon/kankan-mikan/&quot;&gt;かんかんみかん – 🦊 Firefox (ja) 向け拡張機能を入手&lt;/a&gt;&lt;/li&gt;
@@ -566,26 +448,18 @@ gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;toke
 &lt;/ul&gt;
 &lt;p&gt;最後に愚痴になるのだが、2022年5月現在ブラウザ拡張機能を取り巻く環境は正直言って微妙で、ほんの少し前まで Chrome と Firefox で共通のプログラムで管理できていたのだが、 Chrome Web Store が Google の利益を目的として Chromium が独自に提唱している Manifest V3 という新しいフォーマットでしか新たな拡張機能の投稿を受け付けなくなってしまった。これのせいで Firefox とまた道を分かつことになってしまっており、そのために2つのブラウザの差分を吸収するように別々のスクリプトを管理することになっているので、煩わしさがすごい。&lt;/p&gt;
 &lt;p&gt;今回作った拡張機能はまだ Manifest V3 の変更による影響を受ける箇所は少なかったが、今後様々な拡張機能がこういった対応をしなければならないと思うと、なかなか大変そうな話だと思う。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>シニアエンジニアになった</title>
-		<link href="https://windyakin.net/articles/2022/04/26/became-senior-engineer.html"/>
-		<updated>2022-04-26T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2022/04/26/became-senior-engineer.html</id>
-		<content type="html">&lt;p&gt;4月1日から職場での肩書が「シニアエンジニア」になった。この肩書は勝手に名乗っているわけではなくペパボの職位等級制度によるもので、全部で8段階ぐらいある等級の中、入社時には3等級の「エンジニア」のだったのものが、1つ上の4等級となった。等級は数が大きいほど強いという意味になるので、ちょうどキルラキルの極制服ようだなとかねがね思っている。&lt;/p&gt;
+</content:encoded></item><item><title>シニアエンジニアになった</title><link>https://windyakin.net/articles/2022/04/26/became-senior-engineer.html</link><guid isPermaLink="true">https://windyakin.net/articles/2022/04/26/became-senior-engineer.html</guid><pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;4月1日から職場での肩書が「シニアエンジニア」になった。この肩書は勝手に名乗っているわけではなくペパボの職位等級制度によるもので、全部で8段階ぐらいある等級の中、入社時には3等級の「エンジニア」のだったのものが、1つ上の4等級となった。等級は数が大きいほど強いという意味になるので、ちょうどキルラキルの極制服ようだなとかねがね思っている。&lt;/p&gt;
 &lt;p&gt;この職位等級制度の詳しいことについては、&lt;a href=&quot;https://hr.pepabo.com/column/2020/02/07/3330&quot;&gt;ペパボのHRブログに書いてある&lt;/a&gt;のでそちらを確認してほしいのだが、今回はちょうどいい区切りなので、自身が普段どういう専門性を持って仕事をしているのかについてかんたんに説明しようと思う。&lt;/p&gt;
-&lt;h3 id=&quot;%E4%BB%8A%E3%81%AE%E8%87%AA%E5%88%86%E3%81%AE%E6%89%80%E5%B1%9E%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#%E4%BB%8A%E3%81%AE%E8%87%AA%E5%88%86%E3%81%AE%E6%89%80%E5%B1%9E%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 今の自分の所属チームについて&lt;/h3&gt;
-&lt;p&gt;ペパボへの入社は2019年の夏頃で、入社当初の配属はEC事業部のプロダクトチームであった。このチームは主に「&lt;a href=&quot;https://app.shop-pro.jp/&quot;&gt;カラーミーショップ アプリストア&lt;/a&gt;」というサービスの運用とそれらに関係する諸々の領域を担当をしており、後に事業部のチームの配置転換の際には「アプリストアチーム」として名前を改められ、私も現在に至るまでこのチームに所属している。&lt;/p&gt;
+&lt;h3&gt;今の自分の所属チームについて&lt;/h3&gt;
+&lt;p&gt;ペパボへの入社は2019年の夏頃で、入社当初の配属はEC事業部のプロダクトチームであった。このチームは主に「&lt;a href=&quot;https://app.shop-pro.jp&quot;&gt;カラーミーショップ アプリストア&lt;/a&gt;」というサービスの運用とそれらに関係する諸々の領域を担当をしており、後に事業部のチームの配置転換の際には「アプリストアチーム」として名前を改められ、私も現在に至るまでこのチームに所属している。&lt;/p&gt;
 &lt;p&gt;またそれとは別に2年ほど前からアプリストアチームと兼任で、可用性向上プロジェクトのメンバーとしてもアサインされて活動中である。このチームはメインの商材であるカラーミーショップの可用性を向上させるために、インフラ周りを中心に改善を行っていくために組織された事業部を超えた横断的なプロジェクトである。その中でも自身がメインで関わっているのが、可用性向上のための既存システムを Kubernetes 上でスケーラブルに動かす仕組みづくりで、 Kubernetes 上で稼働させるために必要な既存システムの改修などを行っている。&lt;/p&gt;
-&lt;h3 id=&quot;vue(nuxt)-%E3%81%AE%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E9%96%8B%E7%99%BA&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#vue(nuxt)-%E3%81%AE%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E9%96%8B%E7%99%BA&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Vue(Nuxt) のフロントエンド開発&lt;/h3&gt;
+&lt;h3&gt;Vue(Nuxt) のフロントエンド開発&lt;/h3&gt;
 &lt;p&gt;アプリストアチームでは主にバックエンドに Rails 、フロントエンドに Vue(Nuxt) が使われている。特にデベロッパーサイトと呼んでいる、アプリストアへアプリを提供しているデベロッパー向けのダッシュボードがあるのだが、それの立ち上げに大きく関わった。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://developer.shop-pro.jp/&quot;&gt;カラーミーショップ デベロッパー&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ちなみに立ち上げは入社してすぐの頃であったのだが、前職ではフロントはほぼ触っていなかったものの、CSSフレームワークなどを使ってウェブサイトを作っていた経験や、業務とは関係なく Nuxt を使ったウェブサイトを試しに作ったりして知見を高めた。その結果。年末ごろにはゴリゴリ Nuxt を書けるようになり、デザイナーさんが上げてくるモックアップから、デザインフレームワーク(Vuetify)のコンポーネントなどを提案して、それらを使って画面の実装することができるようになっていた。また素人ではあるもののデザインに関する基本的な感覚があったので、よりモックアップに近いものを作れる能力があることに気づいた。&lt;/p&gt;
-&lt;h3 id=&quot;%E6%97%A2%E5%AD%98%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE-docker-%26-kubernetes-%E5%8C%96%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E6%94%B9%E4%BF%AE%E3%81%AA%E3%81%A9&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#%E6%97%A2%E5%AD%98%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE-docker-%26-kubernetes-%E5%8C%96%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E6%94%B9%E4%BF%AE%E3%81%AA%E3%81%A9&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 既存システムの Docker &amp;amp; Kubernetes 化のための改修など&lt;/h3&gt;
+&lt;h3&gt;既存システムの Docker &amp;amp; Kubernetes 化のための改修など&lt;/h3&gt;
 &lt;p&gt;可用性向上プロジェクトでは、主にカラーミーショップという商材を Kubernetes 上で稼働させるために、それらに関係することであればアプリケーションの改修や、ミドルウェア・インフラ面にも踏み込んで対応を行っている。例えばこれまで行ってきた内容は以下の通り。&lt;/p&gt;
-&lt;h4 id=&quot;%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E5%8C%96%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E4%BD%9C%E6%A5%AD&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E5%8C%96%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E4%BD%9C%E6%A5%AD&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; アプリケーションをコンテナイメージ化するため作業&lt;/h4&gt;
+&lt;h4&gt;アプリケーションをコンテナイメージ化するため作業&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;開発用のコンテナというのはかねてから存在したものの、コンテナ単体でシステムが動くものではなかったので新たに Dockerfile を作成&lt;/li&gt;
 &lt;li&gt;それらを GitHub Actions でイメージビルドする CI/CD パイプラインの整備
@@ -596,7 +470,7 @@ gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;toke
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&quot;https://tech.pepabo.com/2021/03/30/create-original-github-actions/&quot;&gt;「GitHub Packagesの最新n件を残して他は消す」オリジナルのGitHub Actionsを作った話 - Pepabo Tech Portal&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&quot;%E3%83%AD%E3%82%B0%E3%81%AE%E3%83%95%E3%83%AD%E3%83%BC%E8%A8%AD%E8%A8%88%E3%81%A8%E3%81%9D%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E6%94%B9%E4%BF%AE&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#%E3%83%AD%E3%82%B0%E3%81%AE%E3%83%95%E3%83%AD%E3%83%BC%E8%A8%AD%E8%A8%88%E3%81%A8%E3%81%9D%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E6%94%B9%E4%BF%AE&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; ログのフロー設計とそのためのアプリケーション改修&lt;/h4&gt;
+&lt;h4&gt;ログのフロー設計とそのためのアプリケーション改修&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;当初 Pod の Sidecar から直接 BigQuery に転送していたが、諸々の検討した上でログを集約する Statefulset な Fluentd のサービスを新たに立ち上げた&lt;/li&gt;
 &lt;li&gt;Rails でそれまでファイルに吐き出していたログを直接 Fluent への転送ができるようにした
@@ -605,30 +479,30 @@ gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;toke
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;https://windyakin.hateblo.jp/entry/2021/01/24/143242&quot;&gt;シンプルに Fluentd にログ転送ができる RubyGem &amp;quot;awesome_fluent_logger&amp;quot; をつくった - windyakinってなんて読む&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&quot;kubernetes-%E3%81%AE%E4%B8%8A%E3%81%A7%E3%81%AE%E8%A8%AD%E8%A8%88%E3%82%84%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%8B%95%E4%BD%9C%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA-manifests-%E3%82%92%E4%BD%9C%E6%88%90&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#kubernetes-%E3%81%AE%E4%B8%8A%E3%81%A7%E3%81%AE%E8%A8%AD%E8%A8%88%E3%82%84%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%8B%95%E4%BD%9C%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA-manifests-%E3%82%92%E4%BD%9C%E6%88%90&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Kubernetes の上での設計やアプリケーション動作のために必要な Manifests を作成&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://windyakin.hateblo.jp/entry/2021/01/24/143242&quot;&gt;シンプルに Fluentd にログ転送ができる RubyGem &quot;awesome_fluent_logger&quot; をつくった - windyakinってなんて読む&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Kubernetes の上での設計やアプリケーション動作のために必要な Manifests を作成&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;基本的にゴリゴリ書いていく感じ&lt;/li&gt;
 &lt;li&gt;現状でもアプリケーションロールこそ分離されているものの、以降に際して1つの Pod に詰め込む単位などを検討&lt;/li&gt;
 &lt;li&gt;Twelve-factors に沿ってアプリケーションで読み込んでいる設定値を環境変数に逃がして読み込めるようにしたりする&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%82%92%E6%B0%B8%E7%B6%9A%E5%8C%96%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%92%E6%A7%8B%E7%AF%89&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%82%92%E6%B0%B8%E7%B6%9A%E5%8C%96%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%92%E6%A7%8B%E7%AF%89&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; ファイルキャッシュを永続化するためにストレージサービスを利用したシステムを構築&lt;/h4&gt;
+&lt;h4&gt;ファイルキャッシュを永続化するためにストレージサービスを利用したシステムを構築&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Kubernetes のライフサイクルとファイルキャッシュの相性が悪いので小さなアプリケーションを新たに用意して資産を活かせる形とした&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&quot;https://tech.pepabo.com/2021/12/15/entrance-cache-manager/&quot;&gt;レガシーなアーキテクチャをKubernetes上でも活かすために - Pepabo Tech Portal&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;%E9%96%8B%E7%99%BA%E6%94%AF%E6%8F%B4%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%84%E3%83%BC%E3%83%AB%E9%96%8B%E7%99%BA&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#%E9%96%8B%E7%99%BA%E6%94%AF%E6%8F%B4%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%84%E3%83%BC%E3%83%AB%E9%96%8B%E7%99%BA&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 開発支援のためのツール開発&lt;/h3&gt;
+&lt;h3&gt;開発支援のためのツール開発&lt;/h3&gt;
 &lt;p&gt;Kuberenetes の環境を作って終わり！じゃなくて、実際に開発者に使ってもらえるようにするために開発を支援するためのツールを作っている。&lt;/p&gt;
-&lt;h4 id=&quot;%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; ブラウザ拡張機能&lt;/h4&gt;
+&lt;h4&gt;ブラウザ拡張機能&lt;/h4&gt;
 &lt;p&gt;開発環境の切り替えに必要な作業を簡略化するために初めてブラウザ拡張機能を作った。作った時期が悪くて Chrome の Manifest V3 に対応する羽目になった件については後日書く。&lt;/p&gt;
-&lt;h4 id=&quot;slack-bot&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#slack-bot&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Slack Bot&lt;/h4&gt;
+&lt;h4&gt;Slack Bot&lt;/h4&gt;
 &lt;p&gt;Chat Bot というよりかは、最近 Slack が推している Slash command を使ったインタラクティブな画面を実装。開発者が自分の環境を Slack から作ることができるようになる。&lt;/p&gt;
-&lt;h3 id=&quot;%E5%A4%A7%E9%87%8F%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%87%E3%83%B3%E3%83%88%E5%AF%BE%E5%BF%9C&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#%E5%A4%A7%E9%87%8F%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%87%E3%83%B3%E3%83%88%E5%AF%BE%E5%BF%9C&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 大量アクセスによるインシデント対応&lt;/h3&gt;
+&lt;h3&gt;大量アクセスによるインシデント対応&lt;/h3&gt;
 &lt;p&gt;大量にアクセスが来ると色々と困ることがある。 k8s に完全に移行するといくらか軽減されるかもしれないが、まだ移行できていないためシステム全体に影響が波及しやすい。もちろんそういったことが起きない起こさせないために日々改善はしているが、起きてしまったときの対応も必要である。&lt;/p&gt;
 &lt;p&gt;実際に起きた時に何が原因になっているのかの初動の調査や、必要なアクセス制限の判断などを積極的にハンドリングしていた。またそれらをドキュメントやダッシュボード化してなるべく自分以外の人でも対応できるようにしていた。&lt;/p&gt;
 &lt;p&gt;最近は未然に防げる仕組みが整ってきたので出動回数は減ってきている。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://shop-pro.jp/news/availability-report-220103/&quot;&gt;安定したサービス提供のための改善レポート【2022年1〜3月】 | お知らせ・最新情報 カラーミーショップ 無料で本格的なネットショップ作成サービス&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;%E7%99%BB%E5%A3%87%E3%83%BB%E5%9F%B7%E7%AD%86%E7%AD%89&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#%E7%99%BB%E5%A3%87%E3%83%BB%E5%9F%B7%E7%AD%86%E7%AD%89&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 登壇・執筆等&lt;/h3&gt;
+&lt;h3&gt;登壇・執筆等&lt;/h3&gt;
 &lt;p&gt;口下手と言うか、単純にしゃべるのが下手すぎるのでこういう登壇の機会はあまりないのだが、一応表立ってしゃべることもある。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://pepabo.connpass.com/event/179445/&quot;&gt;ペパボ EC テックカンファレンス - EC サイトの開発の裏側大公開 - connpass&lt;/a&gt;&lt;/li&gt;
@@ -639,40 +513,32 @@ gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;toke
 &lt;li&gt;&lt;a href=&quot;https://tech.pepabo.com/2021/03/30/create-original-github-actions/&quot;&gt;「GitHub Packagesの最新n件を残して他は消す」オリジナルのGitHub Actionsを作った話 - ペパボテックブログ&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://tech.pepabo.com/2021/12/15/entrance-cache-manager/&quot;&gt;レガシーなアーキテクチャをKubernetes上でも活かすために - ペパボテックブログ&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;%E3%82%B7%E3%83%8B%E3%82%A2%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%A9%E3%81%86%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/04/26/became-senior-engineer.html#%E3%82%B7%E3%83%8B%E3%82%A2%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%A9%E3%81%86%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; シニアエンジニアになってどうですか？&lt;/h3&gt;
+&lt;h3&gt;シニアエンジニアになってどうですか？&lt;/h3&gt;
 &lt;p&gt;実際のところ仕事内容には大きな差が生まれていない。ペパボの場合、シニアへの昇格は追認行為なので、立候補する際にはシニア相当の働きをしていると認められないとシニアになれないことになっている。であるからして、シニアになったからといって何かが劇的に変わるかというとそうでもない。ただ求められるレベルはこれからも上がっていくと思われるので、日々精進していくのみですかね。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>10年前に公開していたCGIプログラムで脆弱性が見つかりCVEに登録された話</title>
-		<link href="https://windyakin.net/articles/2022/03/30/zerochplus-cve-2022-27496.html"/>
-		<updated>2022-03-30T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2022/03/30/zerochplus-cve-2022-27496.html</id>
-		<content type="html">&lt;p&gt;かつて「ぜろちゃんねるプラス」という２ちゃんねる型スレッドフロート掲示板システムの開発と公開をしていたことがある。&lt;/p&gt;
+</content:encoded></item><item><title>10年前に公開していたCGIプログラムで脆弱性が見つかりCVEに登録された話</title><link>https://windyakin.net/articles/2022/03/30/zerochplus-cve-2022-27496.html</link><guid isPermaLink="true">https://windyakin.net/articles/2022/03/30/zerochplus-cve-2022-27496.html</guid><pubDate>Wed, 30 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;かつて「ぜろちゃんねるプラス」という２ちゃんねる型スレッドフロート掲示板システムの開発と公開をしていたことがある。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://zerochplus.osdn.jp/&quot;&gt;ぜろちゃんねるプラス&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;とはいえ開発をしていたというのは自身がまだ学生だった10年以上前の話であり、現代において Perl CGI のプログラムを保守・運用しようというのがなかなか厳しい話なので、ウェブサイト上では2015年ぐらいから開発の終了も明言していた。ただホスティング元のOSDN(当時はSourceForge.jpであった)が現在までサービスの提供を続けてくれていることと、すでに利用している人に向けたアーカイブを目的として、特に非公開化することもしていなかった結果、現代でも一部のコミュニティなどで使われるという謎の代物となっていた。&lt;/p&gt;
-&lt;h3 id=&quot;%E9%96%8B%E7%99%BA%E8%80%85%E3%81%B8%E3%81%AE%E8%84%86%E5%BC%B1%E6%80%A7%E3%81%AE%E5%A0%B1%E5%91%8A&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/30/zerochplus-cve-2022-27496.html#%E9%96%8B%E7%99%BA%E8%80%85%E3%81%B8%E3%81%AE%E8%84%86%E5%BC%B1%E6%80%A7%E3%81%AE%E5%A0%B1%E5%91%8A&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 開発者への脆弱性の報告&lt;/h3&gt;
+&lt;h3&gt;開発者への脆弱性の報告&lt;/h3&gt;
 &lt;p&gt;そんなこんなで絶賛放置していたのだが、3月22日の10時頃、開発用の掲示板に「クロスサイトスクリプティングが行える脆弱性」があるという内容の報告がもたらされた。自分はその掲示板を常に見ていないのだが、開発メンバーの1人がそれに気づいて同日の22時ごろに Twitter の DM 経由にて自分を含む当時の開発メンバーに通知された。調べると連絡が来るより数日前からすでにこの攻撃は一部で横行しているようで、このスクリプトを使っているサイトの運営者はなんらかの対応を行う必要がある状態となっていた。&lt;/p&gt;
 &lt;p&gt;しかし先述の通り、そもそも開発の終了を宣言しているプロジェクトである。開発元からの対応はしないならしないでもよいとも考えられるのだが、職業をエンジニアとしている者としては、一度出したものに「脆弱性がある」という状態のまま放置するのも居心地がわるいので、今回は特別に該当箇所のホットフィックス版をリリースをすることとした。&lt;/p&gt;
-&lt;h3 id=&quot;%E4%BF%AE%E6%AD%A3%E3%81%BE%E3%81%A7%E3%81%AE%E9%81%8E%E7%A8%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/30/zerochplus-cve-2022-27496.html#%E4%BF%AE%E6%AD%A3%E3%81%BE%E3%81%A7%E3%81%AE%E9%81%8E%E7%A8%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 修正までの過程&lt;/h3&gt;
+&lt;h3&gt;修正までの過程&lt;/h3&gt;
 &lt;p&gt;まずは報告を受けた内容の真偽を確かめつつ原因の調査をする必要があるのだが、そのためにはサンドボックス環境を用意する必要がある。脆弱性への対応であることや、すでに攻撃が発生していることから、インターネット環境で試すことはあまり好ましいことではない。できればローカル環境で実験したいのだが、当時開発に使っていたXAMPPなんてとうに捨てており、また現代において Perl CGI が動く環境を用意するのはそこらへんの Rails を動かすより手間であるかもしれない。&lt;/p&gt;
 &lt;p&gt;ただこの問題については、数年前に気まぐれでプロジェクトを Docker イメージ化をしていたので割とすぐ用意することに成功した。数年前の自分の気まぐれはなかなかのファインプレーであった。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/zerochplus/zerochplus-docker&quot;&gt;zerochplus/zerochplus-docker: 🐳 zerochplus on Docker&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;またぜろちゃんねるプラスのリポジトリは SVN である。一応 GitHub にもプロジェクトの Organization とミラーリポジトリっぽいものがあるのだが、実は SVN とは履歴も状態が乖離している。我ながらひどい状態で放置していたものである。結局数年ぶりに SVN コマンドを叩くことになった。&lt;/p&gt;
 &lt;p&gt;ただ脆弱性の起因となるコード箇所の特定は比較的スムーズに行うことができた。これは当時の開発メンバーへの連絡により比較的早い段階で人手を招集でき、それぞれが調査を行ったおかげである。こういった緊急事態の初動は人手が多いほうがよい。&lt;/p&gt;
 &lt;p&gt;その他にもリリースパッケージの作成などリリース作業で手こずる場面は多かったのだが、23日0時にホットフィックス版である ぜろちゃんねるプラス v0.7.5 をリリースをした。後から気になって調べたが、前回のリリースから約3,000日ぶりの更新であったらしい。今回開発者への初報を受けてから約14時間、開発者の招集からは3時間弱での対応となったが、3,000日ぶりのリリースにしてはかなりスピード感があるほうではないだろうか。&lt;/p&gt;
-&lt;h3 id=&quot;ipa%E3%81%B8%E3%81%AE%E5%A0%B1%E5%91%8A&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/30/zerochplus-cve-2022-27496.html#ipa%E3%81%B8%E3%81%AE%E5%A0%B1%E5%91%8A&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; IPAへの報告&lt;/h3&gt;
+&lt;h3&gt;IPAへの報告&lt;/h3&gt;
 &lt;p&gt;ぜろちゃんねるプラスには自動アップデートの機能は備え付けられておらず、サイトの運営者が自身で情報を取りに来なければ脆弱性が含まれていることを察知できない。そのため情報の発信していく必要があるのだが、ぜろちゃんねるプラスのサイト上では最大限告知をしたとて限度がある。そこでIPAへ今回の脆弱性を報告をすることで、JVNからの発信を行ってもらうことにした。これで万全というわけではないことは重々承知だが、使えるチャンネルはできる限り使ったほうがよいだろうという判断である。&lt;/p&gt;
 &lt;p&gt;報告後、何度かメールのやりとりを行ってレポートが作成された。すでに攻撃が発生しており修正版も出ている内容だったためか、JPCERTの方には素早い対応をしていただき、3月30日にJVN上で公表されている。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://jvn.jp/jp/JVN59576930/index.html&quot;&gt;JVN#59576930: ぜろちゃんねるプラスにおけるクロスサイトスクリプティングの脆弱性&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;なお今回は CVE の番号 &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2022-27496&quot;&gt;CVE-2022-27496&lt;/a&gt; も採番された。自身の関わったプロダクトに CVE が採番されるのはなかなか複雑な気持ちではあるが、経験値としては悪くないだろう。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%81%AA%E3%81%9C%E4%BB%8A%E5%9B%9E%E5%AF%BE%E5%BF%9C%E3%81%A7%E3%81%8D%E3%81%9F%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/30/zerochplus-cve-2022-27496.html#%E3%81%AA%E3%81%9C%E4%BB%8A%E5%9B%9E%E5%AF%BE%E5%BF%9C%E3%81%A7%E3%81%8D%E3%81%9F%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; なぜ今回対応できたか&lt;/h3&gt;
+&lt;h3&gt;なぜ今回対応できたか&lt;/h3&gt;
 &lt;p&gt;冒頭にも書いたが今回そもそも対応するかどうかは判断が微妙なところだった。ほぼ義理と人情みたいなところで動いているのだが、一番大きかったのは会社でのインシデント対応によって培われた突発的な事象への対処能力かもしれない。正確には能力というよりかは気持ち的な問題で、いざコトが起きてしまったときに、ただ悲観的になって立ち止まったり放棄するのではなく、「よしやるか」とギアを入れ替えて問題に挑めるようになってきたような気がしている。&lt;/p&gt;
 &lt;p&gt;今回も報告を受けたときに比較的早い段階で「対応する」という方向に舵を切って対処し、忘れ去っていたリリース方法までがんばって思い出してリリースできたことは非常によい経験だったように思う。&lt;/p&gt;
-&lt;h3 id=&quot;%E4%BB%8A%E5%BE%8C%E3%81%AE%E3%81%9C%E3%82%8D%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B%E3%83%97%E3%83%A9%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/30/zerochplus-cve-2022-27496.html#%E4%BB%8A%E5%BE%8C%E3%81%AE%E3%81%9C%E3%82%8D%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B%E3%83%97%E3%83%A9%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 今後のぜろちゃんねるプラスについて&lt;/h3&gt;
+&lt;h3&gt;今後のぜろちゃんねるプラスについて&lt;/h3&gt;
 &lt;p&gt;改めて言うが、今回のホットフィックス版のリリースは極めて異例の対応である。今後また同じような報告を受けた際に同じような対応ができるかについては明言を避けたい。これを機会にぜろちゃんねるプラスの利用者には「開発を終了しているもの」を使っているというリスクを理解し、適切な対処をしてほしいと思っている。&lt;/p&gt;
-&lt;h3 id=&quot;%E5%BE%A9%E6%97%A7%E3%81%BE%E3%81%A7%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/30/zerochplus-cve-2022-27496.html#%E5%BE%A9%E6%97%A7%E3%81%BE%E3%81%A7%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 復旧までのタイムライン&lt;/h3&gt;
+&lt;h3&gt;復旧までのタイムライン&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;2022年3月22日 10:00
 &lt;ul&gt;
@@ -712,305 +578,268 @@ gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;toke
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;日付・時刻はすべて日本時間&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Kubernetes の Pod を定期的に再起動させる</title>
-		<link href="https://windyakin.net/articles/2022/03/27/restart-kubernetes-pod-by-scheduler.html"/>
-		<updated>2022-03-27T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2022/03/27/restart-kubernetes-pod-by-scheduler.html</id>
-		<content type="html">&lt;h3 id=&quot;%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86%E9%9D%A2%E5%80%92%E3%81%8F%E3%81%95%E3%81%84%E5%95%8F%E9%A1%8C%E3%82%92%E5%AE%9A%E6%9C%9F%E7%9A%84%E3%81%AA%E5%86%8D%E8%B5%B7%E5%8B%95%E3%81%A7%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/27/restart-kubernetes-pod-by-scheduler.html#%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86%E9%9D%A2%E5%80%92%E3%81%8F%E3%81%95%E3%81%84%E5%95%8F%E9%A1%8C%E3%82%92%E5%AE%9A%E6%9C%9F%E7%9A%84%E3%81%AA%E5%86%8D%E8%B5%B7%E5%8B%95%E3%81%A7%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; イメージのバージョン管理面倒くさい問題を定期的な再起動で解決する&lt;/h3&gt;
+</content:encoded></item><item><title>Kubernetes の Pod を定期的に再起動させる</title><link>https://windyakin.net/articles/2022/03/27/restart-kubernetes-pod-by-scheduler.html</link><guid isPermaLink="true">https://windyakin.net/articles/2022/03/27/restart-kubernetes-pod-by-scheduler.html</guid><pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;イメージのバージョン管理面倒くさい問題を定期的な再起動で解決する&lt;/h3&gt;
 &lt;p&gt;前回のエントリで &lt;a href=&quot;https://windyakin.hateblo.jp/entry/2022/03/17/212009&quot;&gt;k3s を運用している話&lt;/a&gt;を書いたが、 GitOps 運用の中で私はコンテナの Docker イメージのバージョン管理をサボっている。現状各アプリケーションのイメージはすべて &lt;code&gt;latest&lt;/code&gt; のタグが振られているのみで、イメージを更新しても GitOps に使っている manifests のリポジトリを更新される仕組みも用意していない。&lt;/p&gt;
 &lt;p&gt;だけどもこれだと Pod が生きている限りイメージが更新されても Pod が使うイメージが変わらないままになっていまうので、 CronJob を使って Deployment で起動している Pod を定期的に再起動している。これに併せて &lt;code&gt;imagePullPolicy: Always&lt;/code&gt; を指定しておけば、 Pod の再起動の度に最新のイメージを取ってくることができるという目論見である。&lt;/p&gt;
-&lt;h3 id=&quot;serviceaccount-%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/27/restart-kubernetes-pod-by-scheduler.html#serviceaccount-%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; ServiceAccount を用意する&lt;/h3&gt;
+&lt;h3&gt;ServiceAccount を用意する&lt;/h3&gt;
 &lt;p&gt;ServiceAccount と (Cluster)Role と (Cluster)RoleBinding を用意する。自分は最初この3者の関係がよくわかっていなかったのだが、色々調べていくうちにでいうと Role と ServiceAccount の多対多の関係を表現する中間テーブルが RoleBinding であると理解した。要は Google の IAM 管理で行う「権限」のグループを作ってその権限をユーザに割り当てる行為と同じである。また Role / RoleBinding の頭に Cluster がついて ClusterRole や ClusterRoleBinding になると、その権限は namespace を超えて実行することができる。&lt;/p&gt;
-&lt;p&gt;まずは Role について。最終的に ServiceAccount が使えるようになる Kubernetes API を一覧にする。 kubectl コマンドで &lt;code&gt;kubectl [verbs] [resources]&lt;/code&gt; が使えるようになるという理解が近い。ここに &lt;code&gt;apiGroups&lt;/code&gt; という概念も登場する。 Pod は &lt;code&gt;apiVersion: v1&lt;/code&gt; と表現されるが、この場合はコア機能であるので &lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt; (空文字) が指定される。一方 Deployment は &lt;code&gt;apiVersion: apps/v1&lt;/code&gt; と指定するため &lt;code&gt;apps&lt;/code&gt; を指定することになる。&lt;/p&gt;
-&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ClusterRole
-&lt;span class=&quot;token key atrule&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; rbac.authorization.k8s.io/v1
-&lt;span class=&quot;token key atrule&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pod&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;restarter
-&lt;span class=&quot;token key atrule&quot;&gt;rules&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;apiGroups&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;
-    &lt;span class=&quot;token key atrule&quot;&gt;resources&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; pods
-    &lt;span class=&quot;token key atrule&quot;&gt;verbs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; get
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; list
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; delete
-  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;apiGroups&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; apps
-    &lt;span class=&quot;token key atrule&quot;&gt;resources&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; deployments
-    &lt;span class=&quot;token key atrule&quot;&gt;verbs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; get
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; list&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;まずは Role について。最終的に ServiceAccount が使えるようになる Kubernetes API を一覧にする。 kubectl コマンドで &lt;code&gt;kubectl [verbs] [resources]&lt;/code&gt; が使えるようになるという理解が近い。ここに &lt;code&gt;apiGroups&lt;/code&gt; という概念も登場する。 Pod は &lt;code&gt;apiVersion: v1&lt;/code&gt; と表現されるが、この場合はコア機能であるので &lt;code&gt;&quot;&quot;&lt;/code&gt; (空文字) が指定される。一方 Deployment は &lt;code&gt;apiVersion: apps/v1&lt;/code&gt; と指定するため &lt;code&gt;apps&lt;/code&gt; を指定することになる。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: pod-restarter
+rules:
+  - apiGroups:
+      - &quot;&quot;
+    resources:
+      - pods
+    verbs:
+      - get
+      - list
+      - delete
+  - apiGroups:
+      - apps
+    resources:
+      - deployments
+    verbs:
+      - get
+      - list
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;次に ServiceAccount。特に凝ったことはしないのでそのまま名前をつけるだけ。&lt;/p&gt;
-&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; v1
-&lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ServiceAccount
-&lt;span class=&quot;token key atrule&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pod&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;restarter&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: pod-restarter
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;最後に Role と ServiceAccount を紐付ける RoleBinding を記述する。&lt;/p&gt;
-&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ClusterRoleBinding
-&lt;span class=&quot;token key atrule&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; rbac.authorization.k8s.io/v1
-&lt;span class=&quot;token key atrule&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pod&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;restarter
-&lt;span class=&quot;token key atrule&quot;&gt;subjects&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ServiceAccount
-    &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pod&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;restarter
-    &lt;span class=&quot;token key atrule&quot;&gt;namespace&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; default
-&lt;span class=&quot;token key atrule&quot;&gt;roleRef&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ClusterRole
-  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pod&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;restarter
-  &lt;span class=&quot;token key atrule&quot;&gt;apiGroup&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; rbac.authorization.k8s.io&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;cronjob-%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/27/restart-kubernetes-pod-by-scheduler.html#cronjob-%E3%82%92%E7%94%A8%E6%84%8F%E3%81%99%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; CronJob を用意する&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;kind: ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: pod-restarter
+subjects:
+  - kind: ServiceAccount
+    name: pod-restarter
+    namespace: default
+roleRef:
+  kind: ClusterRole
+  name: pod-restarter
+  apiGroup: rbac.authorization.k8s.io
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;CronJob を用意する&lt;/h3&gt;
 &lt;p&gt;Pod を再起動させる方法は色々なあるが、 &lt;code&gt;delete pods&lt;/code&gt; を定期的に実行されるようにした。これだとダウンタイムが出るが、自分が使うサービスなのでこのままにする。おそらく通常は Deployments の annotate に日付を入れると manifests の更新とともに Pod が再作成されるという方法をとることになるが、自分の環境は ArgoCD で即刻上書きされるので向いていないためこうした。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://hub.docker.com/r/bitnami/kubectl&quot;&gt;bitnami/kubectl&lt;/a&gt; のイメージ上から kubetl の &lt;code&gt;jsonpath&lt;/code&gt; で Deployment の名前の一覧のみを出力し、その結果を xargs にパイプして &lt;code&gt;delete pods&lt;/code&gt; を実行させるようにしている。&lt;/p&gt;
-&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; batch/v1
-&lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; CronJob
-&lt;span class=&quot;token key atrule&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pod&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;restarter
-&lt;span class=&quot;token key atrule&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;schedule&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;0 2 * * *&quot;&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;concurrencyPolicy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Replace
-  &lt;span class=&quot;token key atrule&quot;&gt;jobTemplate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;token key atrule&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;token key atrule&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;token key atrule&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-          &lt;span class=&quot;token key atrule&quot;&gt;serviceAccount&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pod&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;restarter
-          &lt;span class=&quot;token key atrule&quot;&gt;restartPolicy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Never
-          &lt;span class=&quot;token key atrule&quot;&gt;containers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; pod&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;restarter
-              &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; bitnami/kubectl&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;latest
-              &lt;span class=&quot;token key atrule&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/bin/sh&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-c&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-              &lt;span class=&quot;token key atrule&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
-                  kubectl get deployments -o=jsonpath=&#39;{range .items[*]}{.spec.template.metadata.labels.app}{&quot;&#92;n&quot;}{end}&#39; | xargs -I &quot;{}&quot; kubectl delete pods -l app={}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;%E5%8A%B9%E6%9E%9C&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/27/restart-kubernetes-pod-by-scheduler.html#%E5%8A%B9%E6%9E%9C&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 効果&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: pod-restarter
+spec:
+  schedule: &quot;0 2 * * *&quot;
+  concurrencyPolicy: Replace
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          serviceAccount: pod-restarter
+          restartPolicy: Never
+          containers:
+            - name: pod-restarter
+              image: bitnami/kubectl:latest
+              command: [&quot;/bin/sh&quot;, &quot;-c&quot;]
+              args:
+                - |
+                  kubectl get deployments -o=jsonpath=&apos;{range .items[*]}{.spec.template.metadata.labels.app}{&quot;\n&quot;}{end}&apos; | xargs -I &quot;{}&quot; kubectl delete pods -l app={}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;効果&lt;/h3&gt;
 &lt;p&gt;いまのところ毎日深夜2時に再起動がかかる運用になっており、最長1日待てば最新のイメージが落とされるようになっている。普段は依存パッケージのセキュリティ更新しかしないためこの運用で問題なく感じている。&lt;/p&gt;
 &lt;p&gt;ただここまで紹介したのは結構な面倒くさがりの所業で、一般公開しているサービスなどでこれをするのは非常におすすめしない。一旦はこれで運用ができているのはあくまで個人の管理しているサービスだからである。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>k3s を運用している</title>
-		<link href="https://windyakin.net/articles/2022/03/17/operating-k3s.html"/>
-		<updated>2022-03-17T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2022/03/17/operating-k3s.html</id>
-		<content type="html">&lt;p&gt;個人的なプロジェクトを外部公開するときや、私的なツール郡を動かすためにVPSを借りている。基本的に自分が作ったサービスたちはコンテナ化されているため、それらのコンテナの起動管理についてはこれまで docker-compose を使っていた。しかし業務で Kubernetes を使う機会が多くなり、コンテナや Kubernetes の運用に関するいろいろな知見も溜まってきたので、自前で Kubernetes のクラスタが欲しくなったのだが、趣味にしては維持費が高い。正直そこまで可用性が必要もないが、 ArgoCD で GitOps による自動デプロイとかそういう楽なことだけはしたいという欲が湧いてきたので、 k3s をつかってシングルノードの Kubernetes を運用することにした。この記事ではその際どういったことをしたかなどをまとめる。&lt;/p&gt;
-&lt;h3 id=&quot;k3s-%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/17/operating-k3s.html#k3s-%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; k3s のインストール&lt;/h3&gt;
+</content:encoded></item><item><title>k3s を運用している</title><link>https://windyakin.net/articles/2022/03/17/operating-k3s.html</link><guid isPermaLink="true">https://windyakin.net/articles/2022/03/17/operating-k3s.html</guid><pubDate>Thu, 17 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;個人的なプロジェクトを外部公開するときや、私的なツール郡を動かすためにVPSを借りている。基本的に自分が作ったサービスたちはコンテナ化されているため、それらのコンテナの起動管理についてはこれまで docker-compose を使っていた。しかし業務で Kubernetes を使う機会が多くなり、コンテナや Kubernetes の運用に関するいろいろな知見も溜まってきたので、自前で Kubernetes のクラスタが欲しくなったのだが、趣味にしては維持費が高い。正直そこまで可用性が必要もないが、 ArgoCD で GitOps による自動デプロイとかそういう楽なことだけはしたいという欲が湧いてきたので、 k3s をつかってシングルノードの Kubernetes を運用することにした。この記事ではその際どういったことをしたかなどをまとめる。&lt;/p&gt;
+&lt;h3&gt;k3s のインストール&lt;/h3&gt;
 &lt;p&gt;おもむろに k3s をいれるが、ワン・コマンドで入れられるので便利。なんならアップグレードもこれでできるのですごい。&lt;/p&gt;
-&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-sfL&lt;/span&gt; https://get.k3s.io &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sh&lt;/span&gt; -&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;curl -sfL https://get.k3s.io | sh -
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;ただしこのままだと &lt;code&gt;kubectl&lt;/code&gt; を叩く度に &lt;code&gt;sudo&lt;/code&gt; が必要になるので面倒。もう少しよしなにしたい。 Linuxbrew で入れた &lt;code&gt;kubectl&lt;/code&gt; で使えるようにするために、 &lt;code&gt;~/.kube/config&lt;/code&gt; に接続設定を含めて出せばいちいち &lt;code&gt;sudo&lt;/code&gt; しなくてもよくなる（セキュリティはパーミッションなど最低限のことはやったほうがよい）。&lt;/p&gt;
-&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; kubectl config view &lt;span class=&quot;token parameter variable&quot;&gt;--raw&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; ~/.kube/config&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;sealedsecret&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/17/operating-k3s.html#sealedsecret&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; SealedSecret&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;sudo kubectl config view --raw &amp;gt; ~/.kube/config
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;SealedSecret&lt;/h3&gt;
 &lt;p&gt;Git で Kubernetes の Manifests を管理するとき、 Secret をそのままコミットすると危険なのだが、 SealedSecret を使うことで暗号化した状態にできる。暗号化を行うために一度クラスタに Secret を読み込ませる必要があったり、情報の更新が若干面倒というデメリットもあるが、そのあたりは GitOps したい度とのトレードオフだろう。&lt;/p&gt;
-&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;kubectl apply &lt;span class=&quot;token parameter variable&quot;&gt;-f&lt;/span&gt; https://github.com/bitnami-labs/sealed-secrets/releases/download/&lt;span class=&quot;token variable&quot;&gt;${VERSION}&lt;/span&gt;/controller.yaml&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;kubectl apply -f https://github.com/bitnami-labs/sealed-secrets/releases/download/${VERSION}/controller.yaml
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;code&gt;${VERSION}&lt;/code&gt; は SealedSecret のリポジトリの最新を使うとよい。&lt;/p&gt;
 &lt;p&gt;Secret 情報の暗号化は &lt;code&gt;kubeseal&lt;/code&gt; コマンドを使って行う。Secret の manifests が用意できていれば以下のようなコマンドを実行する。&lt;/p&gt;
-&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;kubeseal &lt;span class=&quot;token parameter variable&quot;&gt;--scope&lt;/span&gt; namespace-wide &lt;span class=&quot;token parameter variable&quot;&gt;-o&lt;/span&gt; yaml &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; secret.yaml &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; sealedsecret.yaml&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;argocd&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/17/operating-k3s.html#argocd&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; ArgoCD&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;kubeseal --scope namespace-wide -o yaml &amp;lt; secret.yaml &amp;gt; sealedsecret.yaml
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;ArgoCD&lt;/h3&gt;
 &lt;p&gt;GitOps のために ArgoCD を入れる。 core-install.yaml はコア機能のみで Web UI などはインストールされない。&lt;/p&gt;
-&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;kubectl create namespace argocd
-kubectl apply &lt;span class=&quot;token parameter variable&quot;&gt;-n&lt;/span&gt; argocd &lt;span class=&quot;token parameter variable&quot;&gt;-f&lt;/span&gt; https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/core-install.yaml&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;kubectl create namespace argocd
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/core-install.yaml
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;初めて触れるなら Web UI はあったほうがよさそうに思う。リソースの管理がどういうものかとか、更新のタイミングなども見ることができるので面白い。&lt;/p&gt;
 &lt;p&gt;ArgoCD の使い方は公式のドキュメントが一番くわしい。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://argo-cd.readthedocs.io/en/stable/getting_started/&quot;&gt;Getting Started - Argo CD - Declarative GitOps CD for Kubernetes&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;CLI で操作する場合は &lt;code&gt;argocd&lt;/code&gt; コマンドなどを導入すると GitOps につかうリポジトリの登録や、実際のアプリケーションの設定などがコマンドからできて便利。&lt;/p&gt;
-&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;argocd repo &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; git@github.com:windyakin/k8s-manifests.git --ssh-private-key-path &lt;span class=&quot;token variable&quot;&gt;${SSH_PRIVATE_KEY_PATH}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;argocd app create argocd-applications &lt;span class=&quot;token punctuation&quot;&gt;&#92;&lt;/span&gt;
-  &lt;span class=&quot;token parameter variable&quot;&gt;--repo&lt;/span&gt; git@github.com:windyakin/k8s-manifests.git &lt;span class=&quot;token punctuation&quot;&gt;&#92;&lt;/span&gt;
-  &lt;span class=&quot;token parameter variable&quot;&gt;--path&lt;/span&gt; argocd-application &lt;span class=&quot;token punctuation&quot;&gt;&#92;&lt;/span&gt;
-  --auto-prune &lt;span class=&quot;token punctuation&quot;&gt;&#92;&lt;/span&gt;
-  --dest-namespace default &lt;span class=&quot;token punctuation&quot;&gt;&#92;&lt;/span&gt;
-  --dest-server https://kubernetes.default.svc &lt;span class=&quot;token punctuation&quot;&gt;&#92;&lt;/span&gt;
-  &lt;span class=&quot;token parameter variable&quot;&gt;--revision&lt;/span&gt; HEAD&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;k3s-%E9%81%8B%E7%94%A8%E3%81%97%E3%81%A6%E3%81%BF%E3%81%A6%E3%81%A9%E3%81%86%E3%81%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/03/17/operating-k3s.html#k3s-%E9%81%8B%E7%94%A8%E3%81%97%E3%81%A6%E3%81%BF%E3%81%A6%E3%81%A9%E3%81%86%E3%81%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; k3s 運用してみてどうか&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;argocd repo add git@github.com:windyakin/k8s-manifests.git --ssh-private-key-path ${SSH_PRIVATE_KEY_PATH}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;argocd app create argocd-applications \
+  --repo git@github.com:windyakin/k8s-manifests.git \
+  --path argocd-application \
+  --auto-prune \
+  --dest-namespace default \
+  --dest-server https://kubernetes.default.svc \
+  --revision HEAD
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;k3s 運用してみてどうか&lt;/h3&gt;
 &lt;p&gt;もともとは microk8s を導入していたのだが、どういうわけか liveness probe を入れたあたりから Kubernetes  の API が重くなってしまい、 kubectl すらまともに使えなくなってしまったため、 k3s に乗り換えたという経緯があった。 コンテナを立てて運用する程度であれば k3s の機能でも十分であり、 microk8s に比べるとオーバーヘッドも少なく助かっているところではある。&lt;/p&gt;
 &lt;p&gt;またもともとやりたかった GitOps による運用ができたのも楽でよい。基本的にほったらかしで、監視等も入れていないのだが、不自然な挙動などはなく正常にうごいている。ただ貧弱なサーバーのシングルノードなので可用性の向上や、スケーリングといった恩恵は受けることは出来ない。 Kubernetes の美味しいところを知っていてそれにあやかりたい場合は、趣味の割り切りとして使ってよいのではないだろうか。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>エマージェンシーコール ～緊急通報指令室～</title>
-		<link href="https://windyakin.net/articles/2022/02/23/impressions-emergency-call.html"/>
-		<updated>2022-02-23T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2022/02/23/impressions-emergency-call.html</id>
-		<content type="html">&lt;p&gt;ふと休日の夕方に見ていた NHK で放送されていた番組がすごくよかった。&lt;/p&gt;
+</content:encoded></item><item><title>エマージェンシーコール ～緊急通報指令室～</title><link>https://windyakin.net/articles/2022/02/23/impressions-emergency-call.html</link><guid isPermaLink="true">https://windyakin.net/articles/2022/02/23/impressions-emergency-call.html</guid><pubDate>Wed, 23 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ふと休日の夕方に見ていた NHK で放送されていた番組がすごくよかった。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.nhk.jp/p/emergencycall/ts/M67V8QZ8LQ/&quot;&gt;エマージェンシーコール 〜緊急通報指令室〜 - NHK&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;この番組の舞台は119番でつながる先にある緊急通報指令室。この回では横浜市消防局が取り上げられている。&lt;/p&gt;
-&lt;h3 id=&quot;%E5%91%BD%E3%81%AE%E5%8D%B1%E6%A9%9F%E3%81%8C%E8%BF%AB%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A8%E3%81%8D%E6%9C%80%E5%88%9D%E3%81%AB%E9%A0%BC%E3%82%8B%E4%BA%BA%E3%81%9F%E3%81%A1&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/02/23/impressions-emergency-call.html#%E5%91%BD%E3%81%AE%E5%8D%B1%E6%A9%9F%E3%81%8C%E8%BF%AB%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A8%E3%81%8D%E6%9C%80%E5%88%9D%E3%81%AB%E9%A0%BC%E3%82%8B%E4%BA%BA%E3%81%9F%E3%81%A1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 命の危機が迫っているとき最初に頼る人たち&lt;/h3&gt;
+&lt;h3&gt;命の危機が迫っているとき最初に頼る人たち&lt;/h3&gt;
 &lt;p&gt;119番といえば命の危機が迫ったとき一番最初に頼るところでもあるのだが、その存在はあまりにも身近ではない。筆者自身119番にかけた経験はないし、できれば今後も書けることがないことを祈っているが、この番組ではその舞台でどういったやりとりが行われているのかを詳らかにしてくれている。&lt;/p&gt;
 &lt;p&gt;番組内では実際に起きた緊急通報の事例を、実際の指令室の音声とかかってきた電話の音声を加工・収録したものを使って再現しており、非常に緊迫した場面が伝わってくる。突然の事態に気が動転している通報者に対しても、ただ冷静に情報を聞き出しながら的確な指示を行う指令室の方たちにただ感服させられる。&lt;/p&gt;
-&lt;h3 id=&quot;%E7%95%AA%E7%B5%84%E3%81%AE%E6%A7%8B%E6%88%90%E3%81%AF%E8%87%B3%E3%81%A3%E3%81%A6%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%A0%E3%81%8C%E3%81%93%E3%82%8C%E3%81%8C%E4%B8%80%E7%95%AA%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%81%84&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/02/23/impressions-emergency-call.html#%E7%95%AA%E7%B5%84%E3%81%AE%E6%A7%8B%E6%88%90%E3%81%AF%E8%87%B3%E3%81%A3%E3%81%A6%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%A0%E3%81%8C%E3%81%93%E3%82%8C%E3%81%8C%E4%B8%80%E7%95%AA%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%81%84&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 番組の構成は至ってシンプルだがこれが一番おもしろい&lt;/h3&gt;
+&lt;h3&gt;番組の構成は至ってシンプルだがこれが一番おもしろい&lt;/h3&gt;
 &lt;p&gt;番組は基本的に緊急通報の事例を取り上げながら進行していくが、ナレーションなどは一切ない。途中に指令室の方への軽いインタビューシーンなどを挟みながら、刻々と進んでゆく指令室の一日を描いていく。&lt;/p&gt;
 &lt;p&gt;この番組のフォーマット自体は海外の番組から輸入したもののようであるが、下手な脚色を加えたりされていない分、現場の非常に緊迫した雰囲気がリアルに伝わってくる。&lt;/p&gt;
 &lt;p&gt;最近他のNHKの番組でノーナレというナレーションのないドキュメンタリーがあり、そちらも面白いと感じていた。もしかしたらドキュメンタリーはナレーションがないほうが、余白が生まれ、それぞれのおもしろさにピッタリハマるのかもしれない。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%81%93%E3%82%8C%E4%BB%A5%E4%B8%8A%E3%81%AF%E3%82%B0%E3%83%80%E3%82%B0%E3%83%80%E8%A8%80%E3%82%8F%E3%81%AA%E3%81%84%E3%81%AE%E3%81%A7%E8%A6%8B%E3%81%A6%E3%81%8F%E3%82%8C&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2022/02/23/impressions-emergency-call.html#%E3%81%93%E3%82%8C%E4%BB%A5%E4%B8%8A%E3%81%AF%E3%82%B0%E3%83%80%E3%82%B0%E3%83%80%E8%A8%80%E3%82%8F%E3%81%AA%E3%81%84%E3%81%AE%E3%81%A7%E8%A6%8B%E3%81%A6%E3%81%8F%E3%82%8C&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; これ以上はグダグダ言わないので見てくれ&lt;/h3&gt;
+&lt;h3&gt;これ以上はグダグダ言わないので見てくれ&lt;/h3&gt;
 &lt;p&gt;NHKプラスに入会していれば3月2日まで見れるらしいのでもう一度リンクを貼っておく。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://plus.nhk.jp/watch/st/g1_2022022327916&quot;&gt;https://plus.nhk.jp/watch/st/g1_2022022327916&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;https://plus.nhk.jp/watch/st/g1_2022022327916&lt;/p&gt;
 &lt;p&gt;自分があれこれ言うよりも、この30分の番組を見てほしい。ドキュメンタリーが好きな人なら絶対好きなはずだし、そうでなくても自分がいざ119番するときの一助になるだろう。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Fluentd で使いたい Gem の依存関係の解決は Bundler に任せられる</title>
-		<link href="https://windyakin.net/articles/2021/10/24/fluentd-plugin-management-using-bundler.html"/>
-		<updated>2021-10-24T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2021/10/24/fluentd-plugin-management-using-bundler.html</id>
-		<content type="html">&lt;p&gt;Fluentd は Gem によるライブラリの追加ができて、例えばログを直接 BigQuery に転送したいのであれば &lt;a href=&quot;https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery&quot;&gt;fluent-plugin-bigquery&lt;/a&gt; のような Gem をインストールしておくことによってそれを実現することができる。&lt;/p&gt;
+</content:encoded></item><item><title>Fluentd で使いたい Gem の依存関係の解決は Bundler に任せられる</title><link>https://windyakin.net/articles/2021/10/24/fluentd-plugin-management-using-bundler.html</link><guid isPermaLink="true">https://windyakin.net/articles/2021/10/24/fluentd-plugin-management-using-bundler.html</guid><pubDate>Sun, 24 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Fluentd は Gem によるライブラリの追加ができて、例えばログを直接 BigQuery に転送したいのであれば &lt;a href=&quot;https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery&quot;&gt;fluent-plugin-bigquery&lt;/a&gt; のような Gem をインストールしておくことによってそれを実現することができる。&lt;/p&gt;
 &lt;p&gt;こういったプラグインを追加するコマンドとして提供されているのが &lt;code&gt;fluent-gem&lt;/code&gt; というコマンドで、例えば先程挙げた Gem をインストールしたいのであれば&lt;/p&gt;
-&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fluent-gem &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; fluent-plugin-bigquery
+&lt;pre&gt;&lt;code&gt;fluent-gem install fluent-plugin-bigquery
+
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;のようにコマンドを叩けば Gem をインストールしてくれる。こういった Fluentd 向けのプラグインは &lt;a href=&quot;http://rubygems.org/&quot;&gt;rubygems.org&lt;/a&gt; にて様々提供されているので、使っているうちにあれもこれもと追加したくなるのだが、徐々にパッケージの依存関係がややこしくなっていき、最終的に人間による依存関係の解決はできなくなってしまう。&lt;/p&gt;
-&lt;h3 id=&quot;fluentd-%E3%81%A7%E3%82%82-bundler-%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2021/10/24/fluentd-plugin-management-using-bundler.html#fluentd-%E3%81%A7%E3%82%82-bundler-%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Fluentd でも Bundler が使える&lt;/h3&gt;
+&lt;p&gt;のようにコマンドを叩けば Gem をインストールしてくれる。こういった Fluentd 向けのプラグインは rubygems.org にて様々提供されているので、使っているうちにあれもこれもと追加したくなるのだが、徐々にパッケージの依存関係がややこしくなっていき、最終的に人間による依存関係の解決はできなくなってしまう。&lt;/p&gt;
+&lt;h3&gt;Fluentd でも Bundler が使える&lt;/h3&gt;
 &lt;p&gt;Fluentd で使う Gem をインストールするためには &lt;code&gt;fluent-gem&lt;/code&gt; という特別なコマンドを使うので、コマンドの裏ではさぞ特殊なことをやっているのだろうと思ったのだが、ソースコードを見るとそんなことはなく、ただ単純に Gem をインストールしているだけのようだった。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/fluent/fluentd/blob/master/bin/fluent-gem&quot;&gt;fluentd/fluent-gem at master · fluent/fluentd&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;また Fluentd の起動オプションには Gemfile を読み込ませる &lt;code&gt;--gemfile&lt;/code&gt; オプションがあり、これで指定した Gemfile を使って起動時に Bundler が Gem をインストールしてプラグインが使えるようになる。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://docs.fluentd.org/deployment/plugin-management#gemfile-option&quot;&gt;Plugin Management - Fluentd&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;つまり Fluentd においても Gem の依存関係の解決は Bundler に一任することができるようになっている。&lt;/p&gt;
-&lt;h3 id=&quot;dockerfile-%E3%81%AB%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2021/10/24/fluentd-plugin-management-using-bundler.html#dockerfile-%E3%81%AB%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Dockerfile にしてみる&lt;/h3&gt;
+&lt;h3&gt;Dockerfile にしてみる&lt;/h3&gt;
 &lt;p&gt;例えば &lt;a href=&quot;https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery&quot;&gt;fluent-plugin-bigquery&lt;/a&gt; と &lt;a href=&quot;https://github.com/GoogleCloudPlatform/fluent-plugin-google-cloud&quot;&gt;fluent-plugin-google-cloud&lt;/a&gt; を同時に使いたい場合、このような Gemfile を書くことになる。&lt;/p&gt;
-&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;source &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://rubygems.org&quot;&lt;/span&gt;&lt;/span&gt;
+&lt;pre&gt;&lt;code&gt;source &quot;https://rubygems.org&quot;
 
-gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;fluentd&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;~&gt; 1.13.x&#39;&lt;/span&gt;&lt;/span&gt;
-gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;fluent-plugin-bigquery&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;~&gt; 2.2.x&#39;&lt;/span&gt;&lt;/span&gt;
-gem &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;fluent-plugin-google-cloud&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;~&gt; 0.12.x&#39;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+gem &apos;fluentd&apos;, &apos;~&amp;gt; 1.13.x&apos;
+gem &apos;fluent-plugin-bigquery&apos;, &apos;~&amp;gt; 2.2.x&apos;
+gem &apos;fluent-plugin-google-cloud&apos;, &apos;~&amp;gt; 0.12.x&apos;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Dockerfile ではビルド時に &lt;code&gt;bundle install&lt;/code&gt; しておくことをおすすめする。 Fluentd の起動時にも &lt;code&gt;bundle install&lt;/code&gt; は実行されるが、 Gem のインストール時に必要なネイティブライブラリなどは予め用意しておく必要があるからである。また Fluentd の公式イメージである &lt;a href=&quot;https://hub.docker.com/r/fluent/fluentd/&quot;&gt;fluent/fluentd&lt;/a&gt; をベースイメージとする際は、実行ユーザーが &lt;code&gt;fluent&lt;/code&gt; になっているため、 &lt;code&gt;apt-get install&lt;/code&gt; などを実行するのであれば予め &lt;code&gt;root&lt;/code&gt; を指定する必要がある。ただし &lt;code&gt;bundle install&lt;/code&gt; の実行ユーザーは &lt;code&gt;fluent&lt;/code&gt; になっているほうがファイルの権限管理などに面倒がない。&lt;/p&gt;
-&lt;pre class=&quot;language-dockerfile&quot;&gt;&lt;code class=&quot;language-dockerfile&quot;&gt;&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;FROM&lt;/span&gt; fluent/fluentd:v1.13-debian&lt;/span&gt;
+&lt;pre&gt;&lt;code&gt;FROM fluent/fluentd:v1.13-debian
 
-&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;COPY&lt;/span&gt; Gemfile Gemfile.lock /fluentd/etc/&lt;/span&gt;
+COPY Gemfile Gemfile.lock /fluentd/etc/
 
-&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;USER&lt;/span&gt; root&lt;/span&gt;
+USER root
 
-&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;RUN&lt;/span&gt; apt-get update &lt;span class=&quot;token operator&quot;&gt;&#92;&lt;/span&gt;
-  &amp;amp;&amp;amp; apt-get install -y --no-install-recommends &lt;span class=&quot;token operator&quot;&gt;&#92;&lt;/span&gt;
-    build-essential &lt;span class=&quot;token operator&quot;&gt;&#92;&lt;/span&gt;
-  &amp;amp;&amp;amp; apt-get clean &lt;span class=&quot;token operator&quot;&gt;&#92;&lt;/span&gt;
-  &amp;amp;&amp;amp; rm -rf /var/lib/apt/lists/*&lt;/span&gt;
+RUN apt-get update \
+  &amp;amp;&amp;amp; apt-get install -y --no-install-recommends \
+    build-essential \
+  &amp;amp;&amp;amp; apt-get clean \
+  &amp;amp;&amp;amp; rm -rf /var/lib/apt/lists/*
 
-&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;USER&lt;/span&gt; fluent&lt;/span&gt;
+USER fluent
 
-&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;RUN&lt;/span&gt; cd /fluentd/etc &lt;span class=&quot;token operator&quot;&gt;&#92;&lt;/span&gt;
-  &amp;amp;&amp;amp; bundle install -j8 --path vendor/bundle&lt;/span&gt;
+RUN cd /fluentd/etc \
+  &amp;amp;&amp;amp; bundle install -j8 --path vendor/bundle
 
-&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;CMD&lt;/span&gt; [ &lt;span class=&quot;token string&quot;&gt;&quot;fluentd&quot;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&quot;--gemfile&quot;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&quot;/fluentd/etc/Gemfile&quot;&lt;/span&gt; ]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+CMD [ &quot;fluentd&quot;, &quot;--gemfile&quot;, &quot;/fluentd/etc/Gemfile&quot; ]
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;また、このとき Gemfile.lock をどう用意するかも考える必要があるが、一度 Gemfile.lock なしでビルドしたイメージから &lt;code&gt;docker cp&lt;/code&gt; などを使って &lt;code&gt;/fluentd/etc/&lt;/code&gt; 以下にある Gemfile.lock を取り出すと一応用意することができる。&lt;/p&gt;
-&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;% &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; build &lt;span class=&quot;token parameter variable&quot;&gt;-t&lt;/span&gt; fluentd &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
-% &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;--rm&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--name&lt;/span&gt; fluentd fluentd &lt;span class=&quot;token function&quot;&gt;tail&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-f&lt;/span&gt; /dev/null
-% &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; fluentd:/fluentd/etc/Gemfile.lock &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
-% &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;kill&lt;/span&gt; fluentd&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;% docker build -t fluentd .
+% docker run --rm -d --name fluentd fluentd tail -f /dev/null
+% docker cp fluentd:/fluentd/etc/Gemfile.lock .
+% docker kill fluentd
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;ここまでの流れをサンプルリポジトリにまとめたので参考までに。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/windyakin/fluentd-plugin-gemfile-sample&quot;&gt;windyakin/fluentd-plugin-gemfile-sample&lt;/a&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Nuxt2でコンポーネントから今表示しているページのタイトル要素を取りたいとき</title>
-		<link href="https://windyakin.net/articles/2021/09/29/get-the-page-title-from-nuxt2-component.html"/>
-		<updated>2021-09-29T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2021/09/29/get-the-page-title-from-nuxt2-component.html</id>
-		<content type="html">&lt;p&gt;Nuxt2 でコンポーネントから今表示しているページのタイトル要素を取りたいケースがある。&lt;/p&gt;
+</content:encoded></item><item><title>Nuxt2でコンポーネントから今表示しているページのタイトル要素を取りたいとき</title><link>https://windyakin.net/articles/2021/09/29/get-the-page-title-from-nuxt2-component.html</link><guid isPermaLink="true">https://windyakin.net/articles/2021/09/29/get-the-page-title-from-nuxt2-component.html</guid><pubDate>Wed, 29 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Nuxt2 でコンポーネントから今表示しているページのタイトル要素を取りたいケースがある。&lt;/p&gt;
 &lt;p&gt;具体的に言うと Twitter のツイートボタンを自前で実装するときに使えるリンク形式でツイートを発行できる機能があり、このツイートするテキスト部分ににページのタイトルを含めたかった。&lt;/p&gt;
-&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;https://twitter.com/intent/tweet?url=[ツイートしたいURL]&amp;text=[タイトルを含むテキスト]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;https://twitter.com/intent/tweet?url=[ツイートしたいURL]&amp;amp;text=[タイトルを含むテキスト]
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;このとき、 Nuxt のコンポーネント側からタイトルを知る方法として一番最初に思いつくのは &lt;code&gt;document.title&lt;/code&gt; という JavaScript の古典的な API である。&lt;/p&gt;
-&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;pageTitle&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;&#39;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;mounted&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pageTitle &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;export default {
+  data() {
+    return { pageTitle: &apos;&apos; }
+  },
+  mounted() {
+    this.pageTitle = document.title
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;これは確かに最初に表示したページやコンポーネントがロードされたタイミングのページのタイトルを取得することはできるが、 Nuxt 内に &lt;code&gt;&amp;lt;nuxt-link&amp;gt;&lt;/code&gt; のを含んでいて、遷移の際にコンポーネントがそのまま表示され続けるような場合は値の変更がされない。考えてみれば「それはそう」だし。単純に自分の想定があまい。&lt;/p&gt;
 &lt;p&gt;じゃあページ変更をトリガーすれば良いんだろうということで、 &lt;code&gt;$route&lt;/code&gt; を &lt;code&gt;watch&lt;/code&gt; によって監視することでページ遷移のタイミングで &lt;code&gt;document.title&lt;/code&gt; を取得し直せばよいのだろうということでこういうコードを書いた。&lt;/p&gt;
-&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;pageTitle&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;&#39;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;mounted&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pageTitle &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;token literal-property property&quot;&gt;watch&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token function&quot;&gt;$route&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;newValue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pageTitle &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;export default {
+  data() {
+    return { pageTitle: &apos;&apos; }
+  },
+  mounted() {
+    this.pageTitle = document.title
+  },
+  watch: {
+    $route(newValue) {
+      this.pageTitle = document.title
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;しかしこれもうまく行かなかった。たしかに &lt;code&gt;watch.$route&lt;/code&gt; はページ遷移のときに通っていくのだが、このタイミングで &lt;code&gt;document.title&lt;/code&gt; を叩いても返ってくるのは遷移前のページのタイトルなのである。つまり &lt;code&gt;document.title&lt;/code&gt; が変更される前にここを通っているため、ページ遷移をすると1ページ前に見ていたタイトルしか取得できないように見える。&lt;/p&gt;
 &lt;p&gt;最終的に StackOverflow でこういう記事を見つけた。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/57287500/add-a-watcher-to-document-title-in-nuxt-js&quot;&gt;javascript - Add a watcher to document.title in Nuxt.Js - Stack Overflow&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;記事内のコードに書いてあるとおりで、HTML DOM を監視する JavaScript API である &lt;code&gt;MutationObserver&lt;/code&gt; を使って &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; タグを監視して更新するといったもの。&lt;/p&gt;
 &lt;p&gt;書いてみるとまあ確かに動く（単純に Mutation Observer を使っているだけなので）。&lt;/p&gt;
-&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;pageTitle&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;&#39;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;mounted&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pageTitle &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title
-    &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;MutationObserver&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pageTitle &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;observe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;title&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;childList&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;export default {
+  data() {
+    return { pageTitle: &apos;&apos; }
+  },
+  mounted() {
+    this.pageTitle = document.title
+    new MutationObserver(() =&amp;gt; {
+      this.pageTitle = document.title
+    }).observe(document.querySelector(&apos;title&apos;), { childList: true })
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;動いたのはいいが、なんだかもやもやするコードである。本当は上位から表示しているページのタイトルの内容を通知するといいのだろうが、 layout に埋め込まれているコンポーネントの場合、そのデータのやりとりが若干ややこしくなってしまう。正直ページタイトルを取得するためにそこまでやりたくはないし、こういうユースケースはよくありそうなので、できれば Nuxt 側で取れるようになってほしいなと思った。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>GitHub Actions をつかって Google Cloud Functions にデプロイする</title>
-		<link href="https://windyakin.net/articles/2021/03/19/deploy-to-cloud-functions-by-github-actions.html"/>
-		<updated>2021-03-19T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2021/03/19/deploy-to-cloud-functions-by-github-actions.html</id>
-		<content type="html">&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/xlxSoB3cOn-1200.webp 1200w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;&quot; src=&quot;https://windyakin.net/img/optimized/xlxSoB3cOn-1200.jpeg&quot; width=&quot;1200&quot; height=&quot;675&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+</content:encoded></item><item><title>GitHub Actions をつかって Google Cloud Functions にデプロイする</title><link>https://windyakin.net/articles/2021/03/19/deploy-to-cloud-functions-by-github-actions.html</link><guid isPermaLink="true">https://windyakin.net/articles/2021/03/19/deploy-to-cloud-functions-by-github-actions.html</guid><pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;./eyecatch.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Google Cloud Functions ってやつ、 Slack の Webhook 系のアクションだとか、情報を整形して別の API に横流しするだけの Proxy 系アプリケーションなんかのホスト先として便利に使ってたのだけども、その簡単さからCDの構築をサボっていて、よくリポジトリの状態と実際に展開されているコードが違うみたいな状態のまま放置してしまうなどどうにもうまく管理ができていなかったんですよね。まあ先述の通りそんなに重要なアプリケーションを管理しているわけでもないので、長らく自分の中での「動いてるからいいや」の代表的な存在だったのですが、やっぱりCVEなんかで報告されているような脆弱性を抱えるライブラリをそのまま放置するのはよくないなという気持ちになり、重い腰を上げてCD環境を整備することにしたのでそのメモ。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%81%8A%E8%AA%82%E3%81%88%E5%90%91%E3%81%8D&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2021/03/19/deploy-to-cloud-functions-by-github-actions.html#%E3%81%8A%E8%AA%82%E3%81%88%E5%90%91%E3%81%8D&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; お誂え向き&lt;/h3&gt;
+&lt;h3&gt;お誂え向き&lt;/h3&gt;
 &lt;p&gt;もともとソースコード管理のメインは GitHub のリポジトリで、そのリポジトリを GCP の Cloud Source Repository にミラーリングし Cloud Functions にポチポチしてデプロイするみたいなフローだったのだけども、いつからか Cloud Source Repository に自動で反映されなくなってしまい（調べてないがおそらく Webhook の設定がおかしいのだと思う）、直せばいいのだけど「面倒だな」と思って放置した結果、「面倒だな」の連鎖が発生してやる気を完全に削ぐ原因になっていた。で、「じゃあ GitHub Actions から直接 Cloud Functions にデプロイできねえのか」と思って探したらすんなり見つかったんだよね。さすが2021年。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/google-github-actions/deploy-cloud-functions&quot;&gt;google-github-actions/deploy-cloud-functions: A GitHub Action that deploys source code to Google Cloud Functions.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;「え〜 めちゃくちゃ便利じゃん〜」と思って早速使おうと思ったのだけど、なぜかリポジトリの Star が2021年3月時点で30個ぐらいしかついてなくて、 Organization の名前に「google」って入ってるけど非公式なの？と思って調べたのだけど、 People 欄に表示されている人が Google の公式 Organization にも所属しているのでおそらく大丈夫なのだろうと（本当に最近できた Org なのだと思う）。そんなわけで実際に使ってみることにしたわけ。&lt;/p&gt;
-&lt;h3 id=&quot;%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%82%92%E4%BD%9C%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2021/03/19/deploy-to-cloud-functions-by-github-actions.html#%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%82%92%E4%BD%9C%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; サービスアカウントを作る&lt;/h3&gt;
+&lt;h3&gt;サービスアカウントを作る&lt;/h3&gt;
 &lt;p&gt;Actions を実行するためには当然だが Cloud Functions にデプロイするためのサービスアカウントのキーが必要になる。GCPのアカウント権限周りの設定は毎度わからんという気持ちになるがこのような愚痴はグッと飲み込んで、プロジェクトの「IAM と管理」→「サービスアカウント」の画面から &lt;code&gt;cloudfunctions.serviceAgent&lt;/code&gt; (Cloud Functions サービスエージェント) 権限を持つアカウントを作成してやる。その他の「条件」は必要であれば入れる。鍵が流出したときのリスクとかを制御できるのでそう考えると入れたほうがよいのは当然なのだが、使い回すにはいちいちアカウントつくったりしなきゃならんので個人管理のものであると面倒である。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/_bDPdsvy5L-1174.webp 1174w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;&quot; src=&quot;https://windyakin.net/img/optimized/_bDPdsvy5L-1174.jpeg&quot; width=&quot;1174&quot; height=&quot;980&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./serviceaccount.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;そのままサービスアカウントのキーも作成してしまい、発行された JSON キーをそのまま GitHub リポジトリの Settings → Secrets へ登録するとよい。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/hsWX-xYD9w-1200.webp 1200w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;&quot; src=&quot;https://windyakin.net/img/optimized/hsWX-xYD9w-1200.jpeg&quot; width=&quot;1200&quot; height=&quot;594&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
-&lt;h3 id=&quot;actions-%E3%81%AE%E3%82%B8%E3%83%A7%E3%83%96%E3%81%AB%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%81%99%E3%82%8B%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2021/03/19/deploy-to-cloud-functions-by-github-actions.html#actions-%E3%81%AE%E3%82%B8%E3%83%A7%E3%83%96%E3%81%AB%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%81%99%E3%82%8B%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; Actions のジョブにデプロイするステップを追加する&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./secrets.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Actions のジョブにデプロイするステップを追加する&lt;/h3&gt;
 &lt;p&gt;このとき設定できる内容については &lt;a href=&quot;https://github.com/google-github-actions/deploy-cloud-functions&quot;&gt;google-github-actions/deploy-cloud-functions&lt;/a&gt; の README を見れば全て書いてくれている。注意したい点としては環境変数を与えているのであればここで指定しておく必要があるということ。&lt;/p&gt;
-&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; deploy
-  &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; google&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;github&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;actions/deploy&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;cloud&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;functions@main
-  &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; clound&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;functions&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;application
-    &lt;span class=&quot;token key atrule&quot;&gt;runtime&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nodejs12
-    &lt;span class=&quot;token key atrule&quot;&gt;entry_point&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; application
-    &lt;span class=&quot;token key atrule&quot;&gt;credentials&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $
-    &lt;span class=&quot;token key atrule&quot;&gt;env_vars&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;
-      SECRETS_ENVIRONMENT_1=$
-      &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;SECRETS_ENVIRONMENT_2=$&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;- id: deploy
+  uses: google-github-actions/deploy-cloud-functions@main
+  with:
+    name: clound-functions-application
+    runtime: nodejs12
+    entry_point: application
+    credentials: ${{ secrets.GCP_CREDENTIALS }}
+    env_vars: &amp;gt;-
+      SECRETS_ENVIRONMENT_1=${{ secrets.SECRETS_ENVIRONMENT_1 }}
+      ,SECRETS_ENVIRONMENT_2=${{ secrets.SECRETS_ENVIRONMENT_2 }}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;たいてい秘匿情報とかがあるので Actions 側の Secrets に登録する羽目になる。複数ある場合なんかはカンマで繋げる必要があるが YAML のヒアドキュメントである &lt;code&gt;&amp;gt;-&lt;/code&gt; なんかを組み合わせて使うと改行できて便利。&lt;/p&gt;
-&lt;h3 id=&quot;%E5%AE%9F%E9%9A%9B%E3%81%AB%E5%8B%95%E3%81%8B%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2021/03/19/deploy-to-cloud-functions-by-github-actions.html#%E5%AE%9F%E9%9A%9B%E3%81%AB%E5%8B%95%E3%81%8B%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; 実際に動かしてみる&lt;/h3&gt;
+&lt;h3&gt;実際に動かしてみる&lt;/h3&gt;
 &lt;p&gt;実際に Actions を動かしてみると、おお動くという感じになると思う。デプロイにはすこしだけ時間がかかるものの、 Actions 側はデプロイしたアプリケーションが適用されたことを確認できるまでポーリングするので Actions が終了したらデプロイが完了したものと思えば良さそう。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://windyakin.net/img/optimized/5RyybLg857-1200.webp 1200w&quot; /&gt;&lt;img class=&quot;responsive-img&quot; decoding=&quot;async&quot; alt=&quot;&quot; src=&quot;https://windyakin.net/img/optimized/5RyybLg857-1200.jpeg&quot; width=&quot;1200&quot; height=&quot;675&quot; /&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./actions.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;これで GitHub のリポジトリが Google にミラーリングされているかどうかを気にしたり、デプロイのためのポチポチ業から開放されたわけだ。便利。&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>curlコマンドでHTTPステータスコードだけを取得する場合は--write-outオプションを使うと良い</title>
-		<link href="https://windyakin.net/articles/2021/03/09/curl-command-write-out-option.html"/>
-		<updated>2021-03-09T00:00:00Z</updated>
-		<id>https://windyakin.net/articles/2021/03/09/curl-command-write-out-option.html</id>
-		<content type="html">&lt;p&gt;シェルスクリプトを書いているとcurlコマンドなんかで指定したURLのHTTPステータスコードだけがほしいという場合がある。&lt;/p&gt;
+</content:encoded></item><item><title>curlコマンドでHTTPステータスコードだけを取得する場合は--write-outオプションを使うと良い</title><link>https://windyakin.net/articles/2021/03/09/curl-command-write-out-option.html</link><guid isPermaLink="true">https://windyakin.net/articles/2021/03/09/curl-command-write-out-option.html</guid><pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;シェルスクリプトを書いているとcurlコマンドなんかで指定したURLのHTTPステータスコードだけがほしいという場合がある。&lt;/p&gt;
 &lt;p&gt;結論から言うと &lt;code&gt;--write-out&lt;/code&gt; / &lt;code&gt;-w&lt;/code&gt; というオプションを使うと実現できる&lt;/p&gt;
-&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;% &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-o&lt;/span&gt; /dev/null --write-out &lt;span class=&quot;token string&quot;&gt;&quot;%{http_code}&quot;&lt;/span&gt; https://www.example.com/
-&lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;% curl -s -o /dev/null --write-out &quot;%{http_code}&quot; https://www.example.com/
+200
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;code&gt;-o /dev/null&lt;/code&gt; にしているのは取得内容を標準出力に表示しないようにするもので、こうすることで文字列として出力されるのはHTTPステータスコードだけになりパイプやシェルスクリプトで処理がしやすいなどのメリットがある。&lt;/p&gt;
-&lt;h2 id=&quot;--write-out-%E3%81%A7%E5%87%BA%E5%8A%9B%E3%81%A7%E3%81%8D%E3%82%8B%E5%86%85%E5%AE%B9%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;https://windyakin.net/articles/2021/03/09/curl-command-write-out-option.html#--write-out-%E3%81%A7%E5%87%BA%E5%8A%9B%E3%81%A7%E3%81%8D%E3%82%8B%E5%86%85%E5%AE%B9%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt; &lt;code&gt;--write-out&lt;/code&gt; で出力できる内容いろいろ&lt;/h2&gt;
+&lt;h2&gt;&lt;code&gt;--write-out&lt;/code&gt; で出力できる内容いろいろ&lt;/h2&gt;
 &lt;p&gt;ところで &lt;code&gt;--write-out&lt;/code&gt; とはなにか。こういうとき、脳死でGoogle検索すると上位にQiitaというウェブサイトがでてきてしまうのだが、原典をみるのが一番確実である。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://curl.se/docs/manpage.html#-w&quot;&gt;curl - How To Use&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;curl が指定URLにアクセスしたときに取得する様々な情報を簡易的なテンプレート表現で出力させることができるコマンドで、HTTPステータスコードの &lt;code&gt;%{http_code}&lt;/code&gt; 以外にも、アクセスのために必要な処理にかかった各種の時間なども出力させることができる。&lt;/p&gt;
 &lt;p&gt;curl のバージョンによっては使えないパラメータも多々あるので、手元のバージョンで使えるものを確認するには &lt;code&gt;curl --manual&lt;/code&gt; で &lt;code&gt;--write-out&lt;/code&gt; の項を確認するとよい。&lt;/p&gt;
-</content>
-	</entry>
-</feed>
+</content:encoded></item></channel></rss>
