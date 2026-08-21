@@ -1,0 +1,72 @@
+---
+import '../styles/base.css';
+import '../styles/article.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string | null;
+  robots?: string[];
+}
+
+const siteTitle = 'windyakin.net';
+const siteUrl = 'https://windyakin.net';
+const siteDescription = "windyakin's profile and portfolio site.";
+const authorTwitter = '@MITLicense';
+
+const {
+  title,
+  description,
+  ogImage,
+  robots,
+} = Astro.props;
+
+const pageTitle = title || siteTitle;
+const pageDescription = description || siteDescription;
+const pageUrl = new URL(Astro.url.pathname, siteUrl).href;
+const pageOgImage = new URL(ogImage || '/img/ogp.png', siteUrl).href;
+const twitterCard = ogImage ? 'summary_large_image' : 'summary';
+---
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>{pageTitle}</title>
+
+    <meta name="description" content={pageDescription} />
+    {robots && robots.length > 0 && (
+      <meta name="robots" content={robots.join(',')} />
+    )}
+
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={pageUrl} />
+    <meta property="og:image" content={pageOgImage} />
+    <meta property="og:description" content={pageDescription} />
+
+    <meta name="twitter:card" content={twitterCard} />
+    <meta name="twitter:site" content={authorTwitter} />
+    <meta name="twitter:creator" content={authorTwitter} />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:image" content={pageOgImage} />
+    <meta name="twitter:description" content={pageDescription} />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-grid.min.css" integrity="sha512-JQksK36WdRekVrvdxNyV3B0Q1huqbTkIQNbz1dlcFVgNynEMRl0F8OSqOGdVppLUDIvsOejhr/W5L3G/b3J+8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">{siteTitle}</a></h1>
+    </header>
+
+    <div class="content">
+      <slot />
+    </div>
+
+    <footer>
+      &copy; 2020 windyakin
+    </footer>
+  </body>
+</html>

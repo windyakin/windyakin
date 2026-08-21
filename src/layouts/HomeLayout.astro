@@ -1,0 +1,23 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Profile from '../components/Profile.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+<BaseLayout title={title} description={description}>
+  <div class="container">
+    <div class="row justify-content-lg-center">
+      <main class="col-12 col-lg-4 col-xl-3">
+        <Profile />
+      </main>
+      <div class="col-12 col-lg-8 col-xl-6 mt-5 mt-lg-0">
+        <slot />
+      </div>
+    </div>
+  </div>
+</BaseLayout>

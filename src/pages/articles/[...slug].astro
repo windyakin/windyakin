@@ -1,0 +1,109 @@
+---
+import { getCollection, render } from 'astro:content';
+import { getImage } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import type { ImageMetadata } from 'astro';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleList from '../../components/ArticleList.astro';
+import { findFirstImage } from '../../utils/ogImage';
+
+const allImages = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/content/articles/**/*.{png,jpg,jpeg}',
+  { eager: true },
+);
+
+type ArticlePage = {
+  type: 'article';
+  entry: CollectionEntry<'articles'>;
+};
+
+type ListPage = {
+  type: 'list';
+  articles: CollectionEntry<'articles'>[];
+  pageNumber: number;
+  totalPages: number;
+};
+
+type Props = ArticlePage | ListPage;
+
+export async function getStaticPaths() {
+  const allArticles = await getCollection('articles');
+  const sorted = allArticles.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+  const articlePaths = sorted.map((entry) => ({
+    params: { slug: entry.id },
+    props: { type: 'article' as const, entry },
+  }));
+
+  const pageSize = 20;
+  const totalPages = Math.ceil(sorted.length / pageSize);
+  const paginationPaths = Array.from({ length: totalPages }, (_, i) => ({
+    params: { slug: String(i + 1) },
+    props: {
+      type: 'list' as const,
+      articles: sorted.slice(i * pageSize, (i + 1) * pageSize),
+      pageNumber: i + 1,
+      totalPages,
+    },
+  }));
+
+  return [...articlePaths, ...paginationPaths];
+}
+
+const props = Astro.props as Props;
+
+let rendered: Awaited<ReturnType<typeof render>> | null = null;
+let ogImageUrl: string | null = null;
+
+if (props.type === 'article') {
+  rendered = await render(props.entry);
+
+  const firstImage = findFirstImage(props.entry.body || '', props.entry.id, allImages);
+  if (firstImage) {
+    const jpegImage = await getImage({ src: firstImage, format: 'jpeg' });
+    ogImageUrl = jpegImage.src;
+  }
+}
+---
+{props.type === 'article' && rendered ? (
+  <ArticleLayout
+    title={props.entry.data.title}
+    date={props.entry.data.date}
+    tags={props.entry.data.tags}
+    ogImage={ogImageUrl}
+  >
+    <rendered.Content />
+  </ArticleLayout>
+) : props.type === 'list' ? (
+  <BaseLayout
+    title={`記事一覧 (${props.pageNumber}ページ目)`}
+    robots={['noindex', 'follow']}
+  >
+    <div class="container">
+      <div class="row justify-content-center">
+        <main class="col-12 col-lg-12 col-xl-9">
+          <h2 class="mt-0">
+            記事一覧 <small>({props.pageNumber}ページ目)</small>
+          </h2>
+
+          <ArticleList articles={props.articles} />
+
+          <nav class="pagination" aria-label="Pagination Navigation">
+            <ol class="d-flex flex-row justify-content-center flex-wrap pagination-list">
+              {Array.from({ length: props.totalPages }, (_, i) => (
+                <li class="pagination-list-item">
+                  {props.pageNumber === i + 1 ? (
+                    <a href={`/articles/${i + 1}.html`} aria-label={`Current page, page ${i + 1}`} aria-current="page"><strong>{i + 1}</strong></a>
+                  ) : (
+                    <a href={`/articles/${i + 1}.html`} aria-label={`Goto page ${i + 1}`}>{i + 1}</a>
+                  )}
+                </li>
+              ))}
+            </ol>
+          </nav>
+        </main>
+      </div>
+    </div>
+  </BaseLayout>
+) : null}
