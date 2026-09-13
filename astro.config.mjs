@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from 'node:fs';
+import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join, relative, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'astro/config';
@@ -35,6 +35,33 @@ const articleLastmod = new Map(
   }),
 );
 
+// @astrojs/sitemap always serializes <lastmod> via Date#toISOString(), which
+// is UTC-only. Rewrite the generated sitemap files afterwards so <lastmod>
+// is expressed in JST (+09:00) instead.
+const toJstIsoString = (utcIso) => {
+  const jst = new Date(new Date(utcIso).getTime() + 9 * 60 * 60 * 1000);
+  const pad = (n) => String(n).padStart(2, '0');
+  return `${jst.getUTCFullYear()}-${pad(jst.getUTCMonth() + 1)}-${pad(jst.getUTCDate())}T${pad(jst.getUTCHours())}:${pad(jst.getUTCMinutes())}:${pad(jst.getUTCSeconds())}+09:00`;
+};
+
+const jstSitemapLastmod = {
+  name: 'jst-sitemap-lastmod',
+  hooks: {
+    'astro:build:done': ({ dir }) => {
+      const distDir = fileURLToPath(dir);
+      for (const name of readdirSync(distDir)) {
+        if (!/^sitemap(-\d+|-index)?\.xml$/.test(name)) continue;
+        const filePath = join(distDir, name);
+        const xml = readFileSync(filePath, 'utf-8').replace(
+          /<lastmod>([^<]+)<\/lastmod>/g,
+          (_, iso) => `<lastmod>${toJstIsoString(iso)}</lastmod>`,
+        );
+        writeFileSync(filePath, xml);
+      }
+    },
+  },
+};
+
 export default defineConfig({
   integrations: [
     compress(),
@@ -46,6 +73,7 @@ export default defineConfig({
         return lastmod ? { ...item, lastmod } : item;
       },
     }),
+    jstSitemapLastmod,
   ],
   site: 'https://windyakin.net',
   build: {
