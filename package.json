@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.4",
     "@playform/compress": "^0.2.5",
     "astro": "^7.2.4",
     "markdown-it": "^14.0.0",
