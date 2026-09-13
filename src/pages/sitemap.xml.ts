@@ -5,7 +5,7 @@ const JST_OFFSET_MS = 9 * 60 * 60 * 1000;
 
 function toJstMidnightUtc(date: Date): string {
   const utc = new Date(date.getTime() - JST_OFFSET_MS);
-  return utc.toISOString().replace(/\.\d{3}Z$/, '+00:00');
+  return utc.toISOString().split('.')[0] + 'Z';
 }
 
 export async function GET(context: APIContext) {
